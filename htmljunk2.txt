@@ -1,0 +1,2556 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head>
+  <title>
+   2820 Brady Lake Rd, Ravenna, OH 44266 - HomePath.com
+  </title>
+  <link href="//homepath-activedt.netdna-ssl.com/css/cobrands/homepath2/newdetails.css?v=101612" rel="stylesheet"/>
+  <meta content="2820 Brady Lake Rd, Ravenna, OH 44266 - HomePath.com" property="og:title"/>
+  <meta content="HomePath" property="og:site_name"/>
+  <meta content="place" property="og:type"/>
+  <meta content="http://www.homepath.com/listing/?listingid=39763341" property="og:url"/>
+  <meta content="41.165038" property="place:location:latitude"/>
+  <meta content="-81.294819" property="place:location:longitude"/>
+  <meta content="http://photos.listhub.net/NEOHREXOH/3423285/0?lm=20130702T105915" property="og:image"/>
+  <script type="text/javascript">
+   var ftlVars = {};
+ftlVars.hasAlbums = true;
+ftlVars.playLinkText = 'Play';
+ftlVars.pauseLinkText = 'Pause';
+ftlVars.prevLinkText = '&lsaquo; Previous';
+ftlVars.nextLinkText = 'Next &rsaquo;';
+ftlVars.nextPageLinkText = 'Next &rsaquo;';
+ftlVars.prevPageLinkText = '&lsaquo; Prev';
+ftlVars.numPhotosText = "'Number of photos: '+ (nextIndex+1) +' of '+ this.data.length";
+ftlVars.bingMapsKey = 'Ald3kKmoCRNY-kvvZ2MbyPLWXY6PY0TpsJOWeoG_gPPw-oM8qlkNLPEJ3pNRqR4o';
+ftlVars.listingLatitude = '41.165038';
+ftlVars.listingLongitude = '-81.294819';
+ftlVars.previousSearch = '';
+ftlVars.currentListingId = 39763341;
+ftlVars.currentPage = 1;
+ftlVars.pageSize = 25;
+ftlVars.listingSearchIndex = 0;
+  </script>
+  <script src="//homepath-activedt.netdna-ssl.com/lib/jquery-1_7_1/jquery-1.7.1.min.js" type="text/javascript">
+  </script>
+  <script>
+   $j = jQuery.noConflict();
+  </script>
+  <script src="http://partner.googleadservices.com/gampad/google_service.js" type="text/javascript">
+  </script>
+  <script type="text/javascript">
+   GS_googleAddAdSenseService("ca-pub-2323921961553471");
+GS_googleEnableAllServices();
+  </script>
+  <script charset="UTF-8" src="http://ecn.dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=7.0&amp;mkt=en-us" type="text/javascript">
+  </script>
+  <script src="//homepath-activedt.netdna-ssl.com/content/js/bingmap.js" type="text/javascript">
+  </script>
+  <script src="//homepath-activedt.netdna-ssl.com/content/js/details_photos.js" type="text/javascript">
+  </script>
+  <script src="//homepath-activedt.netdna-ssl.com/lib/spinners/spin.min.js" type="text/javascript">
+  </script>
+  <script type="text/javascript">
+   $j(function() {
+$j("#deleteSavedListing").fancybox({
+'titlePosition' : 'inside',
+'transitionIn' : 'none',
+'transitionOut' : 'none'
+});
+$j('.details_tab').click(function(){
+var selectedTab = '#' + $j(this).attr('alt');
+var currentTab = '#' + $j('.current').attr('alt');
+if(selectedTab == currentTab){ return false; }
+$j('.details_tab').removeClass('current');
+$j(currentTab).fadeOut('fast', function(){
+$j(selectedTab).fadeIn('fast', function(){
+var htmlTop = $j('html').scrollTop();
+var bodyTop = $j('body').scrollTop();
+if(htmlTop > $j('#tab_container').offset().top || bodyTop > $j('#tab_container').offset().top ){
+var newScrollTop = $j('#tab_container').offset().top - 20;
+$j('html,body').animate({scrollTop: newScrollTop}, 400, "swing");
+}
+if(selectedTab == "#map_tab_content"){
+initializeLargeMap('large_map_container');
+}
+});
+});
+$j(this).addClass('current');
+});
+$j('.mapTabLink').click( function(){ $j('#details_map_tab').click(); });
+$j('.photoTabLink').click( function(){ $j('#details_photo_tab').click(); });
+$j('#getDirectionsForm').submit(function(){ getDirections(); return false; });
+$j('#directions_reset').click(resetDirections);
+});
+function poptastic(url) {
+newwindow=window.open(url,'name','status=yes,toolbar=yes,menubar=yes,location=yes,scrollbars=yes,fullscreen=yes');
+if (window.focus) {newwindow.focus()}
+}
+// Search Result Widget Functions
+function syncPage(){
+if(ftlVars.listingSearchIndex <0){
+ftlVars.currentPage--;
+ftlVars.listingSearchIndex += ftlVars.pageSize;
+} else if( ftlVars.listingSearchIndex >= ftlVars.pageSize){
+ftlVars.currentPage++;
+ftlVars.listingSearchIndex -= ftlVars.pageSize;
+}
+var listingIndex = ftlVars.listingSearchIndex;
+var listingsPerPage = ftlVars.pageSize;
+var currentPage = ftlVars.currentPage;
+var absIndex = listingIndex + ((currentPage-1) * listingsPerPage);
+var newPage = Math.floor(absIndex / 7)+1;
+return newPage;
+}
+function loadSearchResults(isFirstLoad){
+spinner.spin(document.getElementById('search_results_container'));
+var sr = ftlVars.previousSearch;
+if(sr.match(/&fragments=([^&]*)/)){
+sr = sr.replace(/&fragments=([^&]+)/, '&fragments=');
+} else {
+sr += '&fragments=';
+}
+if(isFirstLoad){
+if(sr.match(/&pgx=([^&]*)/)){
+sr = sr.replace(/&pgx=([^&]*)/, '&pgx=' + syncPage());
+} else {
+sr += '&psx=7&pgx=' + syncPage();
+}
+if(sr.match(/&psx=([^&]*)/)){
+sr = sr.replace(/&psx=([^&]*)/, '&psx=7');
+} else {
+sr += '&psx=7';
+}
+}
+if(sr.match(/&pg=([^&]*)/)){
+sr = sr.replace(/&pg=([^&]*)/, '&pg=' + ftlVars.currentPage);
+} else {
+sr += '&pg=' + ftlVars.currentPage;
+}
+$j.getJSON("/listing/search/ui/event?_savesearch=false", sr, updateListingSearchResults)
+.error(function(){
+spinner.stop();
+$j('#search_results_widget').hide();
+$j('#backToSearch').attr('href', '/');
+});
+}
+function bindSRButtonClickHandlers(){
+$j('#sr_prev, #sr_next').click(function(){
+var page = $j(this).attr('alt');
+if($j(this).hasClass('active')){
+gotoPage(page);
+}
+});
+}
+function gotoPage(pageNum){
+if(ftlVars.previousSearch.match(/&pgx=([^&]*)/)){
+ftlVars.previousSearch = ftlVars.previousSearch.replace(/&pgx=([^&]*)/, '&pgx='+pageNum);
+} else {
+ftlVars.previousSearch += '&pgx=' + pageNum;
+}
+if(ftlVars.previousSearch.match(/&psx=([^&]*)/)){
+ftlVars.previousSearch = ftlVars.previousSearch.replace(/&psx=([^&]*)/, '&psx=7');
+} else {
+ftlVars.previousSearch += '&psx=7';
+}
+loadSearchResults();
+}
+function updateListingSearchResults(data){
+$j('#search_results_container').empty();
+if(!data){
+$j('#search_results_widget').hide();
+return;
+} else {
+$j('#search_results_widget').show();
+}
+spinner.stop();
+// hide/show next/prev buttons
+var pages = data.numberOfPages;
+var currentPage = data.currentPageNumber;
+if(currentPage > 1){
+$j('#sr_prev').attr('src', '//homepath-activedt.netdna-ssl.com/css/img/details/sr_prev.gif').attr('alt', currentPage-1).addClass('active');
+} else {
+$j('#sr_prev').attr('src', '//homepath-activedt.netdna-ssl.com/css/img/details/sr_prev_off.gif').removeClass('active');
+}
+if(currentPage < pages){
+$j('#sr_next').attr('src', '//homepath-activedt.netdna-ssl.com/css/img/details/sr_next.gif').attr('alt', currentPage+1).addClass('active');
+} else {
+$j('#sr_next').attr('src', '//homepath-activedt.netdna-ssl.com/css/img/details/sr_next_off.gif').removeClass('active');
+}
+var results = data.results;
+var idx = (7*(currentPage-1)) - ( (ftlVars.currentPage - 1) * ftlVars.pageSize );
+for(var i = 0; i < results.length; i++){
+var record = results[i];
+var photoChangeDate = "";
+if( record.photoChangeDate != null ){
+photoChangeDate = '&t=' + record.photoChangeDate;
+}
+var street = record.street;
+var streetTruncated = (street.length > 14)? street.substring(0,14) + "..." : street;
+var temp = $j('#searchResultItemTemplate').clone();
+var photoUrl = '//homepath-activedt.netdna-ssl.com/homepathlistingphoto.html?thumbnail=true&pp=true&type=c&s=' + record.listingIdSimpleEnc + '&d=' +record.addressIdSimpleEnc+ '&w=250&h=166' + photoChangeDate;
+temp.find('.item_photo').attr('src', photoUrl);
+temp.find('.item_price').html(record.price);
+temp.find('.item_address').html(streetTruncated).attr('title', street);
+temp.find('.item_beds').html(record.beds);
+temp.find('.item_baths').html(record.baths);
+if(record.listingId == ftlVars.currentListingId){
+temp.addClass('current');
+} else {
+temp.find('.item_link').attr('href', "/listing/?listingid="+record.listingId);//+"&idx="+idx);
+}
+temp.attr("id", "record_" +record. listingId).appendTo('#search_results_container').show();
+idx++;
+}
+}
+// Spinner
+var spinner = null;
+$j(function(){
+var opts = {
+lines: 13, // The number of lines to draw
+length: 7, // The length of each line
+width: 4, // The line thickness
+radius: 10, // The radius of the inner circle
+rotate: 0, // The rotation offset
+color: '#000', // #rgb or #rrggbb
+speed: 1, // Rounds per second
+trail: 60, // Afterglow percentage
+shadow: false, // Whether to render a shadow
+hwaccel: false, // Whether to use hardware acceleration
+className: 'spinner', // The CSS class to assign to the spinner
+zIndex: 2e9, // The z-index (defaults to 2000000000)
+top: 'auto', // Top position relative to parent in px
+left: 'auto' // Left position relative to parent in px
+};
+var target = document.getElementById('search_results_container');
+spinner = new Spinner(opts);
+});
+GA_googleAddSlot("ca-pub-2323921961553471", "details160x350default");
+GA_googleFetchAds();
+  </script>
+  <meta content="gKv6HfvY5GRoxA4lK1ueT3DffnJmmuobDTXZNXknkBQ" name="google-site-verification"/>
+  <style>
+   <!--
+//-->
+  </style>
+  <link href="//homepath-activedt.netdna-ssl.com/content/css/build/56688-6274/style.css" media="all" rel="stylesheet" type="text/css"/>
+  <!--<link rel="stylesheet" type="text/css" href="//homepath-activedt.netdna-ssl.com/css/printstyle.css" media="print" />-->
+  <style type="text/css">
+   img.userimg {width: 80px; border: 0px; height:80px}
+  </style>
+  <link href="//homepath-activedt.netdna-ssl.com/lib/thickbox-3_1/thickbox.css" media="screen" rel="stylesheet" type="text/css"/>
+  <link href="//homepath-activedt.netdna-ssl.com/css/cobrands/homepath2/boxlayout.css?v=20130320" rel="stylesheet" type="text/css"/>
+  <link href="//homepath-activedt.netdna-ssl.com/css/cobrands.css" rel="stylesheet" type="text/css"/>
+  <link href="//homepath-activedt.netdna-ssl.com/css/cobrands/homepath2/theme.css" rel="stylesheet" type="text/css"/>
+  <link href="//homepath-activedt.netdna-ssl.com/css/cobrands/homepath2/homepath.css?v=2013-02-28-12-05" rel="stylesheet" type="text/css"/>
+  <link href="//homepath-activedt.netdna-ssl.com/css/cobrands/homepath2/style.css?v=062613" rel="stylesheet" type="text/css"/>
+  <link href="//homepath-activedt.netdna-ssl.com/lib/stouch/resources/img/icon.png" rel="apple-touch-icon"/>
+  <link href="//homepath-activedt.netdna-ssl.com/lib/stouch/resources/img/icon144.png" rel="apple-touch-icon-precomposed" sizes="144x144"/>
+  <link href="//homepath-activedt.netdna-ssl.com/lib/stouch/resources/img/icon114.png" rel="apple-touch-icon-precomposed" sizes="114x114"/>
+  <link href="//homepath-activedt.netdna-ssl.com/lib/stouch/resources/img/icon72.png" rel="apple-touch-icon-precomposed" sizes="72x72"/>
+  <link href="//homepath-activedt.netdna-ssl.com/lib/stouch/resources/img/icon57.png" rel="apple-touch-icon-precomposed"/>
+  <link href="//homepath-activedt.netdna-ssl.com/lib/jquery-fancybox/jquery.fancybox-1.3.4.css" media="screen" rel="stylesheet" type="text/css"/>
+  <script src="//homepath-activedt.netdna-ssl.com/lib/jquery-cycle/jquery.cycle.all.min.js" type="text/javascript">
+  </script>
+  <script src="//homepath-activedt.netdna-ssl.com/lib/jquery-fancybox/jquery.fancybox-1.3.4.pack.js" type="text/javascript">
+  </script>
+  <script>
+   var userAgent = navigator.userAgent.toLowerCase();
+$j.browser.chrome = /chrome/.test(userAgent);
+if($j.browser.chrome){
+userAgent = userAgent.substring(userAgent.indexOf('chrome/') +7);
+userAgent = userAgent.substring(0,userAgent.indexOf('.'));
+$j.browser.version = userAgent;
+$j.browser.safari = false;
+}
+if($j.browser.safari){
+userAgent = userAgent.substring(userAgent.indexOf('safari/') +7);
+userAgent = userAgent.substring(0,userAgent.indexOf('.'));
+$j.browser.version = userAgent;
+}
+  </script>
+  <script src="//homepath-activedt.netdna-ssl.com/lib/thickbox-3_1/thickbox-compressed-noConflict.js" type="text/javascript">
+  </script>
+  <script src="//homepath-activedt.netdna-ssl.com/lib/jquery-google-analytics/jquery.google-analytics.js?v=1" type="text/javascript">
+  </script>
+  <script src="//homepath-activedt.netdna-ssl.com/lib/jquery-dropmenu/dropmenu.js" type="text/javascript">
+  </script>
+  <script src="//homepath-activedt.netdna-ssl.com/lib/jquery-validate/jquery.validate.min.js" type="text/javascript">
+  </script>
+  <script type="text/javascript">
+   $j.trackPage('UA-10118137-1');
+  </script>
+  <script>
+   function setCookie(name, value, expires, path, domain, secure) {
+var today = new Date();
+today.setTime( today.getTime() );
+if ( expires )
+{
+expires = expires * 1000 * 60 * 60 * 24;
+}
+var expires_date = new Date( today.getTime() + (expires) );
+document.cookie = name + "=" +escape( value ) +
+( ( expires ) ? ";expires=" + expires_date.toGMTString() : "" ) + //expires.toGMTString()
+( ( path ) ? ";path=" + path : "" ) +
+( ( domain ) ? ";domain=" + domain : "" ) +
+( ( secure ) ? ";secure" : "" );
+}
+function getCookie(name) {
+var dc = document.cookie;
+var prefix = name + "=";
+var begin = dc.indexOf("; " + prefix);
+if (begin == -1) {
+begin = dc.indexOf(prefix);
+if (begin != 0) return null;
+} else {
+begin += 2;
+}
+var end = document.cookie.indexOf(";", begin);
+if (end == -1) {
+end = dc.length;
+}
+return unescape(dc.substring(begin + prefix.length, end));
+}
+$j(document).ready(function(){
+$j(".fraud-info-trigger").fancybox({
+'titlePosition' : 'inside',
+'transitionIn' : 'none',
+'transitionOut' : 'none'
+});
+// START FNM-618: Add Disclaimer to Housing and School information
+var url = null;
+var showExtUrlDisclaimerCookieName = 'showExtUrlDisclaimer';
+// END FNM-618: Add Disclaimer to Housing and School information
+if($j.browser.msie){
+$j('.transparent_png').each(function(i,item){
+var imgSrc = $j(item).attr('src');
+$j(item).css('filter', "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + imgSrc + "', sizingMethod='scale')");
+$j(item).attr('src', '//homepath-activedt.netdna-ssl.com/css/cobrands/homepath/blank.gif');
+});
+}
+$j('.btnMessageSave').live("click", function() {
+$j('#error_popup').hide(400);
+$j("#logInMessage").text("Please log in or register before saving this listing.");
+tb_show('','#TB_inline?height=250&width=320&inlineId=mlrCo&modal=true', false);
+});
+$j("#tbClose").click(function() {
+$j("#password").val("");
+tb_remove();
+});
+// START FNM-618: Add Disclaimer to Housing and School information
+$j(".extUrlDisclaimer").click(function(){
+url = $j(this).attr("title");
+if(getCookie( showExtUrlDisclaimerCookieName ) != null && getCookie( showExtUrlDisclaimerCookieName ) == '1'){
+poptastic(url);
+}else{
+tb_show('','#TB_inline?height=210&width=420&inlineId=extUrlDisclaimer&modal=true', false);
+}
+});
+$j(".extUrlDisclaimerClose").click(function() {
+tb_remove();
+$j('input[name=extUrlDisclaimerCheckbox]').attr('checked', false);
+});
+$j(".extUrlDisclaimerContinue").click(function() {
+if($j('input[name=extUrlDisclaimerCheckbox]').is(':checked')){
+setCookie( showExtUrlDisclaimerCookieName, '1' );
+}
+poptastic(url);
+$j('input[name=extUrlDisclaimerCheckbox]').attr('checked', false);
+tb_remove();
+});
+// END FNM-618: Add Disclaimer to Housing and School information
+$j('#twitterHomePath').track({
+category : 'twitter FannieHomePath',
+label : function(element) { return element.attr('alt');},
+skip_internal : false
+});
+var dropmenuSet = {
+openClick: false,
+openSpeed:100,
+closeSpeed:100,
+closeDelay:400 };
+$j("#userNav").dropmenu(dropmenuSet);
+$j("#userNavLogin").validate({
+submitHandler : function(form) {
+var validFrom = $j("#txtUser").valid();
+validFrom = $j("#txtpass").valid();
+if(validFrom){
+$j("#btnLogin").hide();
+form.submit();
+}
+},
+errorLabelContainer: "#errorLabelSubNav",
+wrapper : "li",
+rules: {
+"key": {
+required : true
+},
+"password": {
+required : true
+}
+},
+messages: {
+"key": {
+required : "Email is required."
+},
+"password": {
+required : "Password is required."
+}
+}
+});
+$j('#txtUser, #txtpass').live('input', function(){
+setTimeout(checkFields, 10);
+});
+function checkFields(){
+$j('#txtUser, #txtpass').each(function(i, el){
+if($j(el).val() != ""){
+$j(el).parent().find('.overlabel').hide();
+}
+});
+}
+$j(".overlabel").live('click', function(){ $j(this).hide(); $j(this).parent().find('input').focus();});
+if($j('#txtUser').val() != ""){
+$j('#txtUser').parents(".overlay_wrapper").find(".overlabel").hide();
+}
+if($j('#txtpass').val() != ""){
+$j('#txtpass').parents(".overlay_wrapper").find(".overlabel").hide();
+}
+$j('#txtUser').live("focus", function() {
+$j('#txtUser').parents(".overlay_wrapper").find(".overlabel").hide();
+});
+$j('#txtUser').live("blur", function() {
+if($j('#txtUser').val() == ""){
+$j('#txtUser').parents(".overlay_wrapper").find(".overlabel").show();
+}
+});
+$j('#txtpass').live("blur", function() {
+if($j('#txtpass').val() == ""){
+$j('#txtpass').parents(".overlay_wrapper").find(".overlabel").show();
+}
+});
+$j('#txtpass').live("focus", function() {
+$j('#txtpass').parents(".overlay_wrapper").find(".overlabel").hide();
+});
+});
+$j(function(){
+$j('.btnMessageSave').live("click", function() {
+$j('#error_popup').hide(400);
+$j("#logInMessage").text("Please log in or register before saving this listing.");
+tb_show('','#TB_inline?height=250&width=320&inlineId=mlrCo&modal=true', false);
+});
+$j('#tbClose').live("click", function() {
+$j("#password").val("");
+tb_remove();
+});
+$j('#btnRefreshImage').live("click", function() {
+$j("#userVerification").attr("method","get");
+$j("#userVerification").submit();
+return false;
+});
+});
+function changeURL(value) {
+URL = "/listing/search&saveListing="+value;
+$j("#referralUrlLogin").val(URL);
+}
+function closeListingAgentBanner(){
+setCookie('showListingAgentBanner', 'false', null, '/');
+$j('#hpListingAgentBanner').remove();
+}
+var browserMake = '';
+function isBrowserCompatible(){
+if($j.browser.msie){
+browserMake = 'IE';
+if($j.browser.version < 8){
+return false;
+}
+}
+if($j.browser.mozilla){
+browserMake = 'Firefox';
+if($j.browser.version < 5){
+return false;
+}
+}
+if($j.browser.opera){
+browserMake = 'Opera';
+if($j.browser.version < 10.5){
+return false;
+}
+}
+if($j.browser.safari){
+browserMake = 'Safari';
+if($j.browser.version < 400){
+return false;
+}
+}
+return true;
+}
+function hide_brch_banner(){
+setCookie('hbck', '1', null, '/');
+$j('#browser_compat_warning').hide();
+return false;
+}
+var _prum = [['id', '517e8661abe53d8661000000'],
+['mark', 'firstbyte', (new Date()).getTime()]];
+(function() {
+var s = document.getElementsByTagName('script')[0]
+, p = document.createElement('script');
+p.async = 'async';
+p.src = '//rum-static.pingdom.net/prum.min.js';
+s.parentNode.insertBefore(p, s);
+})();
+  </script>
+  <script src="//homepath-activedt.netdna-ssl.com/lib/foresee/foresee-trigger.js" type="text/javascript">
+  </script>
+ </head>
+ <body>
+  <div id="hp_outerwrap">
+   <div id="hp_innerwrap" style="margin-bottom: 0px; padding-bottom: 0px;">
+    <!-- Start Masthead -->
+    <div id="hp_headerwrap">
+     <div id="hp_header">
+      <div id="hp_LogMenu" style="font-family: Arial, Helvetica, sans-serif; font-size: 11px;">
+       <ul id="userNav">
+        <li>
+         <a href="#">
+          Log In
+          <span class="arrow">
+          </span>
+         </a>
+         <div class="subNav">
+          <span class="arrowNav">
+          </span>
+          <span class="arrowNavc">
+          </span>
+          <div class="subNavcont">
+           <div class="rapSubNav">
+            <div class="left" id="headtxtLogin">
+             Log In
+            </div>
+            <div class="right" id="headtxtRegistered">
+             <a href="/hp/registration.html">
+              Not Registered?
+             </a>
+            </div>
+            <form action="https://www.homepath.com/hp/login.html" class="clearUserLogin" id="userNavLogin" method="post" name="login">
+             <div class="login">
+              <ul id="errorLabelSubNav" style="display: none;">
+              </ul>
+              <span class="overlay_wrapper">
+               <label class="overlabel" for="key">
+                Email
+               </label>
+               <input class="overlayable required" id="txtUser" name="key" type="text" value=""/>
+              </span>
+              <span class="overlay_wrapper">
+               <label class="overlabel" for="password">
+                Password
+               </label>
+               <input autocapitalize="off" autocomplete="on" autocorrect="off" class="overlayable required" id="txtpass" name="password" type="password"/>
+              </span>
+              <p style="padding-right: 0px; padding-bottom: 5px;">
+               By logging in, I confirm my agreement with HomePath.com's
+               <a href="http://www.fanniemae.com/portal/legal-disclosure.html" target="_blank">
+                Legal Disclosure
+               </a>
+               and
+               <a href="http://www.fanniemae.com/portal/privacy-statement.html" target="_blank">
+                Privacy Policy
+               </a>
+              </p>
+              <div class="left" style="padding-top: 5px;">
+               <input name="rememberMe" style="margin-left: 0px;" type="checkbox" value="true"/>
+               <label for="rememberMe" style="width: 80px; font-size: 11px;">
+                Remember me
+               </label>
+              </div>
+              <div class="right">
+               <button id="btnLogin">
+                Log in
+                <img src="//homepath-activedt.netdna-ssl.com/css/cobrands/homepath2/arrowleft.png"/>
+               </button>
+              </div>
+              <input id="referralUrl" name="referralUrl" type="hidden" value="/listing?listingid=39763341"/>
+              <input name="serviceProviderName" type="hidden" value="homepath"/>
+              <div class="clearUserLogin">
+               <p style="padding:5px 0 0 0;">
+                Do not check this option if using a public or shared computer
+               </p>
+              </div>
+             </div>
+            </form>
+           </div>
+           <div class="userNavFooter">
+            <a href="/lostaccess.html">
+             Forgot your password?
+            </a>
+            <a href="/changepassword.html">
+             Want to change your password?
+            </a>
+           </div>
+          </div>
+         </div>
+        </li>
+       </ul>
+      </div>
+      <div id="hp_logo" style="margin-top: 5px;">
+       <a href="/" target="_parent">
+        <img alt="HomePath.com" class="transparent_pngs" height="57" src="//homepath-activedt.netdna-ssl.com/css/cobrands/homepath2/logo_t-081611.gif" style="" width="256"/>
+       </a>
+      </div>
+     </div>
+    </div>
+    <div align="center" class="hp_NewMenu">
+     <ul>
+      <li class="home padtop">
+       <a href="/index.html">
+        Find Homes
+       </a>
+      </li>
+      <li class="financing">
+       <a href="/financing.html">
+        Financing
+       </a>
+      </li>
+      <li class="incentives">
+       <a href="/incentives.html" target="_parent">
+        Offers &amp; Incentives
+       </a>
+      </li>
+      <li class="resources">
+       <a href="/resources.html">
+        Resources
+       </a>
+      </li>
+      <li class="realestate">
+       <a href="/realestate.html">
+        Real Estate Professionals
+       </a>
+      </li>
+      <li class="investor padtop">
+       <a href="/investors.html">
+        Investors
+       </a>
+      </li>
+      <li class="shortsales padtop">
+       <a href="http://www.homepathshortsales.com">
+        Short Sale
+       </a>
+      </li>
+     </ul>
+    </div>
+    <div class="hp_NewMenu_bg">
+    </div>
+    <!-- End Masthead -->
+    <link href="//homepath-activedt.netdna-ssl.com/lib/jquery-ui-1.8.19.custom/css/smoothness/jquery-ui-1.8.19.custom.css" rel="stylesheet" type="text/css"/>
+    <script src="//homepath-activedt.netdna-ssl.com/lib/jquery-ui-1.8.19.custom/js/jquery-ui-1.8.19.custom.min.js" type="text/javascript">
+    </script>
+    <script>
+     $j(function(){
+$j("#topbarOneBox").autocomplete({
+source: function( request, response ) {
+$j.ajax({
+url: "/location/select",
+dataType: "json",
+data: {
+limit: 10,
+q: request.term
+},
+success: function( data ) {
+if(data != null){
+response( $j.map( data, function( item ) {
+return {
+label: item.label,
+value: item.label
+}
+}));
+}
+}
+});
+},
+minLength: 3,
+select: function( event, ui ) {
+},
+open: function() {
+$j( this ).removeClass( "ui-corner-all" ).addClass( "ui-corner-top" );
+},
+close: function() {
+$j( this ).removeClass( "ui-corner-top" ).addClass( "ui-corner-all" );
+}
+});
+$j('#searchTopbarOneBox').live("click", function() {
+if ($j("#topbarOneBox").val() == "Address, County or City, State or Zip Code(s) or MLS#"){
+if( $j('#src_ref').val() == "" && $j('#mlsid').val() == ""){
+$j("#errorTopbarSearch").text("Please enter an Address, County or City, State or Zip Code(s) or MLS#.");
+return false;
+}else{
+$j("#topbarOneBox").val("");
+}
+}else if($j("#topbarOneBox").val() == ""){
+$j("#errorTopbarSearch").text("Please enter an Address, County or City, State or Zip Code(s) or MLS#.");
+return false;
+}
+});
+$j('#advancedSearchToggle').click(function(){
+if($j(this).hasClass('advanced')){
+$j('#topsearchAdvancedOptions').slideUp('fast', function(){
+$j('#searchTopbarOneBox').fadeOut('fast', function(){
+$j('#searchTopbarOneBox').appendTo('#searchButtonHolder1');
+});
+});
+$j(this).removeClass('advanced');
+$j(this).html('Advanced Search');
+// store search query value, reset form, restore search query
+var searchQuery = $j('#topbarOneBox').val();
+$j('#topbarsearchform')[0].reset();
+$j('#topbarOneBox').val(searchQuery);
+} else {
+$j('#topsearchAdvancedOptions').slideDown('fast', function(){
+$j('#searchTopbarOneBox').fadeOut('fast', function(){
+$j('#searchTopbarOneBox').appendTo('#searchButtonHolder2').fadeIn('fast');
+});
+});
+$j(this).addClass('advanced');
+$j(this).html('Simple Search');
+}
+});
+});
+function expandMultipleZip(){
+$j('#hp_zip').height(80);
+$j('#expandMultipleZip').hide();
+$j('#decreaseMultipleZip').show();
+}
+function decreaseMultipleZip(){
+$j('#hp_zip').height(14);
+$j('#expandMultipleZip').show();
+$j('#decreaseMultipleZip').hide();
+}
+function clearBlur(input, valInput){
+if($j(input).val() == ''){
+$j(input).val(valInput);
+}
+}
+function clearClick(input, valInput){
+if($j(input).val() == valInput){
+$j(input).val('');
+$j("#errorTopbarSearch").text("");
+}
+}
+    </script>
+    <div id="topsearch">
+     <form action="/listing/search" id="topbarsearchform" method="get">
+      <input name="ps" type="hidden" value="25"/>
+      <input name="o" type="hidden" value=""/>
+      <input name="ob" type="hidden" value=""/>
+      <div id="errorTopbarSearch">
+      </div>
+      <input id="topbarOneBox" name="q" onblur="clearBlur('#topbarOneBox', 'Address, County or City, State or Zip Code(s) or MLS#');" onclick="clearClick('#topbarOneBox', 'Address, County or City, State or Zip Code(s) or MLS#');" style="font-size: 15px; font-weight:bold; width: 416px; color: #999999; padding:4px;" type="text" value="Address, County or City, State or Zip Code(s) or MLS#"/>
+      <div id="searchButtonHolder1" style="display:inline-block;width:83px;">
+       <input id="searchTopbarOneBox" style="vertical-align:middle; background: url('//homepath-activedt.netdna-ssl.com/css/img/details/topbarSearchBtn.png') repeat scroll 0 0 transparent; border: none; width: 83px; height: 28px;cursor:pointer;" type="submit" value=""/>
+      </div>
+      <span style="margin-left:50px;display:inline-block; width:135px;">
+       <img src="//homepath-activedt.netdna-ssl.com/css/img/details/advsearcharrow.png"/>
+       <a href="javascript:void(0);" id="advancedSearchToggle" style="font-size:12px; font-weight:bold; text-decoration:underline;margin-left:5px;">
+        Advanced Search
+       </a>
+      </span>
+      <div id="topsearchAdvancedOptions" style="display:none;">
+       <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tbody>
+         <tr>
+          <td height="30" valign="top" width="33%">
+           <b>
+            Real Estate Owned (REO) ID:
+           </b>
+           <br/>
+           <input id="src_ref" name="src_ref" type="text" value=""/>
+          </td>
+          <td style="font-size: 12px;" valign="top" width="37%">
+           <b>
+            Multiple Listing Service (MLS) ID:
+           </b>
+           <br/>
+           <input id="mlsid" name="mlsid" type="text" value=""/>
+          </td>
+          <td style="font-size: 12px;" valign="top" width="30%">
+          </td>
+         </tr>
+        </tbody>
+       </table>
+       <div style="height: 10px;">
+       </div>
+       <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tbody>
+         <tr>
+          <td>
+           <b>
+            Price: ($)
+           </b>
+          </td>
+          <td>
+          </td>
+          <td>
+           <b>
+            Bedrooms:
+           </b>
+          </td>
+          <td>
+           <b>
+            Bathrooms:
+           </b>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="2" width="50%">
+           <select name="pi" style="width: 120px; padding: 1px; padding-left: 0px;">
+            <option value="">
+             Minimum
+            </option>
+            <option value="50000">
+             50,000
+            </option>
+            <option value="100000">
+             100,000
+            </option>
+            <option value="150000">
+             150,000
+            </option>
+            <option value="200000">
+             200,000
+            </option>
+            <option value="250000">
+             250,000
+            </option>
+            <option value="300000">
+             300,000
+            </option>
+            <option value="350000">
+             350,000
+            </option>
+            <option value="400000">
+             400,000
+            </option>
+            <option value="450000">
+             450,000
+            </option>
+            <option value="500000">
+             500,000
+            </option>
+           </select>
+           <select name="pa" style="width: 120px; padding: 1px; padding-left: 0px; margin-left: 5px;">
+            <option value="">
+             Maximum
+            </option>
+            <option value="50000">
+             50,000
+            </option>
+            <option value="100000">
+             100,000
+            </option>
+            <option value="150000">
+             150,000
+            </option>
+            <option value="200000">
+             200,000
+            </option>
+            <option value="250000">
+             250,000
+            </option>
+            <option value="300000">
+             300,000
+            </option>
+            <option value="350000">
+             350,000
+            </option>
+            <option value="400000">
+             400,000
+            </option>
+            <option value="450000">
+             450,000
+            </option>
+            <option value="500000">
+             500,000
+            </option>
+           </select>
+          </td>
+          <td>
+           <select name="bdi" style="width: 72px; padding: 1px;">
+            <option value="">
+             Any
+            </option>
+            <option value="1">
+             1+
+            </option>
+            <option value="2">
+             2+
+            </option>
+            <option value="3">
+             3+
+            </option>
+            <option value="4">
+             4+
+            </option>
+            <option value="5">
+             5+
+            </option>
+           </select>
+          </td>
+          <td>
+           <select name="bhi" style="width: 72px; padding: 1px;">
+            <option value="">
+             Any
+            </option>
+            <option value="1">
+             1+
+            </option>
+            <option value="2">
+             2+
+            </option>
+            <option value="3">
+             3+
+            </option>
+            <option value="4">
+             4+
+            </option>
+            <option value="5">
+             5+
+            </option>
+           </select>
+          </td>
+         </tr>
+        </tbody>
+       </table>
+       <br/>
+       <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tbody>
+         <tr>
+          <td valign="top">
+           <b>
+            Property Type:
+           </b>
+           <p style="font-size: 12px;">
+            <input class="cb_nomargin" name="pt" type="checkbox" value="sf"/>
+            Single-Family
+            <br/>
+            <input class="cb_nomargin" name="pt" type="checkbox" value="co"/>
+            Condo/Co-op
+            <br/>
+            <input class="cb_nomargin" name="pt" type="checkbox" value="mf"/>
+            2-4 Units
+            <br/>
+            <input class="cb_nomargin" name="pt" type="checkbox" value="mh"/>
+            Manufactured Housing
+           </p>
+          </td>
+          <td valign="top">
+           <div>
+            <b>
+             Property Status:
+            </b>
+           </div>
+           <div style="margin:5px 0px;">
+            <div style="float:left; width:120px;">
+             <input name="srcst" type="checkbox" value="active"/>
+             Active
+             <br/>
+             <input name="srcst" type="checkbox" value="back on market"/>
+             Back on Market
+             <br/>
+             <input name="srcst" type="checkbox" value="under contract"/>
+             Under Contract
+            </div>
+            <div style="float:left; width:120px;">
+             <input name="srcst" type="checkbox" value="just listed"/>
+             Just Listed
+             <br/>
+             <input name="srcst" type="checkbox" value="price reduced"/>
+             Price Reduced
+             <br/>
+             <input name="srcst" type="checkbox" value="coming soon"/>
+             Coming Soon
+            </div>
+           </div>
+          </td>
+          <td valign="top">
+           <b>
+            Other:
+           </b>
+           <p style="font-size: 12px;">
+            <input name="openhouse" type="checkbox" value="yes"/>
+            Open House
+            <br/>
+            <input name="mc" type="checkbox" value="first look"/>
+            First Look Program
+            <br/>
+            <input name="tc" type="checkbox" value="tenant occupied"/>
+            Tenant Occupied
+            <br/>
+            <input name="auct" type="checkbox" value="true"/>
+            Auction
+            <br/>
+            <input name="incnt" type="checkbox" value="true"/>
+            Incentives
+            <br/>
+           </p>
+          </td>
+         </tr>
+        </tbody>
+       </table>
+       <br/>
+       <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tbody>
+         <tr>
+          <td height="30">
+           <b>
+            Available Financing:
+           </b>
+          </td>
+          <td style="font-size: 12px;" valign="middle">
+           <input name="rfa" type="checkbox" value="yes"/>
+           <a href="/financing.html">
+            <img align="middle" border="0" src="//homepath-activedt.netdna-ssl.com/content/img/details_icons/reo_financing_available.png"/>
+           </a>
+           <input name="rnfa" type="checkbox" value="yes"/>
+           <a href="/financing.html">
+            <img align="middle" border="0" src="//homepath-activedt.netdna-ssl.com/content/img/details_icons/renovation_financing_available.png"/>
+           </a>
+          </td>
+         </tr>
+         <tr>
+          <td height="30">
+           <b>
+            Living Area:
+           </b>
+          </td>
+          <td>
+           <select name="ms" style="width: 120px; margin:4px 2px 0 0; padding: 1px; visibility: visible;">
+            <option selected="" value="">
+             No minimum
+            </option>
+            <option value="500">
+             500
+            </option>
+            <option value="1000">
+             1000
+            </option>
+            <option value="1500">
+             1500
+            </option>
+            <option value="2000">
+             2000
+            </option>
+            <option value="2500">
+             2500
+            </option>
+            <option value="3000">
+             3000
+            </option>
+            <option value="3500">
+             3500
+            </option>
+           </select>
+           <select name="xs" style="width: 120px; margin:4px 2px 0 0; padding: 1px; visibility: visible;">
+            <option selected="" value="">
+             No maximum
+            </option>
+            <option value="500">
+             500
+            </option>
+            <option value="1000">
+             1000
+            </option>
+            <option value="1500">
+             1500
+            </option>
+            <option value="2000">
+             2000
+            </option>
+            <option value="2500">
+             2500
+            </option>
+            <option value="3000">
+             3000
+            </option>
+            <option value="3500">
+             3500
+            </option>
+           </select>
+           <div id="searchButtonHolder2" style="float:right;margin-right: 20px;width:83px;">
+           </div>
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </div>
+     </form>
+    </div>
+    <div id="subheader">
+     <div id="hp_subheader_breadcrumb">
+      <div class="breadcrumb" id="breadcrumbMain">
+       <a href="http://www.homepath.com/">
+        Home
+       </a>
+       ›
+       <a href="/state/oh.html">
+        Ohio
+       </a>
+       ›
+       <a href="/search/oh_133.html">
+        Portage County
+       </a>
+       › Listing Details
+      </div>
+     </div>
+     <div style="float:right;padding-top: 4px;">
+      <div id="updatedListing">
+       Updated: Jul 19, 2013 1:18:46 AM ET
+      </div>
+     </div>
+    </div>
+    <div style="clear:both;">
+    </div>
+   </div>
+   <div class="boxbody ">
+    <div class="breadcrumb" id="breadcrumbMain">
+     <a href="http://www.homepath.com/">
+      Home
+     </a>
+     ›
+     <a href="/state/oh.html">
+      Ohio
+     </a>
+     ›
+     <a href="/search/oh_133.html">
+      Portage County
+     </a>
+     › Listing Details
+    </div>
+    <div id="tab_container">
+     <div id="details_tabs">
+      <div alt="main_tab_content" class="details_tab current" id="details_main_tab">
+       Listing Details
+      </div>
+      <div alt="photos_tab_content" class="details_tab" id="details_photo_tab">
+       Photos (4)
+      </div>
+      <div alt="map_tab_content" class="details_tab" id="details_map_tab">
+       Map
+      </div>
+      <!-- AddThis Button BEGIN -->
+      <div style="float:right;">
+       <div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+        <a class="addthis_button_facebook">
+         <img src="//homepath-activedt.netdna-ssl.com/css/img/addthis_facebook.gif"/>
+        </a>
+        <a class="addthis_button_twitter">
+         <img src="//homepath-activedt.netdna-ssl.com/css/img/addthis_twitter.gif"/>
+        </a>
+        <a class="addthis_button_pinterest_share" pi:pinit:media="http://photos.listhub.net/NEOHREXOH/3423285/0?lm=20130702T105915">
+         <img src="//homepath-activedt.netdna-ssl.com/css/img/addthis_pintrest.gif"/>
+        </a>
+        <a class="addthis_button_linkedin">
+         <img src="//homepath-activedt.netdna-ssl.com/css/img/addthis_linkedin.gif"/>
+        </a>
+        <a class="addthis_button_email">
+         <img src="//homepath-activedt.netdna-ssl.com/css/img/addthis_email.gif"/>
+        </a>
+       </div>
+      </div>
+      <script type="text/javascript">
+       var addthis_config = {
+			    	"data_track_clickback":true , "ui_click": true,
+			    	"data_ga_property": "UA-10118137-1"
+			    	 };
+      </script>
+      <script src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4e4eb31e467e6b36" type="text/javascript">
+      </script>
+      <div style="clear:both;">
+      </div>
+     </div>
+     <div id="tab_content_container">
+      <div style="padding:10px 15px 0px; border-left: 1px solid #c8c8c8; border-right: 1px solid #c8c8c8;">
+       <div style="float:left;">
+        <h1 style="color:#1480d9; font-size:16px;;">
+         2820 Brady Lake Rd, Ravenna, Ohio  44266
+        </h1>
+       </div>
+       <div style="float:right;">
+        <div style="float:right;">
+         <div class="saveListing btnMessageSave" onclick="return false;" title="cssbody=[tipbdyHP] cssheader=[tiphdrHP] header=[Save Listing] body=[&lt;p style='font-size:11px;'&gt;The &quot;Save Listings&quot; feature allows you to conveniently save an unlimited number of your favorite listings directly to your HomePath account for future reference.&lt;/p&gt;&lt;p style='font-size:11px;'&gt;Simply click the &quot;Save Listing&quot; link or &lt;img src='//homepath-activedt.netdna-ssl.com/css/img/icon_bookmark.gif' width='8' height='15' style='vertical-align:-4px;'/&gt; to save the listing.&lt;/p&gt;] delay=[0] fade=[on] fadespeed=[0.4] offsetx=[-140] offsety=[15]">
+          <img height="15" src="//homepath-activedt.netdna-ssl.com/css/img/icon_bookmark.gif" width="8"/>
+          <a href="#">
+           Save Listing
+          </a>
+         </div>
+        </div>
+        <div style="clear:both;">
+        </div>
+       </div>
+       <div style="clear:both;">
+       </div>
+      </div>
+      <div class="tab_content" id="main_tab_content">
+       <div class="primary_content">
+        <div id="photo_container" style="float:left;padding-left:3px;width:330px;">
+         <div class="photosmap" id="slideshow_container">
+          <script src="//homepath-activedt.netdna-ssl.com/lib/galleriffic-2_0/js/jquery.galleriffic.js?v3" type="text/javascript">
+          </script>
+          <script src="//homepath-activedt.netdna-ssl.com/lib/galleriffic-2_0/js/jquery.opacityrollover.js" type="text/javascript">
+          </script>
+          <div class="navigation-container">
+           <div id="rapSlideshow">
+            <div class="content">
+             <div class="slideshow-container">
+              <div class="loader" id="loading">
+              </div>
+              <div class="slideshow" id="slideshow">
+              </div>
+             </div>
+            </div>
+            <div class="caption-container" id="caption">
+             <div class="photo-index">
+             </div>
+             <div class="controls" id="controls">
+             </div>
+            </div>
+           </div>
+           <div style="clear:left;">
+           </div>
+           <div class="navigation" id="galleryThumbs">
+            <a class="pageLink prev" href="#" style="visibility: hidden;" title="Previous">
+            </a>
+            <ul class="thumbs noscript">
+             <li class="loaded">
+              <a class="thumb" href="http://photos.listhub.net/NEOHREXOH/3423285/0?lm=20130702T105915" title="2820 Brady Lake Rd, Ravenna, Ohio">
+               <img alt="2820 Brady Lake Rd, Ravenna, Ohio" height="33" src="http://photos.listhub.net/NEOHREXOH/3423285/0?lm=20130702T105915" width="48"/>
+              </a>
+             </li>
+             <li class="loaded">
+              <a class="thumb" href="http://photos.listhub.net/NEOHREXOH/3423285/2?lm=20130702T105915" title="2820 Brady Lake Rd, Ravenna, Ohio">
+               <img alt="2820 Brady Lake Rd, Ravenna, Ohio" height="33" src="http://photos.listhub.net/NEOHREXOH/3423285/2?lm=20130702T105915" width="48"/>
+              </a>
+             </li>
+             <li class="loaded">
+              <a class="thumb" href="http://photos.listhub.net/NEOHREXOH/3423285/3?lm=20130702T105915" title="2820 Brady Lake Rd, Ravenna, Ohio">
+               <img alt="2820 Brady Lake Rd, Ravenna, Ohio" height="33" src="http://photos.listhub.net/NEOHREXOH/3423285/3?lm=20130702T105915" width="48"/>
+              </a>
+             </li>
+             <li class="loaded">
+              <a class="thumb" href="http://photos.listhub.net/NEOHREXOH/3423285/4?lm=20130702T105915" title="2820 Brady Lake Rd, Ravenna, Ohio">
+               <img alt="2820 Brady Lake Rd, Ravenna, Ohio" height="33" src="http://photos.listhub.net/NEOHREXOH/3423285/4?lm=20130702T105915" width="48"/>
+              </a>
+             </li>
+            </ul>
+            <a class="pageLink next" href="#" style="visibility: hidden;" title="Next">
+            </a>
+           </div>
+           <script>
+            $j('#galleryThumbs ul.thumbs li a img').error(removeImageListItem);
+           </script>
+          </div>
+          <script type="text/javascript">
+           $j(window).load( function(){
+								if( $j('ul.thumbs').children().size() == 0 ){
+									// hide photos tab
+									$j('#details_photo_tab').remove();
+									// all images are broken, show a map 
+									showSimpleMap(); 
+								}
+							});
+          </script>
+          <div style="text-align:center;">
+           <a class="photoTabLink" href="javascript:void(0)" style="font-size:11px; text-decoration: underline;">
+            See larger photos
+           </a>
+          </div>
+         </div>
+        </div>
+        <div id="listing_details_container" style="float:left; margin-left: 20px; width:360px;">
+         <div style="float:right; margin-top:6px;">
+          <span class="statusIndicator listingstatus_active">
+           Active
+          </span>
+         </div>
+         <h1 style="color: #89ae3d;padding:0px;margin-bottom:10px;">
+          $26,300
+         </h1>
+         <div style="font-size:14px; font-weight:bold; margin-bottom: 8px;">
+          2 Beds, 1 Bath
+						| 864 sq. ft.
+			| Single-Family
+         </div>
+         <div style="font-size:12px; margin-bottom: 8px;">
+          <span>
+           <strong>
+            REO ID:
+           </strong>
+           C1300SL
+          </span>
+          <span style="margin-left: 10px;">
+           <strong>
+            MLS ID:
+           </strong>
+           3423285
+          </span>
+         </div>
+         <div style="font-size: 12px; margin-bottom: 15px;min-height:122px;">
+          This is a Fannie Mae HomePath property. Purchase this property for as little as 3% down! This property is approved for HomePath Renovation Mortgage Financing. To be Sold as is. Subject to clear title.
+         </div>
+         <div style="font-size:12px; margin-bottom: 6px; height:28px;">
+          <a href="/hp/offer/submit.html?listingId=39763341" style="z-index: 999; position: relative;">
+           <img height="28" src="//homepath-activedt.netdna-ssl.com/css/img/details/makeOfferBtn.gif" style="vertical-align: -9px;" width="132"/>
+          </a>
+          <a href="/offerQuestion.html" style="text-decoration:underline; margin-left: 6px;" target="_blank">
+           How to make an offer
+          </a>
+         </div>
+         <div>
+          <div id="propertyFeatureBadgeHeader" style="font-size:14px; color: #2469b8; font-weight:bold; border-bottom: 1px solid #d8d8d8; padding: 5px 0px 2px;">
+           Property Features
+          </div>
+          <div id="propertyFeatureBadges" style="padding: 10px 5px 0 4px; width: 365px;">
+           <span style="padding: 0 3px 4px 3px;">
+            <a href="/financing.html">
+             <img border="0" height="30" src="//homepath-activedt.netdna-ssl.com/content/img/details_icons/renovation_financing_available.png" title="cssbody=[tipbdy1] cssheader=[tiphdr1] header=[HomePath Renovation Mortgage] body=[Properties with this logo are eligible for HomePath Renovation Mortgage Financing.] delay=[0] fadespeed=[0.4] fade=[on]" width="60"/>
+            </a>
+           </span>
+          </div>
+         </div>
+        </div>
+        <div style="clear:both;">
+        </div>
+       </div>
+       <div id="additional_info">
+        <div id="additional_info_left" style="float:left; width:345px;">
+         <ul class="sortableattributegroups" style="margin-bottom: 30px;">
+          <li id="firstlist_firstlist_details">
+           <table border="0" cellpadding="0" cellspacing="0" class="attributegroup_bg" id="attributegroup_property_details" width="100%">
+            <tbody>
+             <tr>
+              <td class="details_tab_header" nowrap="">
+               Property Details
+              </td>
+             </tr>
+             <tr>
+              <td valign="top">
+               <div class="details_wrap">
+                <ul id="property_detail_attributes">
+                 <li class="listingattribute">
+                  <span>
+                   Price:
+                  </span>
+                  $26,300
+                 </li>
+                 <li class="listingattribute">
+                  <span>
+                   Bedrooms:
+                  </span>
+                  2
+                 </li>
+                 <li class="listingattribute">
+                  <span>
+                   Bathrooms:
+                  </span>
+                  1
+                 </li>
+                 <li class="listingattribute">
+                  <span>
+                   Full Baths:
+                  </span>
+                  1
+                 </li>
+                 <li class="listingattribute">
+                  <span>
+                   Basement:
+                  </span>
+                  Yes
+                 </li>
+                 <li class="listingattribute">
+                  <span>
+                   Living Area Size:
+                  </span>
+                  864
+                 </li>
+                 <li class="listingattribute">
+                  <span>
+                   Lot Size:
+                  </span>
+                  0.32 acres
+                 </li>
+                 <li class="listingattribute">
+                  <span>
+                   Style:
+                  </span>
+                  Conventional
+                 </li>
+                 <li class="listingattribute">
+                  <span>
+                   Exterior:
+                  </span>
+                  Aluminum Siding
+                 </li>
+                 <li class="listingattribute">
+                  <span>
+                   Heating Type:
+                  </span>
+                  Forced Air
+                 </li>
+                 <li class="listingattribute">
+                  <span>
+                   Roof:
+                  </span>
+                  Asphalt
+                 </li>
+                 <li class="listingattribute">
+                  <span>
+                   Air Conditioning:
+                  </span>
+                  Central A/C
+                 </li>
+                 <li class="listingattribute">
+                  <span>
+                   Year Built:
+                  </span>
+                  1925
+                 </li>
+                </ul>
+               </div>
+              </td>
+             </tr>
+            </tbody>
+           </table>
+          </li>
+         </ul>
+         <ul class="sortableattributegroups" id="firstlist">
+          <li id="firstlist_firstlist1">
+           <table border="0" cellpadding="0" cellspacing="0" class="attributegroup_bg" id="attributegroup_property_tax_roll_details" width="100%">
+            <tbody>
+             <tr>
+              <td class="details_tab_header" nowrap="">
+               Property Tax Roll Details
+              </td>
+             </tr>
+             <tr>
+              <td valign="top">
+               <div class="details_wrap">
+                <ul>
+                 <li class="even details_li_school_district oneline_details_li fanniemae">
+                  <table cellpadding="0" cellspacing="0">
+                   <tbody>
+                    <tr>
+                     <td style="vertical-align:top;">
+                      <span class="label details_span_school_district">
+                       School District:
+                      </span>
+                     </td>
+                     <td style="vertical-align:top;">
+                      <span class="value bold">
+                       Ravenna CSD
+                      </span>
+                     </td>
+                    </tr>
+                   </tbody>
+                  </table>
+                 </li>
+                </ul>
+               </div>
+              </td>
+             </tr>
+            </tbody>
+           </table>
+          </li>
+          <li id="firstlist_firstlist2">
+           <table border="0" cellpadding="0" cellspacing="0" class="attributegroup_bg" id="attributegroup_county_detail_links" width="100%">
+            <tbody>
+             <tr>
+              <td class="details_tab_header" nowrap="">
+               County Detail Links
+              </td>
+             </tr>
+             <tr>
+              <td valign="top">
+               <div class="details_wrap">
+                <ul>
+                 <li class="even details_li_county_site oneline_details_li fanniemae">
+                  <table cellpadding="0" cellspacing="0">
+                   <tbody>
+                    <tr>
+                     <td style="vertical-align:top;">
+                      <span class="label details_span_county_site">
+                       County Site:
+                      </span>
+                     </td>
+                     <td style="vertical-align:top;">
+                      <span class="value bold">
+                       <a cmp-clk="fanniemae_county_site_details_attribute" cmp-imp="fanniemae_county_site_details_attribute" href="http://www.co.portage.oh.us/" rel="nofollow" target="_blank">
+                        Click Here
+                       </a>
+                      </span>
+                     </td>
+                    </tr>
+                   </tbody>
+                  </table>
+                 </li>
+                </ul>
+               </div>
+              </td>
+             </tr>
+            </tbody>
+           </table>
+          </li>
+          <li id="firstlist_firstlist3">
+           <table border="0" cellpadding="0" cellspacing="0" class="attributegroup_bg" id="attributegroup_county_tax_roll_details" width="100%">
+            <tbody>
+             <tr>
+              <td class="details_tab_header" nowrap="">
+               County Tax Roll Details
+              </td>
+             </tr>
+             <tr>
+              <td valign="top">
+               <div class="details_wrap">
+                <ul>
+                 <li class="even details_li_lot_size fanniemae">
+                  <table cellpadding="0" cellspacing="0">
+                   <tbody>
+                    <tr>
+                     <td style="vertical-align:top;">
+                      <span class="label details_span_lot_size">
+                       Lot Size:
+                      </span>
+                     </td>
+                     <td style="vertical-align:top;">
+                      <span class="value bold">
+                       13,939
+                      </span>
+                     </td>
+                    </tr>
+                   </tbody>
+                  </table>
+                 </li>
+                 <li class="details_li_last_sale_date fanniemae">
+                  <table cellpadding="0" cellspacing="0">
+                   <tbody>
+                    <tr>
+                     <td style="vertical-align:top;">
+                      <span class="label details_span_last_sale_date">
+                       Last Sale Date:
+                      </span>
+                     </td>
+                     <td style="vertical-align:top;">
+                      <span class="value bold">
+                       05/07/2007
+                      </span>
+                     </td>
+                    </tr>
+                   </tbody>
+                  </table>
+                 </li>
+                 <li class="even details_li_last_sale_price fanniemae">
+                  <table cellpadding="0" cellspacing="0">
+                   <tbody>
+                    <tr>
+                     <td style="vertical-align:top;">
+                      <span class="label details_span_last_sale_price">
+                       Last Sale Price:
+                      </span>
+                     </td>
+                     <td style="vertical-align:top;">
+                      <span class="value bold">
+                       $66,500
+                      </span>
+                     </td>
+                    </tr>
+                   </tbody>
+                  </table>
+                 </li>
+                 <li class="details_li_taxable_value fanniemae">
+                  <table cellpadding="0" cellspacing="0">
+                   <tbody>
+                    <tr>
+                     <td style="vertical-align:top;">
+                      <span class="label details_span_taxable_value">
+                       Taxable Value:
+                      </span>
+                     </td>
+                     <td style="vertical-align:top;">
+                      <span class="value bold">
+                       $56,400
+                      </span>
+                     </td>
+                    </tr>
+                   </tbody>
+                  </table>
+                 </li>
+                 <li class="even details_li_total_sqft. fanniemae">
+                  <table cellpadding="0" cellspacing="0">
+                   <tbody>
+                    <tr>
+                     <td style="vertical-align:top;">
+                      <span class="label details_span_total_sqft.">
+                       Total Sqft.:
+                      </span>
+                     </td>
+                     <td style="vertical-align:top;">
+                      <span class="value bold">
+                       864
+                      </span>
+                     </td>
+                    </tr>
+                   </tbody>
+                  </table>
+                 </li>
+                 <li class="details_li_year_built fanniemae">
+                  <table cellpadding="0" cellspacing="0">
+                   <tbody>
+                    <tr>
+                     <td style="vertical-align:top;">
+                      <span class="label details_span_year_built">
+                       Year Built:
+                      </span>
+                     </td>
+                     <td style="vertical-align:top;">
+                      <span class="value bold">
+                       1925
+                      </span>
+                     </td>
+                    </tr>
+                   </tbody>
+                  </table>
+                 </li>
+                </ul>
+               </div>
+              </td>
+             </tr>
+            </tbody>
+           </table>
+          </li>
+          <li id="firstlist_firstlist4">
+           <table border="0" cellpadding="0" cellspacing="0" class="attributegroup_bg" id="attributegroup_housing_information" width="100%">
+            <tbody>
+             <tr>
+              <td class="details_tab_header" nowrap="">
+               Housing Information
+              </td>
+             </tr>
+             <tr>
+              <td valign="top">
+               <div class="details_wrap">
+                <ul>
+                 <li class="even details_li_characteristics">
+                  <span class="label details_span_characteristics">
+                   Characteristics:
+                  </span>
+                  <span class="bold">
+                   <a class="handcursor extUrlDisclaimer" href="#" onclick="return false;" title="http://www.onboardnavigator.com/1.5/webcontent/obwc_results.aspx?AID=791-3de65823ce4e&amp;SearchType=1&amp;State=OH&amp;DataType=1&amp;Address=2820 Brady Lake Rd&amp;city=Ravenna&amp;zip=44266">
+                    View now
+                   </a>
+                  </span>
+                 </li>
+                 <li class="details_li_summary">
+                  <span class="label details_span_summary">
+                   Summary:
+                  </span>
+                  <span class="bold">
+                   <a class="handcursor extUrlDisclaimer" href="#" onclick="return false;" title="http://www.onboardnavigator.com/1.5/webcontent/obwc_results.aspx?AID=791-3de65823ce4e&amp;SearchType=1&amp;State=OH&amp;DataType=1&amp;Address=2820 Brady Lake Rd&amp;city=Ravenna&amp;zip=44266">
+                    View now
+                   </a>
+                  </span>
+                 </li>
+                 <li class="even details_li_stability">
+                  <span class="label details_span_stability">
+                   Stability:
+                  </span>
+                  <span class="bold">
+                   <a class="handcursor extUrlDisclaimer" href="#" onclick="return false;" title="http://www.onboardnavigator.com/1.5/webcontent/obwc_results.aspx?AID=791-3de65823ce4e&amp;SearchType=1&amp;State=OH&amp;DataType=1&amp;Address=2820 Brady Lake Rd&amp;city=Ravenna&amp;zip=44266">
+                    View now
+                   </a>
+                  </span>
+                 </li>
+                 <li class="details_li_inventory">
+                  <span class="label details_span_inventory">
+                   Inventory:
+                  </span>
+                  <span class="bold">
+                   <a class="handcursor extUrlDisclaimer" href="#" onclick="return false;" title="http://www.onboardnavigator.com/1.5/webcontent/obwc_results.aspx?AID=791-3de65823ce4e&amp;SearchType=1&amp;State=OH&amp;DataType=1&amp;Address=2820 Brady Lake Rd&amp;city=Ravenna&amp;zip=44266">
+                    View now
+                   </a>
+                  </span>
+                 </li>
+                </ul>
+               </div>
+              </td>
+             </tr>
+            </tbody>
+           </table>
+          </li>
+          <li id="firstlist_firstlist5">
+           <table border="0" cellpadding="0" cellspacing="0" class="attributegroup_bg" id="attributegroup_school_information" width="100%">
+            <tbody>
+             <tr>
+              <td class="details_tab_header" nowrap="">
+               School Information
+              </td>
+             </tr>
+             <tr>
+              <td valign="top">
+               <div class="details_wrap">
+                <ul>
+                 <li class="even details_li_public_elementary oneline_details_li">
+                  <span class="label details_span_public_elementary">
+                   Public Elementary:
+                  </span>
+                  <span class="bold">
+                   <a class="handcursor extUrlDisclaimer" href="#" onclick="return false;" title="http://www.onboardnavigator.com/1.5/webcontent/obwc_results.aspx?AID=791-3de65823ce4e&amp;SearchType=1&amp;State=OH&amp;DataType=2&amp;Address=2820 Brady Lake Rd&amp;city=Ravenna&amp;zip=44266">
+                    View now
+                   </a>
+                  </span>
+                 </li>
+                 <li class="details_li_public_middle oneline_details_li">
+                  <span class="label details_span_public_middle">
+                   Public Middle:
+                  </span>
+                  <span class="bold">
+                   <a class="handcursor extUrlDisclaimer" href="#" onclick="return false;" title="http://www.onboardnavigator.com/1.5/webcontent/obwc_results.aspx?AID=791-3de65823ce4e&amp;SearchType=1&amp;State=OH&amp;DataType=2&amp;Address=2820 Brady Lake Rd&amp;city=Ravenna&amp;zip=44266">
+                    View now
+                   </a>
+                  </span>
+                 </li>
+                 <li class="even details_li_public_high oneline_details_li">
+                  <span class="label details_span_public_high">
+                   Public High:
+                  </span>
+                  <span class="bold">
+                   <a class="handcursor extUrlDisclaimer" href="#" onclick="return false;" title="http://www.onboardnavigator.com/1.5/webcontent/obwc_results.aspx?AID=791-3de65823ce4e&amp;SearchType=1&amp;State=OH&amp;DataType=2&amp;Address=2820 Brady Lake Rd&amp;city=Ravenna&amp;zip=44266">
+                    View now
+                   </a>
+                  </span>
+                 </li>
+                 <li class="details_li_public_adult_other oneline_details_li">
+                  <span class="label details_span_public_adult_other">
+                   Public Adult &amp; Other:
+                  </span>
+                  <span class="bold">
+                   <a class="handcursor extUrlDisclaimer" href="#" onclick="return false;" title="http://www.onboardnavigator.com/1.5/webcontent/obwc_results.aspx?AID=791-3de65823ce4e&amp;SearchType=1&amp;State=OH&amp;DataType=2&amp;Address=2820 Brady Lake Rd&amp;city=Ravenna&amp;zip=44266">
+                    View now
+                   </a>
+                  </span>
+                 </li>
+                 <li class="even details_li_private oneline_details_li">
+                  <span class="label details_span_private oneline_details_li">
+                   Private:
+                  </span>
+                  <span class="bold">
+                   <a class="handcursor extUrlDisclaimer" href="#" onclick="return false;" title="http://www.onboardnavigator.com/1.5/webcontent/obwc_results.aspx?AID=791-3de65823ce4e&amp;SearchType=1&amp;State=OH&amp;DataType=2&amp;Address=2820 Brady Lake Rd&amp;city=Ravenna&amp;zip=44266">
+                    View now
+                   </a>
+                  </span>
+                 </li>
+                </ul>
+               </div>
+              </td>
+             </tr>
+            </tbody>
+           </table>
+          </li>
+         </ul>
+        </div>
+        <div id="additional_info_right" style="float:left; width:375px;margin-left:20px;">
+         <div id="homepath_virtualcard">
+          <div class="section_header">
+           Contact Information
+          </div>
+          <div style="float:left;">
+           <div id="vcardAgentInfo" sytle="margin-bottom: 20px;">
+            <div class="vcard_agent_name">
+             GWEN PETWAY
+            </div>
+            <div class="vcard_agent_phone">
+             <span class="bold">
+              Phone:
+             </span>
+             (330) 836-4300
+            </div>
+            <div>
+             <script language="javascript" type="text/javascript">
+              var contactInfoFirstName = "GWEN"; var contactInfoLastName = "PETWAY"; var contactInfoCompanyName = "KELLER WILLIAMS CHERVENIC REALTY"; var contactInfoEmail = "pba@kwchervenic.com";
+             </script>
+             <a class="contactInformationForm" href="#">
+              Email Now
+             </a>
+            </div>
+            <script>
+             $j('a.contactInformationForm').attr('href', 'mailto:' + contactInfoEmail + '?subject=Property Inquiry from HomePath.com - 2820 Brady Lake Rd, Ravenna, OH 44266').html('Email agent').css('text-decoration', 'underline');
+            </script>
+            <script>
+             var listingIDVirtualCard = "39763341";
+					var source = "homepath2";
+						$j('.contactInformationForm').track({
+							category : 'Broker Contact Submit_fanniemae',
+							action : 'click',
+							label : function(element) { return element.attr('alt');},
+							skip_internal : false
+						});
+						
+						$j(".contactInformationForm").click(function(contactInformation){
+		                    $j.ajax({
+		                         type: 'GET',
+		                         url: '/listingcontactmailto.html?listingId=' + listingIDVirtualCard + '&mailTo=' + contactInfoEmail + '&source=' + source,
+		                         dataType: 'json',
+		                         success: function() { },
+		                         data: {},
+		                         async: false
+		                     });
+		                  			
+							return true;
+						});
+            </script>
+           </div>
+           <div id="vcardCompanyInfo">
+            <div class="vcard_company_name">
+             KELLER WILLIAMS CHERVENIC REALTY
+            </div>
+            <div class="vcard_company_address">
+             3589 DARROW RD
+            </div>
+            <div>
+             Stow, OH 44224
+            </div>
+           </div>
+          </div>
+          <div style="clear:both;">
+          </div>
+         </div>
+         <div id="small_map_container">
+          <div class="section_header">
+           Map
+          </div>
+          <div id="small_map">
+          </div>
+          <div id="overhead_thumbs">
+           <ul>
+            <li>
+             <div class="hide selected" id="getMap">
+              <img height="33" src="//homepath-activedt.netdna-ssl.com/css/img/thumb_maps.gif" width="48"/>
+              <br/>
+              <span>
+               Map
+              </span>
+             </div>
+            </li>
+            <li>
+             <div class="hide" id="getOrientationNorth">
+              <img border="0" height="33" src="//homepath-activedt.netdna-ssl.com/css/img/thumb-area-photo-n.jpg" width="48"/>
+              <br/>
+              <span>
+               North
+              </span>
+             </div>
+            </li>
+            <li>
+             <div class="hide" id="getOrientationSouth">
+              <img border="0" height="33" src="//homepath-activedt.netdna-ssl.com/css/img/thumb-area-photo-s.jpg" width="48"/>
+              <br/>
+              <span>
+               South
+              </span>
+             </div>
+            </li>
+            <li>
+             <div class="hide" id="getOrientationEast">
+              <img border="0" height="33" src="//homepath-activedt.netdna-ssl.com/css/img/thumb-area-photo-e.jpg" width="48"/>
+              <br/>
+              <span>
+               East
+              </span>
+             </div>
+            </li>
+            <li>
+             <div class="hide" id="getOrientationWest">
+              <img border="0" height="33" src="//homepath-activedt.netdna-ssl.com/css/img/thumb-area-photo-w.jpg" width="48"/>
+              <br/>
+              <span>
+               West
+              </span>
+             </div>
+            </li>
+           </ul>
+           <div style="clear:both;">
+           </div>
+          </div>
+          <div style="text-align:center;">
+           <a class="mapTabLink" href="javascript:void(0)" style="font-size:11px; text-decoration:underline;">
+            View larger map
+           </a>
+          </div>
+          <script type="text/javascript">
+           $j(function(){
+								$j('.hide').click(function(){$j('.hide').removeClass('selected'); $j(this).addClass('selected'); });
+								showSmallMap(smallMap);
+							});
+          </script>
+         </div>
+         <div id="resourcecenter_container">
+          <div class="section_header">
+           Resource Center
+          </div>
+          <ul>
+           <li id="icon_tools_buyersguide">
+            <a href="/resources.html#buyersGuide">
+             Buyer's Guide
+            </a>
+           </li>
+           <li id="icon_tools_podcast">
+            <a href="/resources.html#podcasts">
+             Podcasts
+            </a>
+           </li>
+           <li style="clear:both; float:none;">
+           </li>
+          </ul>
+         </div>
+         <div id="calculators_container">
+          <div class="section_header">
+           Calculators
+          </div>
+          <ul>
+           <li class="icon_tools_calculator" id="calc_down_payment_compare">
+            <a href="#" onclick="window.open('/lib/vcapps/c-downpmtcomp.html','newwin','top=50,left=50,height=680,width=630,status=yes,toolbar=no,menubar=no,location=no, scrollbars=no');return false;">
+             Down payment comparison
+            </a>
+           </li>
+           <li class="icon_tools_calculator" id="calc_biweekly_mortgage">
+            <a href="#" onclick="window.open('/lib/vcapps/c-biweekly.html','newwin','top=50,left=50,height=530,width=630,status=yes,toolbar=no,menubar=no,location=no, scrollbars=no');return false;">
+             Biweekly mortgage
+            </a>
+           </li>
+           <li class="icon_tools_calculator" id="calc_fixed_vs_adjustable">
+            <a href="#" onclick="window.open('/lib/vcapps/c-adj2wide.html','newwin','top=50,left=50,height=680,width=630,status=yes,toolbar=no,menubar=no,location=no, scrollbars=no');return false;">
+             Fixed vs. adjustable rate
+            </a>
+           </li>
+           <li class="icon_tools_calculator" id="calc_mortgage_home_loan">
+            <a href="#" onclick="window.open('/lib/vcapps/c-home2.html','newwin','top=50,left=50,height=530,width=680,status=yes,toolbar=no,menubar=no,location=no, scrollbars=no');return false;">
+             Mortgage home loan
+            </a>
+           </li>
+           <li class="icon_tools_calculator" id="calc_home_affordability">
+            <a href="#" onclick="window.open('/lib/vcapps/c-aff.html','newwin','top=50,left=50,height=530,width=630,status=yes,toolbar=no,menubar=no,location=no, scrollbars=no');return false;">
+             Home affordability
+            </a>
+           </li>
+           <li class="icon_tools_calculator" id="calc_mortgage_points">
+            <a href="#" onclick="window.open('/lib/vcapps/c-mortgpts.html','newwin','top=50,left=50,height=710,width=630,status=yes,toolbar=no,menubar=no,location=no, scrollbars=no');return false;">
+             Mortgage points
+            </a>
+           </li>
+           <li style="clear:both;">
+           </li>
+          </ul>
+         </div>
+        </div>
+        <div style="clear:both;">
+        </div>
+       </div>
+      </div>
+      <div class="tab_content" id="photos_tab_content" style="display:none;">
+       <div class="primary_content">
+        <div class="navigation-container-large">
+         <div id="rapSlideshowLarge">
+          <div class="content">
+           <div class="slideshow-container-large">
+            <div class="loader" id="loading-large">
+            </div>
+            <div class="slideshow" id="slideshow-large">
+            </div>
+            <div style="clear:both;">
+            </div>
+           </div>
+           <div class="caption" id="caption-container-large">
+            <div class="photo-index-large">
+            </div>
+           </div>
+           <div class="navigation" id="galleryThumbsLarge">
+            <a class="pageLink prev" href="#" style="visibility: hidden;" title="Previous">
+            </a>
+            <ul class="thumbs noscript">
+             <li class="loaded">
+              <a class="thumb" href="http://photos.listhub.net/NEOHREXOH/3423285/0?lm=20130702T105915" title="2820 Brady Lake Rd, Ravenna, Ohio">
+               <img alt="2820 Brady Lake Rd, Ravenna, Ohio" src="http://photos.listhub.net/NEOHREXOH/3423285/0?lm=20130702T105915"/>
+              </a>
+             </li>
+             <li class="loaded">
+              <a class="thumb" href="http://photos.listhub.net/NEOHREXOH/3423285/2?lm=20130702T105915" title="2820 Brady Lake Rd, Ravenna, Ohio">
+               <img alt="2820 Brady Lake Rd, Ravenna, Ohio" src="http://photos.listhub.net/NEOHREXOH/3423285/2?lm=20130702T105915"/>
+              </a>
+             </li>
+             <li class="loaded">
+              <a class="thumb" href="http://photos.listhub.net/NEOHREXOH/3423285/3?lm=20130702T105915" title="2820 Brady Lake Rd, Ravenna, Ohio">
+               <img alt="2820 Brady Lake Rd, Ravenna, Ohio" src="http://photos.listhub.net/NEOHREXOH/3423285/3?lm=20130702T105915"/>
+              </a>
+             </li>
+             <li class="loaded">
+              <a class="thumb" href="http://photos.listhub.net/NEOHREXOH/3423285/4?lm=20130702T105915" title="2820 Brady Lake Rd, Ravenna, Ohio">
+               <img alt="2820 Brady Lake Rd, Ravenna, Ohio" src="http://photos.listhub.net/NEOHREXOH/3423285/4?lm=20130702T105915"/>
+              </a>
+             </li>
+            </ul>
+            <a class="pageLink next" href="#" style="visibility: hidden;" title="Next">
+            </a>
+            <div style="clear:both;">
+            </div>
+           </div>
+          </div>
+         </div>
+         <script>
+          $j('#galleryThumbsLarge ul.thumbs li a img').error(removeImageListItem);
+         </script>
+        </div>
+       </div>
+      </div>
+      <div class="tab_content" id="map_tab_content" style="display:none;">
+       <div class="primary_content">
+        <div id="large_map_container" style="margin-bottom:15px;">
+        </div>
+        <div id="directions_container" style="">
+         <form id="getDirectionsForm" style="padding:0; margin:0 0 10px 0;">
+          <table cellpadding="0" cellspacing="0">
+           <tbody>
+            <tr>
+             <td style="padding-left:25px;">
+              <strong>
+               Start Address
+              </strong>
+             </td>
+             <td style="padding-left:25px;">
+              <strong>
+               End Address
+              </strong>
+             </td>
+             <td>
+             </td>
+            </tr>
+            <tr>
+             <td>
+              <span style="font-weight: bold; font-size:22px; color: #339900;">
+               A
+              </span>
+              <input id="directionsStartAddress" style="font-size:18px; width:230px;" type="text" value=""/>
+             </td>
+             <td>
+              <span style="font-weight: bold; font-size:22px; color: #E91C24;margin-left:5px;">
+               B
+              </span>
+              <input disabled="disabled" id="directionsDestAddress" style="font-size:18px; width:230px;" type="text" value="2820 Brady Lake Rd, Ravenna, Ohio"/>
+             </td>
+             <td>
+              <input id="btnGetDirections" src="//homepath-activedt.netdna-ssl.com/css/img/details/btn_get_directions.gif" style="margin-left: 10px;" type="image"/>
+             </td>
+            </tr>
+           </tbody>
+          </table>
+         </form>
+         <div class="noborder" id="directions_itinerary_container">
+         </div>
+        </div>
+        <div>
+         <img onclick="window.print();" src="//homepath-activedt.netdna-ssl.com/css/img/details/icon_print.gif" style="vertical-align:bottom;"/>
+         <a href="#" onclick="window.print(); return false;" style="font-size: 12px; text-decoration: underline;">
+          Print page
+         </a>
+         <a href="javascript:void(0);" id="directions_reset" style="display:none; text-decoration:underline; font-size: 12px; margin:15px 0 10px 10px;">
+          Clear Directions
+         </a>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div id="rightrail_container" style="margin-left: 8px; float:left; width:160px;">
+     <div id="google_ad_container">
+      <script type="text/javascript">
+       GA_googleFillSlot("details160x350default");
+      </script>
+     </div>
+    </div>
+    <div style="display:none;">
+     <div class="bd" id="confirmDeleteDialog" style="width: 375px;">
+      <form action="/provisioning/profile/my_listingnotes.html" method="POST" name="dialogForm">
+       <input id="deleteListingId" name="listingId" type="hidden"/>
+       <p id="dialogMssg">
+       </p>
+       <input id="dontaskcheckbox" name="dontAsk" type="checkbox" value="1"/>
+       <label for="dontAsk" style="font-size: 12px;">
+        Don't ask me again
+       </label>
+       <div style="text-align:right; padding: 4px;">
+        <input class="btn" onclick="$j.fancybox.close();return false;" type="button" value="Cancel"/>
+        <input class="btn" onclick="handleRemove(); return false;" style="margin-left:10px;" type="button" value="Remove"/>
+       </div>
+      </form>
+     </div>
+    </div>
+   </div>
+   <!-- Start Footer -->
+   <div id="hp_footer_links">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+    </table>
+    <div id="hp_footer_links2">
+     <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tbody>
+       <tr>
+        <td valign="top" width="33%">
+         <p>
+          <a href="/" style="font-weight: bold; font-size: 14px;">
+           Find a Home
+          </a>
+         </p>
+         <a href="/">
+          Search Now
+         </a>
+         <br/>
+         <p style="margin-top: 5px;">
+          <a href="/hp/login.html" style="font-weight: bold; font-size: 14px;">
+           <b>
+            My Account
+           </b>
+          </a>
+         </p>
+         <a href="/hp/registration.html">
+          Register
+         </a>
+         <br/>
+         <a href="/hp/registration.html">
+          Saved Listings
+         </a>
+         <br/>
+         <p style="margin-top: 5px;">
+          <a href="/contact_us.html" style="font-weight: bold; font-size: 14px;">
+           <b>
+            Contact Us
+           </b>
+          </a>
+         </p>
+        </td>
+        <td valign="top" width="33%">
+         <p>
+          <a href="/financing.html" style="font-weight: bold; font-size: 14px;">
+           Financing Options
+          </a>
+         </p>
+         <a href="/financing.html">
+          Overview
+         </a>
+         <br/>
+         <a href="/financing-lenders.html">
+          HomePath Mortgage Lenders
+         </a>
+         <br/>
+         <a href="/financing-renovation-lenders.html">
+          HomePath Renovation Mortgage Lenders
+         </a>
+         <br/>
+         <p style="margin-top: 5px;">
+          <a href="/incentives.html" style="font-weight: bold; font-size: 14px;">
+           Special Offers &amp; Incentives
+          </a>
+         </p>
+         <a href="/incentives.html#firstLook">
+          First Look Program
+         </a>
+         <br/>
+         <a href="/incentives.html#financingPrograms">
+          Financing Assistance Programs
+         </a>
+         <br/>
+         <p style="margin-top: 5px;">
+          <a href="/resources.html" style="font-weight: bold; font-size: 14px;">
+           Helpful Resources
+          </a>
+         </p>
+         <a href="/resources.html#buyersGuide">
+          HomePath Buyer's Guide
+         </a>
+         <br/>
+         <a href="/resources.html#calculators">
+          HomePath Calculators
+         </a>
+         <br/>
+         <a href="/resources.html#youtube">
+          YouTube Channel
+         </a>
+         <br/>
+         <a href="/resources.html#podcasts">
+          Podcasts
+         </a>
+         <br/>
+         <a href="/hp_faqs.html">
+          Frequently Asked Questions
+         </a>
+         <br/>
+        </td>
+        <td valign="top" width="33%">
+         <p>
+          <a href="/realestate.html" style="font-weight: bold; font-size: 14px;">
+           For Real Estate Professionals
+          </a>
+         </p>
+         <a href="/realestate.html#howto">
+          Make an Offer — It's Easy!
+         </a>
+         <br/>
+         <a href="/realestate-email-signup.html">
+          Sign Up for News Alerts
+         </a>
+         <br/>
+         <a href="/realestate.html#listingAgent">
+          Become a HomePath Listing Agent or Vendor
+         </a>
+         <br/>
+         <a href="/realestate.html#marketing">
+          Marketing Materials for HomePath Properties
+         </a>
+         <br/>
+         <a href="/realestate.html#connected">
+          Stay Connected
+         </a>
+         <br/>
+         <p style="margin-top: 5px;">
+          <a href="/investors.html" style="font-weight: bold; font-size: 14px;">
+           For Investors
+          </a>
+         </p>
+         <a href="/investors.html#auction">
+          Auction Sales
+         </a>
+         <br/>
+         <a href="/investors.html#pool">
+          Pool Sales
+         </a>
+         <br/>
+         <a href="/structuredsales.html">
+          Structured Sales
+         </a>
+         <p style="margin-top:10px;">
+          <a class="fraud-info-trigger" href="#fraudInfoPopup" style="padding:0px;">
+           <img src="//homepath-activedt.netdna-ssl.com/css/cobrands/homepath2/btn_report_fraud.gif"/>
+          </a>
+         </p>
+        </td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+   </div>
+   <div id="hp_footerwrap">
+    <div id="hp_footer">
+     <script src="//homepath-activedt.netdna-ssl.com/lib/boxover-2_1/boxover.js" type="text/javascript">
+     </script>
+     <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tbody>
+       <tr>
+        <td id="footerpadding" valign="top">
+         <span style="position: relative; margin-right: 5px; bottom: -2px; margin-top: 0px;">
+          <a href="http://www.fanniemae.com" target="_parent">
+           <img alt="FannieMae" src="//homepath-activedt.netdna-ssl.com/css/cobrands/homepath2/footer_logo_noR-081611.gif"/>
+          </a>
+         </span>
+         <span style="margin-right: 50px; color: #fff; font-size: 12px;">
+          ©1998-2013 Fannie Mae
+         </span>
+        </td>
+        <td>
+         <div style="float: right; margin-right: 20px; padding-top: 15px;">
+          <a href="https://twitter.com/FannieHomePath" target="_blank">
+           <img border="0" height="22" src="//homepath-activedt.netdna-ssl.com/css/cobrands/homepath2/icons/twitter.png" width="22"/>
+          </a>
+          <a href="https://www.facebook.com/homepathbyfanniemae?ref=ts&amp;fref=ts" style="margin-left:5px;" target="_blank">
+           <img alt="Like us on Facebook" border="0" height="22" src="//homepath-activedt.netdna-ssl.com/css/cobrands/homepath2/icons/facebook.png" width="22"/>
+          </a>
+          <a href="http://pinterest.com/homepath/" style="margin-left:5px;" target="_blank">
+           <img alt="Pintrest" height="22" src="//homepath-activedt.netdna-ssl.com/css/cobrands/homepath2/icons/pintrest.png" width="22"/>
+          </a>
+          <a href="http://www.youtube.com/user/homepathbyfanniemae" style="margin-left:5px;" target="_blank">
+           <img alt="YouTube" height="23" src="//homepath-activedt.netdna-ssl.com/css/cobrands/homepath2/icons/youtube.png" width="23"/>
+          </a>
+         </div>
+        </td>
+       </tr>
+       <tr>
+        <td height="30" id="footerpadding" valign="bottom">
+         <ul class="hp_footer_links">
+          <li>
+           <a href="http://www.fanniemae.com/portal/privacy-statement.html" target="_blank">
+            Privacy
+           </a>
+           |
+          </li>
+          <li>
+           <a href="http://www.fanniemae.com/portal/legal-disclosure.html" target="_blank">
+            Legal
+           </a>
+           |
+          </li>
+          <li>
+           <a href="/contact_us.html" target="_parent">
+            Contact
+           </a>
+          </li>
+          <span style="margin-left: 20px;" title="cssbody=[hp_tipbdy] cssheader=[hp_tiphdr] header=[Equal Housing Opportunity] body=[IT IS ILLEGAL TO DISCRIMINATE AGAINST any person because of race, color, religion, sex, handicap, familial status, (having one or more children), or national origin &lt;img src='//homepath-activedt.netdna-ssl.com/css/cobrands/homepath2/listiofequalhousinfopportunity.gif' width='393' height='123' alt='FannieMae'/&gt; Anyone who feels he or she has been discriminated against should send a complaint to: U.S. Department of Housing and Urban Development, Assistant Secretary for Fair Housing and Equal Opportunity, Washington, D.C. 20410] delay=[0] fadespeed=[0.4] fade=[on] offsety=[-260] offsetx=[-420]">
+           <img src="//homepath-activedt.netdna-ssl.com/css/cobrands/homepath2/equal_housing-081611.gif" style="vertical-align: bottom;"/>
+          </span>
+          <br/>
+         </ul>
+        </td>
+        <td align="right" id="footerpadding" valign="bottom">
+         <ul class="hp_footer_links">
+          Search powered by
+          <a href="http://www.foreclosure.com" style="color: #adcde8;" target="_blank">
+           foreclosure.com
+          </a>
+         </ul>
+        </td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+   </div>
+   <div id="mlrCo" style="display:none;">
+    <div id="mlrMainContent">
+     <p id="logInMessage" style="margin-bottom: 15px; ">
+      Please log in or register before saving this listing.
+     </p>
+     <form action="https://www.homepath.com/hp/login.html" id="login" method="post" name="login">
+      <table border="0" class="formGridRamp formRamploging" width="100%">
+       <tbody>
+        <tr>
+         <td>
+          <label style="color:#666; display:inline-block; _padding-top:5px; *padding-top:5px; width:80px; padding-bottom:10px; *padding-bottom:5px; _padding-bottom:5px; text-align:right;">
+           Email:
+          </label>
+          <input autocomplete="off" id="key" name="key" size="16" style="height:15px; vertical-align: middle; _margin-bottom:10px; *margin-bottom:10px;" type="text" value=""/>
+          <br/>
+          <label style="color:#666; display:inline-block; padding-bottom:10px; _padding-bottom:5px; *padding-bottom:5px; width:80px; text-align:right;">
+           Password:
+          </label>
+          <input autocomplete="off" id="password" name="password" size="16" style="height:15px; vertical-align: middle; _margin-bottom:10px; *margin-bottom:10px;" type="password" value=""/>
+          <div style="padding-left: 87px; padding-top: 6px;">
+           <input src="//homepath-activedt.netdna-ssl.com/css/cobrands/homepath/btnGo.gif" style="vertical-align: middle; padding-right: 10px;" type="image"/>
+           <a href="/hp/registration.html" id="jsMemberLoging" target="_parent">
+            Not Registered?
+           </a>
+          </div>
+          <p style="color:#666;">
+           Forgot your password?
+           <br/>
+           <a href="/lostaccess.html?returnUrl=%2Flisting%2Fsearch">
+            Click here
+           </a>
+           and we'll email it to you.
+          </p>
+          <p style="color:#666;">
+           To change your password please
+           <a href="/changepassword.html?returnUrl=%2Flisting%2Fsearch">
+            click here
+           </a>
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <input id="referralUrlLogin" name="referralUrl" type="hidden" value="/listingdetails.html?st=OH&amp;cno=133&amp;pg=&amp;listingid=39763341&amp;saveListing=39763341"/>
+      <input name="serviceProviderName" type="hidden" value="homepath"/>
+     </form>
+     <p style="margin-top: 15px;">
+      <a href="#" id="tbClose" onclick="return false;">
+       Close
+      </a>
+     </p>
+    </div>
+   </div>
+   <div id="extUrlDisclaimer" style="display:none;">
+    <div>
+     <div id="cancelContent">
+      <a class="extUrlDisclaimerClose" href="#" onclick="return false;">
+       <img border="0" height="12" src="//homepath-activedt.netdna-ssl.com/content/img/iconx.gif" width="12"/>
+      </a>
+     </div>
+     <div style="clear:both;">
+     </div>
+     <h1 id="extUrlDisclaimer">
+      You are now leaving homepath.com.
+     </h1>
+     <p id="extUrlDisclaimer">
+      Homepath.com is not responsible for the contents or reliability of any linked websites, or the information, products or services contained therein, nor does this link constitute an endorsement by homepath.com of the site or the information or products presented on the site.
+     </p>
+     <p id="extUrlDisclaimer">
+      <input name="extUrlDisclaimerCheckbox" type="checkbox" value="dontDisplay"/>
+      Do not show disclaimer anymore
+     </p>
+     <p>
+      <button class="extUrlDisclaimerContinue" type="button">
+       Continue
+      </button>
+      <button class="extUrlDisclaimerClose" type="button">
+       Close
+      </button>
+     </p>
+    </div>
+   </div>
+   <div id="dlCo" style="display:none;">
+    <div id="dlMainContent">
+     <div id="termsOfUseCon">
+      <h2>
+       Important Reminder
+      </h2>
+      <p>
+       HomePath and this downloading function are only for individual, non-commercial use and for individuals and entities transacting business with Fannie Mae.
+      </p>
+      <p>
+       You may not use any robot, spider or other automated device, process, or means to access HomePath contents.
+      </p>
+      <p>
+       You may not republish, offer for sale, or otherwise make publicly available HomePath contents, or use HomePath contents for marketing purposes, without Fannie Mae's prior specific written approval.
+      </p>
+      <a href="#" id="btnAgree" onclick="return false;">
+       <img border="0" src="//homepath-activedt.netdna-ssl.com/content/cobrands/homepath/btnAgree_en.gif"/>
+      </a>
+      <a href="#" id="btnDoNotAgree" onclick="return false;">
+       <img border="0" src="//homepath-activedt.netdna-ssl.com/content/cobrands/homepath/btnDoNotAgree_en.gif"/>
+      </a>
+     </div>
+     <div id="captchaCon" style="display:none;">
+      <div id="cancelCaptchaContent">
+       <a href="#" id="linkCaptchaCancel" onclick="return false;">
+        <img border="0" height="12" src="//homepath-activedt.netdna-ssl.com/content/img/iconx.gif" width="12"/>
+       </a>
+      </div>
+      <ul id="errorCaptcha" style="border: 1px solid rgb(255, 153, 0); margin: 16px 0pt; padding: 2px 0px 0px 14px; background-color: rgb(255, 255, 204); width: 275px; list-style-type: none; list-style-image: none; list-style-position: outside; display:none;">
+       <img src="//homepath-activedt.netdna-ssl.com/images/xhelix/error_exclam.gif" style="float: left;"/>
+       <br/>
+       <br/>
+       <li>
+        <font color="red">
+         No valid entry. Please try again or refresh image.
+        </font>
+       </li>
+      </ul>
+      <div>
+       <form>
+        <div id="captcha_widget" style="display:none">
+         <div id="captcha_image">
+         </div>
+         <div id="captcha_error">
+          Incorrect please try again
+         </div>
+         <div class="captcha_box">
+          <span id="captcha_message">
+           Please enter the characters above in the box below and click the submit button or
+          </span>
+          <span>
+           <a href="#" id="captcha_refresh">
+            refresh image
+           </a>
+          </span>
+         </div>
+         <input autocomplete="off" id="captcha_response_field" name="captcha_response" type="text"/>
+         <input id="captcha_challenge_field" name="captcha_challenge" type="hidden"/>
+        </div>
+        <a href="#" id="btnSubmitCaptcha" onclick="return false;">
+         <img border="0" src="//homepath-activedt.netdna-ssl.com/content/cobrands/homepath/submit_btn_en.gif"/>
+        </a>
+       </form>
+      </div>
+     </div>
+     <div id="generatingFileCon" style="display:none;">
+      <h2>
+       Generating file
+      </h2>
+      <div id="cancelContent">
+       <a href="#" id="linkCancel" onclick="return false;">
+        <img border="0" height="12" src="//homepath-activedt.netdna-ssl.com/content/img/iconx.gif" width="12"/>
+       </a>
+      </div>
+      <div style="clear:both;">
+      </div>
+      <p>
+       Please wait a minute as we create your custom report. Once it's complete, you can download or save it to your computer. This report is in a .csv format, so you'll need Microsoft® Excel® (or something similar) to open and view it.
+      </p>
+      <a href="" id="linkDownloadNow" onclick="return false;">
+       <img border="0" src="//homepath-activedt.netdna-ssl.com/content/cobrands/homepath/downloadnow_en.gif"/>
+      </a>
+     </div>
+    </div>
+   </div>
+   <div id="dlClearAllCo" style="display:none;">
+    <div id="clearAllConfirmCon">
+     <p>
+      <strong>
+       This option will clear all your selection.
+      </strong>
+      <br/>
+     </p>
+     <div style="margin-top: 15px;">
+      <a href="" id="btnDeselectAllConfirm" onclick="return false;">
+       <img border="0" src="//homepath-activedt.netdna-ssl.com/content/cobrands/homepath/btnConfirm_en.gif"/>
+      </a>
+      <a href="" id="btnmlrNotThanks" onclick="return false;">
+       <img border="0" src="//homepath-activedt.netdna-ssl.com/content/cobrands/homepath/btnCancel_en.gif"/>
+      </a>
+     </div>
+    </div>
+   </div>
+   <div class="hide" id="counteroDialog">
+    <div>
+     <div class="headSave">
+      <span>
+       Online Offers
+      </span>
+      <a class="saveThisSearchClose" id="counteroClose" style="font-size: 12px; float: right;">
+       Close
+       <img border="0" height="12" src="//homepath-activedt.netdna-ssl.com/content/cobrands/homepath/iconx.gif" width="12"/>
+      </a>
+     </div>
+     <div class="contentSave">
+      After March 5, 2013, all counter offers must be submitted on the Online Offers system on the HomePath.com site.
+This applies to both counter offers submitted by Fannie Mae listing agents and counters submitted on behalf of the buyer by buyer's agents.
+      <br/>
+      <br/>
+      Please refer to
+      <a href="/offerQuestion.html">
+       http://www.homepath.com/offerQuestion.html
+      </a>
+      for instructions on how to submit the counter through the Online Offers system. You can also call 1-866-218- 4446 for assistance.
+     </div>
+    </div>
+   </div>
+   <div style="display:none;">
+    <div id="fraudInfoPopup" style="width:580px;">
+     <h2 style="margin: 0 0 5px;">
+      Report Mortgage Fraud
+     </h2>
+     <div>
+      <p style="font-size:14px;line-height:18px;">
+       Report possible fraud directly to Fannie Mae at
+       <a href="mailto:MortgageFraud_Tips@FannieMae.com">
+        MortgageFraud_Tips@FannieMae.com
+       </a>
+       . You may also call our Fraud Tips Hotline at 1-800-7FANNIE (1-800-732-6643) to report possible fraud or if you have other concerns relating to a Fannie Mae-owned property.
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+  <script src="//homepath-activedt.netdna-ssl.com/lib/boxover-2_1/boxover.js" type="text/javascript">
+  </script>
+  <script>
+   $j(function(){
+$j('a.calculator-link').track({
+category : 'Calculator',
+action : 'click',
+label : function(element) { return element.attr('alt');},
+skip_internal : false
+});
+});
+  </script>
+ </body>
+</html>

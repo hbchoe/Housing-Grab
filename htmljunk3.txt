@@ -1,0 +1,3404 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head>
+  <title>
+   Portage County, OH - Fannie Mae REO Homes For Sale
+  </title>
+  <meta content="HomePath.com is the Official foreclosure website owned by Fannie Mae. Find Fannie Mae foreclosures exclusively on HomePath.com." name="Description"/>
+  <meta content="fannie mae, fannie mae foreclosures, official fannie mae foreclosure website, homepath, homepath.com" name="Keywords"/>
+  <script charset="UTF-8" src="http://ecn.dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=7.0&amp;mkt=en-us" type="text/javascript">
+  </script>
+  <script src="//homepath-activedt.netdna-ssl.com/lib/jquery-1_7_1/jquery-1.7.1.min.js" type="text/javascript">
+  </script>
+  <script>
+   $j = jQuery.noConflict();
+  </script>
+  <link href="//homepath-activedt.netdna-ssl.com/lib/jquery-ui-1.8.19.custom/css/smoothness/jquery-ui-1.8.19.custom.css" rel="stylesheet" type="text/css"/>
+  <script src="//homepath-activedt.netdna-ssl.com/lib/jquery-ui-1.8.19.custom/js/jquery-ui-1.8.19.custom.min.js" type="text/javascript">
+  </script>
+  <link href="//homepath-activedt.netdna-ssl.com/content/css/build/56688-6274/search.css" rel="stylesheet" type="text/css"/>
+  <script language="javaScript" type="text/javascript">
+   var customeIconMap = "//homepath-activedt.netdna-ssl.com/content/img/map/icon_point_blue.gif";
+  </script>
+  <meta content="gKv6HfvY5GRoxA4lK1ueT3DffnJmmuobDTXZNXknkBQ" name="google-site-verification"/>
+  <style>
+   <!--
+//-->
+  </style>
+  <link href="//homepath-activedt.netdna-ssl.com/content/css/build/56688-6274/style.css" media="all" rel="stylesheet" type="text/css"/>
+  <link href="//homepath-activedt.netdna-ssl.com/content/css/build/56688-6274/print.css" media="print" rel="stylesheet" type="text/css"/>
+  <!--<link rel="stylesheet" type="text/css" href="//homepath-activedt.netdna-ssl.com/css/printstyle.css" media="print" />-->
+  <style type="text/css">
+   img.userimg {width: 80px; border: 0px; height:80px}
+  </style>
+  <link href="//homepath-activedt.netdna-ssl.com/lib/thickbox-3_1/thickbox.css" media="screen" rel="stylesheet" type="text/css"/>
+  <link href="//homepath-activedt.netdna-ssl.com/css/cobrands/homepath2/boxlayout.css?v=20130320" rel="stylesheet" type="text/css"/>
+  <link href="//homepath-activedt.netdna-ssl.com/css/cobrands.css" rel="stylesheet" type="text/css"/>
+  <link href="//homepath-activedt.netdna-ssl.com/css/cobrands/homepath2/theme.css" rel="stylesheet" type="text/css"/>
+  <link href="//homepath-activedt.netdna-ssl.com/css/cobrands/homepath2/homepath.css?v=2013-02-28-12-05" rel="stylesheet" type="text/css"/>
+  <link href="//homepath-activedt.netdna-ssl.com/css/cobrands/homepath2/style.css?v=062613" rel="stylesheet" type="text/css"/>
+  <link href="//homepath-activedt.netdna-ssl.com/css/cobrands/homepath2/print2.css" media="print" rel="stylesheet" type="text/css"/>
+  <link href="//homepath-activedt.netdna-ssl.com/lib/stouch/resources/img/icon.png" rel="apple-touch-icon"/>
+  <link href="//homepath-activedt.netdna-ssl.com/lib/stouch/resources/img/icon144.png" rel="apple-touch-icon-precomposed" sizes="144x144"/>
+  <link href="//homepath-activedt.netdna-ssl.com/lib/stouch/resources/img/icon114.png" rel="apple-touch-icon-precomposed" sizes="114x114"/>
+  <link href="//homepath-activedt.netdna-ssl.com/lib/stouch/resources/img/icon72.png" rel="apple-touch-icon-precomposed" sizes="72x72"/>
+  <link href="//homepath-activedt.netdna-ssl.com/lib/stouch/resources/img/icon57.png" rel="apple-touch-icon-precomposed"/>
+  <script>
+   var userAgent = navigator.userAgent.toLowerCase();
+$j.browser.chrome = /chrome/.test(userAgent);
+if($j.browser.chrome){
+userAgent = userAgent.substring(userAgent.indexOf('chrome/') +7);
+userAgent = userAgent.substring(0,userAgent.indexOf('.'));
+$j.browser.version = userAgent;
+$j.browser.safari = false;
+}
+if($j.browser.safari){
+userAgent = userAgent.substring(userAgent.indexOf('safari/') +7);
+userAgent = userAgent.substring(0,userAgent.indexOf('.'));
+$j.browser.version = userAgent;
+}
+  </script>
+  <script src="//homepath-activedt.netdna-ssl.com/lib/thickbox-3_1/thickbox-compressed-noConflict.js" type="text/javascript">
+  </script>
+  <script src="//homepath-activedt.netdna-ssl.com/lib/jquery-google-analytics/jquery.google-analytics.js?v=1" type="text/javascript">
+  </script>
+  <script src="//homepath-activedt.netdna-ssl.com/lib/jquery-dropmenu/dropmenu.js" type="text/javascript">
+  </script>
+  <script src="//homepath-activedt.netdna-ssl.com/lib/jquery-validate/jquery.validate.min.js" type="text/javascript">
+  </script>
+  <script type="text/javascript">
+   $j.trackPage('UA-10118137-1');
+  </script>
+  <script>
+   function setCookie(name, value, expires, path, domain, secure) {
+var today = new Date();
+today.setTime( today.getTime() );
+if ( expires )
+{
+expires = expires * 1000 * 60 * 60 * 24;
+}
+var expires_date = new Date( today.getTime() + (expires) );
+document.cookie = name + "=" +escape( value ) +
+( ( expires ) ? ";expires=" + expires_date.toGMTString() : "" ) + //expires.toGMTString()
+( ( path ) ? ";path=" + path : "" ) +
+( ( domain ) ? ";domain=" + domain : "" ) +
+( ( secure ) ? ";secure" : "" );
+}
+function getCookie(name) {
+var dc = document.cookie;
+var prefix = name + "=";
+var begin = dc.indexOf("; " + prefix);
+if (begin == -1) {
+begin = dc.indexOf(prefix);
+if (begin != 0) return null;
+} else {
+begin += 2;
+}
+var end = document.cookie.indexOf(";", begin);
+if (end == -1) {
+end = dc.length;
+}
+return unescape(dc.substring(begin + prefix.length, end));
+}
+$j(document).ready(function(){
+$j(".fraud-info-trigger").fancybox({
+'titlePosition' : 'inside',
+'transitionIn' : 'none',
+'transitionOut' : 'none'
+});
+// START FNM-618: Add Disclaimer to Housing and School information
+var url = null;
+var showExtUrlDisclaimerCookieName = 'showExtUrlDisclaimer';
+// END FNM-618: Add Disclaimer to Housing and School information
+if($j.browser.msie){
+$j('.transparent_png').each(function(i,item){
+var imgSrc = $j(item).attr('src');
+$j(item).css('filter', "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + imgSrc + "', sizingMethod='scale')");
+$j(item).attr('src', '//homepath-activedt.netdna-ssl.com/css/cobrands/homepath/blank.gif');
+});
+}
+$j('.btnMessageSave').live("click", function() {
+$j('#error_popup').hide(400);
+$j("#logInMessage").text("Please log in or register before saving this listing.");
+tb_show('','#TB_inline?height=250&width=320&inlineId=mlrCo&modal=true', false);
+});
+$j("#tbClose").click(function() {
+$j("#password").val("");
+tb_remove();
+});
+// START FNM-618: Add Disclaimer to Housing and School information
+$j(".extUrlDisclaimer").click(function(){
+url = $j(this).attr("title");
+if(getCookie( showExtUrlDisclaimerCookieName ) != null && getCookie( showExtUrlDisclaimerCookieName ) == '1'){
+poptastic(url);
+}else{
+tb_show('','#TB_inline?height=210&width=420&inlineId=extUrlDisclaimer&modal=true', false);
+}
+});
+$j(".extUrlDisclaimerClose").click(function() {
+tb_remove();
+$j('input[name=extUrlDisclaimerCheckbox]').attr('checked', false);
+});
+$j(".extUrlDisclaimerContinue").click(function() {
+if($j('input[name=extUrlDisclaimerCheckbox]').is(':checked')){
+setCookie( showExtUrlDisclaimerCookieName, '1' );
+}
+poptastic(url);
+$j('input[name=extUrlDisclaimerCheckbox]').attr('checked', false);
+tb_remove();
+});
+// END FNM-618: Add Disclaimer to Housing and School information
+$j('#twitterHomePath').track({
+category : 'twitter FannieHomePath',
+label : function(element) { return element.attr('alt');},
+skip_internal : false
+});
+var dropmenuSet = {
+openClick: false,
+openSpeed:100,
+closeSpeed:100,
+closeDelay:400 };
+$j("#userNav").dropmenu(dropmenuSet);
+$j("#userNavLogin").validate({
+submitHandler : function(form) {
+var validFrom = $j("#txtUser").valid();
+validFrom = $j("#txtpass").valid();
+if(validFrom){
+$j("#btnLogin").hide();
+form.submit();
+}
+},
+errorLabelContainer: "#errorLabelSubNav",
+wrapper : "li",
+rules: {
+"key": {
+required : true
+},
+"password": {
+required : true
+}
+},
+messages: {
+"key": {
+required : "Email is required."
+},
+"password": {
+required : "Password is required."
+}
+}
+});
+$j('#txtUser, #txtpass').live('input', function(){
+setTimeout(checkFields, 10);
+});
+function checkFields(){
+$j('#txtUser, #txtpass').each(function(i, el){
+if($j(el).val() != ""){
+$j(el).parent().find('.overlabel').hide();
+}
+});
+}
+$j(".overlabel").live('click', function(){ $j(this).hide(); $j(this).parent().find('input').focus();});
+if($j('#txtUser').val() != ""){
+$j('#txtUser').parents(".overlay_wrapper").find(".overlabel").hide();
+}
+if($j('#txtpass').val() != ""){
+$j('#txtpass').parents(".overlay_wrapper").find(".overlabel").hide();
+}
+$j('#txtUser').live("focus", function() {
+$j('#txtUser').parents(".overlay_wrapper").find(".overlabel").hide();
+});
+$j('#txtUser').live("blur", function() {
+if($j('#txtUser').val() == ""){
+$j('#txtUser').parents(".overlay_wrapper").find(".overlabel").show();
+}
+});
+$j('#txtpass').live("blur", function() {
+if($j('#txtpass').val() == ""){
+$j('#txtpass').parents(".overlay_wrapper").find(".overlabel").show();
+}
+});
+$j('#txtpass').live("focus", function() {
+$j('#txtpass').parents(".overlay_wrapper").find(".overlabel").hide();
+});
+});
+$j(function(){
+$j('.btnMessageSave').live("click", function() {
+$j('#error_popup').hide(400);
+$j("#logInMessage").text("Please log in or register before saving this listing.");
+tb_show('','#TB_inline?height=250&width=320&inlineId=mlrCo&modal=true', false);
+});
+$j('#tbClose').live("click", function() {
+$j("#password").val("");
+tb_remove();
+});
+$j('#btnRefreshImage').live("click", function() {
+$j("#userVerification").attr("method","get");
+$j("#userVerification").submit();
+return false;
+});
+});
+function changeURL(value) {
+URL = "/listing/search?pg=1&o=sscs&loc=Portage County, OH&pi=0&ps=10&saveListing="+value;
+$j("#referralUrlLogin").val(URL);
+}
+function closeListingAgentBanner(){
+setCookie('showListingAgentBanner', 'false', null, '/');
+$j('#hpListingAgentBanner').remove();
+}
+var browserMake = '';
+function isBrowserCompatible(){
+if($j.browser.msie){
+browserMake = 'IE';
+if($j.browser.version < 8){
+return false;
+}
+}
+if($j.browser.mozilla){
+browserMake = 'Firefox';
+if($j.browser.version < 5){
+return false;
+}
+}
+if($j.browser.opera){
+browserMake = 'Opera';
+if($j.browser.version < 10.5){
+return false;
+}
+}
+if($j.browser.safari){
+browserMake = 'Safari';
+if($j.browser.version < 400){
+return false;
+}
+}
+return true;
+}
+function hide_brch_banner(){
+setCookie('hbck', '1', null, '/');
+$j('#browser_compat_warning').hide();
+return false;
+}
+var _prum = [['id', '517e8661abe53d8661000000'],
+['mark', 'firstbyte', (new Date()).getTime()]];
+(function() {
+var s = document.getElementsByTagName('script')[0]
+, p = document.createElement('script');
+p.async = 'async';
+p.src = '//rum-static.pingdom.net/prum.min.js';
+s.parentNode.insertBefore(p, s);
+})();
+  </script>
+  <script src="//homepath-activedt.netdna-ssl.com/lib/foresee/foresee-trigger.js" type="text/javascript">
+  </script>
+ </head>
+ <body>
+  <div id="hp_outerwrap">
+   <div id="hp_innerwrap" style="margin-bottom: 0px; padding-bottom: 0px;">
+    <!-- Start Masthead -->
+    <div id="hp_headerwrap">
+     <div id="hp_header">
+      <div id="hp_LogMenu" style="font-family: Arial, Helvetica, sans-serif; font-size: 11px;">
+       <ul id="userNav">
+        <li>
+         <a href="#">
+          Log In
+          <span class="arrow">
+          </span>
+         </a>
+         <div class="subNav">
+          <span class="arrowNav">
+          </span>
+          <span class="arrowNavc">
+          </span>
+          <div class="subNavcont">
+           <div class="rapSubNav">
+            <div class="left" id="headtxtLogin">
+             Log In
+            </div>
+            <div class="right" id="headtxtRegistered">
+             <a href="/hp/registration.html">
+              Not Registered?
+             </a>
+            </div>
+            <form action="https://www.homepath.com/hp/login.html" class="clearUserLogin" id="userNavLogin" method="post" name="login">
+             <div class="login">
+              <ul id="errorLabelSubNav" style="display: none;">
+              </ul>
+              <span class="overlay_wrapper">
+               <label class="overlabel" for="key">
+                Email
+               </label>
+               <input class="overlayable required" id="txtUser" name="key" type="text" value=""/>
+              </span>
+              <span class="overlay_wrapper">
+               <label class="overlabel" for="password">
+                Password
+               </label>
+               <input autocapitalize="off" autocomplete="on" autocorrect="off" class="overlayable required" id="txtpass" name="password" type="password"/>
+              </span>
+              <p style="padding-right: 0px; padding-bottom: 5px;">
+               By logging in, I confirm my agreement with HomePath.com's
+               <a href="http://www.fanniemae.com/portal/legal-disclosure.html" target="_blank">
+                Legal Disclosure
+               </a>
+               and
+               <a href="http://www.fanniemae.com/portal/privacy-statement.html" target="_blank">
+                Privacy Policy
+               </a>
+              </p>
+              <div class="left" style="padding-top: 5px;">
+               <input name="rememberMe" style="margin-left: 0px;" type="checkbox" value="true"/>
+               <label for="rememberMe" style="width: 80px; font-size: 11px;">
+                Remember me
+               </label>
+              </div>
+              <div class="right">
+               <button id="btnLogin">
+                Log in
+                <img src="//homepath-activedt.netdna-ssl.com/css/cobrands/homepath2/arrowleft.png"/>
+               </button>
+              </div>
+              <input id="referralUrl" name="referralUrl" type="hidden" value="/"/>
+              <input name="serviceProviderName" type="hidden" value="homepath"/>
+              <div class="clearUserLogin">
+               <p style="padding:5px 0 0 0;">
+                Do not check this option if using a public or shared computer
+               </p>
+              </div>
+             </div>
+            </form>
+           </div>
+           <div class="userNavFooter">
+            <a href="/lostaccess.html">
+             Forgot your password?
+            </a>
+            <a href="/changepassword.html">
+             Want to change your password?
+            </a>
+           </div>
+          </div>
+         </div>
+        </li>
+       </ul>
+      </div>
+      <div id="hp_logo" style="margin-top: 5px;">
+       <a href="/" target="_parent">
+        <img alt="HomePath.com" class="transparent_pngs" height="57" src="//homepath-activedt.netdna-ssl.com/css/cobrands/homepath2/logo_t-081611.gif" style="" width="256"/>
+       </a>
+      </div>
+     </div>
+    </div>
+    <div align="center" class="hp_NewMenu">
+     <ul>
+      <li class="home padtop">
+       <a href="/index.html">
+        Find Homes
+       </a>
+      </li>
+      <li class="financing">
+       <a href="/financing.html">
+        Financing
+       </a>
+      </li>
+      <li class="incentives">
+       <a href="/incentives.html" target="_parent">
+        Offers &amp; Incentives
+       </a>
+      </li>
+      <li class="resources">
+       <a href="/resources.html">
+        Resources
+       </a>
+      </li>
+      <li class="realestate">
+       <a href="/realestate.html">
+        Real Estate Professionals
+       </a>
+      </li>
+      <li class="investor padtop">
+       <a href="/investors.html">
+        Investors
+       </a>
+      </li>
+      <li class="shortsales padtop">
+       <a href="http://www.homepathshortsales.com">
+        Short Sale
+       </a>
+      </li>
+     </ul>
+    </div>
+    <div class="hp_NewMenu_bg">
+    </div>
+    <!-- End Masthead -->
+    <script>
+     $j(function(){
+$j("#topbarOneBox").autocomplete({
+source: function( request, response ) {
+$j.ajax({
+url: "/location/select",
+dataType: "json",
+data: {
+limit: 10,
+q: request.term
+},
+success: function( data ) {
+if(data != null){
+response( $j.map( data, function( item ) {
+return {
+label: item.label,
+value: item.label
+}
+}));
+}
+}
+});
+},
+minLength: 3,
+select: function( event, ui ) {
+},
+open: function() {
+$j( this ).removeClass( "ui-corner-all" ).addClass( "ui-corner-top" );
+},
+close: function() {
+$j( this ).removeClass( "ui-corner-top" ).addClass( "ui-corner-all" );
+}
+});
+$j('#searchTopbarOneBox').live("click", function() {
+if ($j("#topbarOneBox").val() == "Address, County or City, State or Zip Code(s) or MLS#"){
+if( $j('#src_ref').val() == "" && $j('#mlsid').val() == ""){
+$j("#errorTopbarSearch").text("Please enter an Address, County or City, State or Zip Code(s) or MLS#.");
+return false;
+}else{
+$j("#topbarOneBox").val("");
+}
+}else if($j("#topbarOneBox").val() == ""){
+$j("#errorTopbarSearch").text("Please enter an Address, County or City, State or Zip Code(s) or MLS#.");
+return false;
+}
+});
+$j('#advancedSearchToggle').click(function(){
+if($j(this).hasClass('advanced')){
+$j('#topsearchAdvancedOptions').slideUp('fast', function(){
+$j('#searchTopbarOneBox').fadeOut('fast', function(){
+$j('#searchTopbarOneBox').appendTo('#searchButtonHolder1');
+});
+});
+$j(this).removeClass('advanced');
+$j(this).html('Advanced Search');
+// store search query value, reset form, restore search query
+var searchQuery = $j('#topbarOneBox').val();
+$j('#topbarsearchform')[0].reset();
+$j('#topbarOneBox').val(searchQuery);
+} else {
+$j('#topsearchAdvancedOptions').slideDown('fast', function(){
+$j('#searchTopbarOneBox').fadeOut('fast', function(){
+$j('#searchTopbarOneBox').appendTo('#searchButtonHolder2').fadeIn('fast');
+});
+});
+$j(this).addClass('advanced');
+$j(this).html('Simple Search');
+}
+});
+});
+function expandMultipleZip(){
+$j('#hp_zip').height(80);
+$j('#expandMultipleZip').hide();
+$j('#decreaseMultipleZip').show();
+}
+function decreaseMultipleZip(){
+$j('#hp_zip').height(14);
+$j('#expandMultipleZip').show();
+$j('#decreaseMultipleZip').hide();
+}
+function clearBlur(input, valInput){
+if($j(input).val() == ''){
+$j(input).val(valInput);
+}
+}
+function clearClick(input, valInput){
+if($j(input).val() == valInput){
+$j(input).val('');
+$j("#errorTopbarSearch").text("");
+}
+}
+    </script>
+    <div id="topsearch">
+     <form action="/listing/search" id="topbarsearchform" method="get">
+      <input name="ps" type="hidden" value="10"/>
+      <input name="o" type="hidden" value="sscs"/>
+      <input name="ob" type="hidden" value=""/>
+      <div id="errorTopbarSearch">
+      </div>
+      <input id="topbarOneBox" name="q" onblur="clearBlur('#topbarOneBox', 'Address, County or City, State or Zip Code(s) or MLS#');" onclick="clearClick('#topbarOneBox', 'Address, County or City, State or Zip Code(s) or MLS#');" style="font-size: 15px; font-weight:bold; width: 416px; color: #999999; padding:4px;" type="text" value="Portage County, OH"/>
+      <div id="searchButtonHolder1" style="display:inline-block;width:83px;">
+       <input id="searchTopbarOneBox" style="vertical-align:middle; background: url('//homepath-activedt.netdna-ssl.com/css/img/details/topbarSearchBtn.png') repeat scroll 0 0 transparent; border: none; width: 83px; height: 28px;cursor:pointer;" type="submit" value=""/>
+      </div>
+     </form>
+    </div>
+    <div id="subheader">
+     <div id="hp_subheader_breadcrumb">
+      <div class="breadcrumb" id="breadcrumbMain">
+       <a href="http://www.homepath.com/">
+        Home
+       </a>
+       ›
+       <a href="/state/oh.html">
+        Ohio
+       </a>
+       › Portage County
+      </div>
+     </div>
+     <div style="clear:both;">
+     </div>
+    </div>
+    <div class="boxbody ">
+     <div class="breadcrumb" id="breadcrumbMain">
+      <a href="http://www.homepath.com/">
+       Home
+      </a>
+      ›
+      <a href="/state/oh.html">
+       Ohio
+      </a>
+      › Portage County
+     </div>
+     <link href="//homepath-activedt.netdna-ssl.com/lib/jquery-fancybox/jquery.fancybox-1.3.4.css" media="screen" rel="stylesheet" type="text/css"/>
+     <script src="//homepath-activedt.netdna-ssl.com/lib/jquery-cycle/jquery.cycle.all.min.js" type="text/javascript">
+     </script>
+     <script src="//homepath-activedt.netdna-ssl.com/lib/jquery-fancybox/jquery.fancybox-1.3.4.pack.js" type="text/javascript">
+     </script>
+     <script src="//homepath-activedt.netdna-ssl.com/lib/history-js/scripts/bundled/html4+html5/jquery.history.js">
+     </script>
+     <div id="contRefineSearch">
+      <div id="refineSearchCont">
+       <script language="javaScript" type="text/javascript">
+        var pi = 0;
+var pa = 500000;
+var ms = 0;
+var xs = 3500;
+       </script>
+       <form action="/listing/search" name="SearchPro">
+        <input autocomplete="off" name="loc" type="hidden" value="Portage County, OH"/>
+        <div class="hdFilter">
+         Search
+         <img src="//homepath-activedt.netdna-ssl.com/content/img/arrowd.png"/>
+        </div>
+        <div class="contFilter" id="contLocation">
+         <div id="loginandSaveThisSearch">
+          <img height="15" src="//homepath-activedt.netdna-ssl.com/css/img/icon_bookmark.gif" width="8"/>
+          Save this search
+         </div>
+         <label id="labelLocation">
+         </label>
+         <input class="inputbox" id="location" name="q" type="text" value="Portage County, OH"/>
+         <div id="errorLocation">
+         </div>
+         <div class="hide" id="updateLocationCon">
+          <a class="updateButtonLocation" href="#" id="updateLocation" title="Update Search Results">
+           <img src="//homepath-activedt.netdna-ssl.com/content/img/btn_update.png"/>
+          </a>
+          <a href="#" id="locationCancel">
+           Cancel
+          </a>
+         </div>
+        </div>
+        <div class="hdFilter">
+         Price
+         <img src="//homepath-activedt.netdna-ssl.com/content/img/arrowd.png"/>
+        </div>
+        <div class="contFilter" id="contPrice">
+         <div id="amount">
+         </div>
+         <input autocomplete="off" name="pi" type="hidden" value="0"/>
+         <input autocomplete="off" name="pa" type="hidden" value=""/>
+         <div id="slider-range">
+         </div>
+         <div class="clear">
+         </div>
+        </div>
+        <div class="hdFilter">
+         Bedrooms
+         <img src="//homepath-activedt.netdna-ssl.com/content/img/arrowd.png"/>
+        </div>
+        <div class="contFilter" id="contBeds">
+         <label class="headRS" for="bdi">
+          <input checked="checked" name="bdi" type="radio" value=""/>
+          Any (30)
+         </label>
+         <label class="headRS" for="bdi">
+          <input name="bdi" type="radio" value="1"/>
+          1+ (30)
+         </label>
+         <label class="headRS" for="bdi">
+          <input name="bdi" type="radio" value="2"/>
+          2+ (30)
+         </label>
+         <label class="headRS" for="bdi">
+          <input name="bdi" type="radio" value="3"/>
+          3+ (28)
+         </label>
+         <label class="headRS" for="bdi">
+          <input name="bdi" type="radio" value="4"/>
+          4+ (8)
+         </label>
+         <label class="headRS" for="bdi">
+          <input name="bdi" type="radio" value="5"/>
+          5+ (0)
+         </label>
+         <div class="clear">
+         </div>
+        </div>
+        <div class="hdFilter">
+         Bathrooms
+         <img src="//homepath-activedt.netdna-ssl.com/content/img/arrowd.png"/>
+        </div>
+        <div class="contFilter" id="contBath">
+         <label class="headRS" for="bhi">
+          <input checked="checked" name="bhi" type="radio" value=""/>
+          Any (30)
+         </label>
+         <label class="headRS" for="bhi">
+          <input name="bhi" type="radio" value="1"/>
+          1+ (30)
+         </label>
+         <label class="headRS" for="bhi">
+          <input name="bhi" type="radio" value="2"/>
+          2+ (20)
+         </label>
+         <label class="headRS" for="bhi">
+          <input name="bhi" type="radio" value="3"/>
+          3+ (7)
+         </label>
+         <label class="headRS" for="bhi">
+          <input name="bhi" type="radio" value="4"/>
+          4+ (1)
+         </label>
+         <label class="headRS" for="bhi">
+          <input name="bhi" type="radio" value="5"/>
+          5+ (0)
+         </label>
+         <div class="clear">
+         </div>
+        </div>
+        <div class="hdFilter">
+         Financing
+         <img src="//homepath-activedt.netdna-ssl.com/content/img/arrowd.png"/>
+        </div>
+        <div class="contFilter" id="contFinancing">
+         <div class="left">
+          <input name="rfa" type="checkbox" value="yes"/>
+          <img border="0" height="30" src="//homepath-activedt.netdna-ssl.com/css/cobrands/homepath2/hpmortgage.png" width="57"/>
+         </div>
+         <div class="right">
+          <input name="rnfa" type="checkbox" value="yes"/>
+          <img border="0" height="30" src="//homepath-activedt.netdna-ssl.com/css/cobrands/homepath2/hprenovationmortgage.png" width="57"/>
+         </div>
+         <div class="clear">
+         </div>
+        </div>
+        <div class="hdFilter">
+         Living Area
+         <img src="//homepath-activedt.netdna-ssl.com/content/img/arrowd.png"/>
+        </div>
+        <div class="contFilter" id="contLivingArea">
+         <div id="livingAreaAmount">
+         </div>
+         <input autocomplete="off" name="ms" type="hidden" value=""/>
+         <input autocomplete="off" name="xs" type="hidden" value=""/>
+         <div id="livingAreaAmountSliderRange">
+         </div>
+         <div class="clear">
+         </div>
+        </div>
+        <div class="hdFilter">
+         Property Type
+         <img src="//homepath-activedt.netdna-ssl.com/content/img/arrowr.png"/>
+        </div>
+        <div class="contFilter" id="contPropertyType" style="display: none;">
+         <label class="headRS" for="pt">
+          <input checked="" name="ptany" type="checkbox" value=""/>
+          Any
+         </label>
+         <label class="headRS" for="pt">
+          <input name="pt" type="checkbox" value="sf"/>
+          Single-Family
+         </label>
+         <label class="headRS" for="pt">
+          <input name="pt" type="checkbox" value="co"/>
+          Condo/Co-op
+         </label>
+         <label class="headRS" for="pt">
+          <input name="pt" type="checkbox" value="mf"/>
+          2-4 Units
+         </label>
+         <label class="headRS" for="pt">
+          <input name="pt" type="checkbox" value="mh"/>
+          Manufactured Housing
+         </label>
+        </div>
+        <div class="hdFilter">
+         Property Status
+         <img src="//homepath-activedt.netdna-ssl.com/content/img/arrowr.png"/>
+        </div>
+        <div class="contFilter" id="contPropertyStatus" style="display: none;">
+         <label class="headRS" for="srcst">
+          <input checked="" name="srcstany" type="checkbox" value=""/>
+          Any
+         </label>
+         <label class="headRS" for="srcst">
+          <input name="srcst" type="checkbox" value="active"/>
+          Active
+         </label>
+         <label class="headRS" for="srcst">
+          <input name="srcst" type="checkbox" value="just listed"/>
+          Just Listed
+         </label>
+         <label class="headRS" for="srcst">
+          <input name="srcst" type="checkbox" value="back on market"/>
+          Back on Market
+         </label>
+         <label class="headRS" for="srcst">
+          <input name="srcst" type="checkbox" value="price reduced"/>
+          Price Reduced
+         </label>
+         <label class="headRS" for="srcst">
+          <input name="srcst" type="checkbox" value="under contract"/>
+          Under Contract
+         </label>
+         <label class="headRS" for="srcst">
+          <input name="srcst" type="checkbox" value="coming soon"/>
+          Coming Soon
+         </label>
+        </div>
+        <div class="hdFilter">
+         Other
+         <img src="//homepath-activedt.netdna-ssl.com/content/img/arrowd.png"/>
+        </div>
+        <div class="contFilter" id="contOther">
+         <label class="headRS" for="otherAny">
+          <input checked="" name="otherAny" type="checkbox" value=""/>
+          Any
+         </label>
+         <label class="headRS" for="ptsf">
+          <input name="openhouse" type="checkbox" value="yes"/>
+          Open House
+         </label>
+         <label class="headRS" for="ptsf">
+          <input name="mc" type="checkbox" value="first look"/>
+          First Look Program
+         </label>
+         <label class="headRS" for="ptsf">
+          <input name="tc" type="checkbox" value="tenant occupied"/>
+          Tenant Occupied
+         </label>
+         <label class="headRS" for="ptsf">
+          <input name="auct" type="checkbox" value="true"/>
+          Auction
+         </label>
+         <label class="headRS" for="ptsf">
+          <input name="incnt" type="checkbox" value="true"/>
+          Incentive
+         </label>
+        </div>
+        <input autocomplete="off" id="currentPageNumber" type="hidden" value="1"/>
+        <input autocomplete="off" id="Number" type="hidden" value="2"/>
+        <input autocomplete="off" id="previousPageNumber" type="hidden" value="-1"/>
+        <input autocomplete="off" name="boundingTopLeft" type="hidden" value=""/>
+        <input autocomplete="off" name="boundingBottomRight" type="hidden" value=""/>
+        <input autocomplete="off" name="fragments" type="hidden" value="filters,header,results,footer"/>
+        <input autocomplete="off" name="st" type="hidden" value=""/>
+        <input autocomplete="off" name="cno" type="hidden" value=""/>
+        <input autocomplete="off" name="ci" type="hidden" value=""/>
+        <input autocomplete="off" name="ps" type="hidden" value="10"/>
+        <input autocomplete="off" name="pg" type="hidden" value="1"/>
+        <input autocomplete="off" name="o" type="hidden" value="sscs"/>
+        <input autocomplete="off" name="ob" type="hidden" value=""/>
+       </form>
+      </div>
+     </div>
+     <div id="contMain">
+      <div id="contList">
+       <div class="resultsHeadBar" id="fragmentsSearchHeader">
+        <div class="SearchResultCountBar">
+         Listing Results
+         <span class="pageNumber">
+          <strong>
+           Page
+           <span id="currentPageNumberText">
+            1
+           </span>
+           -
+           <span id="totalPageNumberText">
+            10
+           </span>
+          </strong>
+         </span>
+         of
+         <strong>
+          30
+         </strong>
+        </div>
+        <div class="propPerPageContr">
+         Display
+         <select name="propage">
+          <option selected="" value="10">
+           10
+          </option>
+          <option value="25">
+           25
+          </option>
+          <option value="50">
+           50
+          </option>
+          <option value="100">
+           100
+          </option>
+         </select>
+         Listings per page
+        </div>
+        <div class="mapControl">
+         <span id="hidemapbtn">
+          <img height="16" src="//homepath-activedt.netdna-ssl.com/css/img/icon-map-small.gif" width="16"/>
+          Hide Map
+         </span>
+         <span class="hidden" id="showmapbtn">
+          <img height="16" src="//homepath-activedt.netdna-ssl.com/css/img/icon-map-small.gif" width="16"/>
+          Show Map
+         </span>
+        </div>
+        <div id="paginationTop">
+         <span class="disablePagePrev" id="pagePrevBottom">
+         </span>
+         <span id="currentPageNumberTextBottom">
+          1
+         </span>
+         <a href="javascript:;" onclick="gotoPage(2)">
+          2
+         </a>
+         <a href="javascript:;" onclick="gotoPage(3)">
+          3
+         </a>
+         <a alt="Next" href="javascript:;" id="pageNextBottom" onclick="pageNext(2);">
+          Next
+         </a>
+        </div>
+        <div class="clear">
+        </div>
+       </div>
+       <div id="conMap">
+        <div id="mapCont">
+         <a name="map">
+         </a>
+         <div id="propMap" style="position:relative; width:728px; height:250px;">
+         </div>
+        </div>
+       </div>
+       <div id="resultsListView">
+        <div id="resultList">
+         <div id="fragmentsSearchResults">
+          <table border="0" cellpading="0" cellspacing="0" class="multipleLinesSearchResults">
+           <thead>
+            <tr>
+             <th class="dg_th_thumb">
+              <span class="sortOptionClick" id="ph" onclick="orderBy('ph');">
+               <img class="iconCamara" src="//homepath-activedt.netdna-ssl.com/content/img/icon-camara-photo.gif"/>
+               <img class="sortArrow" src="//homepath-activedt.netdna-ssl.com/content/img/iconDownGray.gif"/>
+              </span>
+             </th>
+             <th class="headStreet">
+              <span class="sortOptionClick" id="s" onclick="orderBy('s');">
+               Address
+               <img class="sortArrow" src="//homepath-activedt.netdna-ssl.com/content/img/iconDownGray.gif"/>
+              </span>
+             </th>
+             <th class="headCity">
+              <span class="sortOptionClick" id="ci" onclick="orderBy('ci');">
+               City
+               <img class="sortArrow" src="//homepath-activedt.netdna-ssl.com/content/img/iconDownGray.gif"/>
+              </span>
+             </th>
+             <th class="headZip">
+              <span class="sortOptionClick" id="z" onclick="orderBy('z');">
+               Zip
+               <img class="sortArrow" src="//homepath-activedt.netdna-ssl.com/content/img/iconDownGray.gif"/>
+              </span>
+             </th>
+             <th class="dg_th_price">
+              <span class="sortOptionClick " id="p" onclick="orderBy('p');">
+               Price
+               <img class="sortArrow" src="//homepath-activedt.netdna-ssl.com/content/img/iconDownGray.gif"/>
+              </span>
+             </th>
+             <th class="dg_th_bedrooms">
+              <span class="sortOptionClick " id="bd" onclick="orderBy('bd');">
+               Bed
+               <img class="sortArrow" src="//homepath-activedt.netdna-ssl.com/content/img/iconDownGray.gif"/>
+              </span>
+             </th>
+             <th class="dg_th_baths">
+              <span class="sortOptionClick " id="bh" onclick="orderBy('bh')">
+               Bath
+               <img class="sortArrow" src="//homepath-activedt.netdna-ssl.com/content/img/iconDownGray.gif"/>
+              </span>
+             </th>
+             <th class="dg_th_srcs">
+              <span class="sortOptionClick " id="srcs" onclick="orderBy('srcs');">
+               Status
+               <img class="sortArrow" src="//homepath-activedt.netdna-ssl.com/content/img/iconDownGray.gif"/>
+              </span>
+             </th>
+             <th class="dg_th_propertyType">
+              <span class="sortOptionClick " id="pt" onclick="orderBy('pt');">
+               Property Type
+               <img class="sortArrow" src="//homepath-activedt.netdna-ssl.com/content/img/iconDownGray.gif"/>
+              </span>
+             </th>
+             <th class="headExtra">
+             </th>
+            </tr>
+           </thead>
+           <tbody id="listingRowsHtml">
+            <tr class="odd rowt " id="record_0">
+             <td class="houseImg" rowspan="2">
+              <a class="tooltipImage" href="/listing?listingid=40235435
+" rel="//homepath-activedt.netdna-ssl.com/homepathlistingphoto.html?thumbnail=true&amp;pp=true&amp;type=c&amp;s=0440324553&amp;d=6556594991&amp;w=250&amp;h=166&amp;t=2013071105&amp;pse=6776353435" target="_top">
+               <img border="0" class="checkLoadImg" height="53" src="//homepath-activedt.netdna-ssl.com/homepathlistingphoto.html?thumbnail=true&amp;pp=true&amp;type=c&amp;s=0440324553&amp;d=6556594991&amp;w=250&amp;h=166&amp;t=2013071105&amp;pse=6776353435" width="80"/>
+              </a>
+             </td>
+             <td colspan="3">
+              <p>
+               <a class="address" href="/listing?listingid=40235435
+" target="_top">
+                11017 Asbury Rd
+                <br/>
+                Hiram, OH 44234
+               </a>
+              </p>
+             </td>
+             <td style="padding-right: 10px;">
+              <p class="housePrice">
+               $104,000
+              </p>
+             </td>
+             <td>
+              <p class="dgbed">
+               3 br
+              </p>
+             </td>
+             <td>
+              <p class="dgbath">
+               2 ba
+              </p>
+             </td>
+             <td>
+              <p class="active">
+               <span class="activelisting">
+                Just Listed
+               </span>
+              </p>
+             </td>
+             <td>
+              Single-Family
+             </td>
+             <td rowspan="2">
+              <p class="extraOptions">
+               <a href="/listing?listingid=40235435
+">
+                <img alt="First Look Program" border="0" class="firstLookSearch" height="18" src="//homepath-activedt.netdna-ssl.com/content/cobrands/homepath/firstLookProgram.gif" width="79"/>
+               </a>
+               <a href="/listing?listingid=40235435
+">
+                <span class="onlineOffer">
+                 ONLINE OFFER
+                </span>
+               </a>
+              </p>
+             </td>
+            </tr>
+            <tr class="mtlsTrb mtlsS odd rowb " id="record_b_0">
+             <td class="extraInfo" colspan="3">
+              <p>
+               <span>
+                <a class="actions btnMessageSave" href="javascript:;" onclick="changeURL(40235435); return false;">
+                 <img height="15" src="//homepath-activedt.netdna-ssl.com/css/img/icon_bookmark.gif" width="8"/>
+                 Save
+                </a>
+               </span>
+               <a class="actions" href="javascript:;" onclick="setTimeout('onListingMapIconClick(0); scrollToTop();',200);">
+                <img src="//homepath-activedt.netdna-ssl.com/content/img/iconMap.gif"/>
+                Map
+               </a>
+              </p>
+             </td>
+             <td class="extraInfo" colspan="5">
+             </td>
+            </tr>
+            <tr class="even rowt " id="record_1">
+             <td class="houseImg" rowspan="2">
+              <a class="tooltipImage" href="/listing?listingid=40195857
+" rel="//homepath-activedt.netdna-ssl.com/homepathlistingphoto.html?thumbnail=true&amp;pp=true&amp;type=c&amp;s=0440918575&amp;d=5225290964&amp;w=250&amp;h=166&amp;t=2013071004&amp;pse=6776848939" target="_top">
+               <img border="0" class="checkLoadImg" height="53" src="//homepath-activedt.netdna-ssl.com/homepathlistingphoto.html?thumbnail=true&amp;pp=true&amp;type=c&amp;s=0440918575&amp;d=5225290964&amp;w=250&amp;h=166&amp;t=2013071004&amp;pse=6776848939" width="80"/>
+              </a>
+             </td>
+             <td colspan="3">
+              <p>
+               <a class="address" href="/listing?listingid=40195857
+" target="_top">
+                2849 Denny Rd
+                <br/>
+                Ravenna, OH 44266
+               </a>
+              </p>
+             </td>
+             <td style="padding-right: 10px;">
+              <p class="housePrice">
+               $60,900
+              </p>
+             </td>
+             <td>
+              <p class="dgbed">
+               3 br
+              </p>
+             </td>
+             <td>
+              <p class="dgbath">
+               2 ba
+              </p>
+             </td>
+             <td>
+              <p class="active">
+               <span class="activelisting">
+                Just Listed
+               </span>
+              </p>
+             </td>
+             <td>
+              Single-Family
+             </td>
+             <td rowspan="2">
+              <p class="extraOptions">
+               <a href="/listing?listingid=40195857
+">
+                <img alt="First Look Program" border="0" class="firstLookSearch" height="18" src="//homepath-activedt.netdna-ssl.com/content/cobrands/homepath/firstLookProgram.gif" width="79"/>
+               </a>
+               <a href="/listing?listingid=40195857
+">
+                <span class="onlineOffer">
+                 ONLINE OFFER
+                </span>
+               </a>
+              </p>
+             </td>
+            </tr>
+            <tr class="mtlsTrb mtlsS even rowb " id="record_b_1">
+             <td class="extraInfo" colspan="3">
+              <p>
+               <span>
+                <a class="actions btnMessageSave" href="javascript:;" onclick="changeURL(40195857); return false;">
+                 <img height="15" src="//homepath-activedt.netdna-ssl.com/css/img/icon_bookmark.gif" width="8"/>
+                 Save
+                </a>
+               </span>
+               <a class="actions" href="javascript:;" onclick="setTimeout('onListingMapIconClick(1); scrollToTop();',200);">
+                <img src="//homepath-activedt.netdna-ssl.com/content/img/iconMap.gif"/>
+                Map
+               </a>
+              </p>
+             </td>
+             <td class="extraInfo" colspan="5">
+             </td>
+            </tr>
+            <tr class="odd rowt " id="record_2">
+             <td class="houseImg" rowspan="2">
+              <a class="tooltipImage" href="/listing?listingid=39547489
+" rel="//homepath-activedt.netdna-ssl.com/homepathlistingphoto.html?thumbnail=true&amp;pp=true&amp;type=c&amp;s=9339454798&amp;d=6556729350&amp;w=250&amp;h=166&amp;t=2013071604&amp;pse=6776869292" target="_top">
+               <img border="0" class="checkLoadImg" height="53" src="//homepath-activedt.netdna-ssl.com/homepathlistingphoto.html?thumbnail=true&amp;pp=true&amp;type=c&amp;s=9339454798&amp;d=6556729350&amp;w=250&amp;h=166&amp;t=2013071604&amp;pse=6776869292" width="80"/>
+              </a>
+             </td>
+             <td colspan="3">
+              <p>
+               <a class="address" href="/listing?listingid=39547489
+" target="_top">
+                488 Buckingham Dr # 7
+                <br/>
+                Aurora, OH 44202
+               </a>
+              </p>
+             </td>
+             <td style="padding-right: 10px;">
+              <p class="housePrice">
+               $199,900
+              </p>
+             </td>
+             <td>
+              <p class="dgbed">
+               3 br
+              </p>
+             </td>
+             <td>
+              <p class="dgbath">
+               2.5 ba
+              </p>
+             </td>
+             <td>
+              <p class="active">
+               <span class="activelisting">
+                Just Listed
+               </span>
+              </p>
+             </td>
+             <td>
+              Condo/Co-op
+             </td>
+             <td rowspan="2">
+              <p class="extraOptions">
+               <a href="/listing?listingid=39547489
+">
+                <img alt="First Look Program" border="0" class="firstLookSearch" height="18" src="//homepath-activedt.netdna-ssl.com/content/cobrands/homepath/firstLookProgram.gif" width="79"/>
+               </a>
+               <a href="/listing?listingid=39547489
+">
+                <span class="onlineOffer">
+                 ONLINE OFFER
+                </span>
+               </a>
+              </p>
+             </td>
+            </tr>
+            <tr class="mtlsTrb mtlsS odd rowb " id="record_b_2">
+             <td class="extraInfo" colspan="3">
+              <p>
+               <span>
+                <a class="actions btnMessageSave" href="javascript:;" onclick="changeURL(39547489); return false;">
+                 <img height="15" src="//homepath-activedt.netdna-ssl.com/css/img/icon_bookmark.gif" width="8"/>
+                 Save
+                </a>
+               </span>
+               <a class="actions" href="javascript:;" onclick="setTimeout('onListingMapIconClick(2); scrollToTop();',200);">
+                <img src="//homepath-activedt.netdna-ssl.com/content/img/iconMap.gif"/>
+                Map
+               </a>
+              </p>
+             </td>
+             <td class="extraInfo" colspan="5">
+             </td>
+            </tr>
+            <tr class="even rowt " id="record_3">
+             <td class="houseImg" rowspan="2">
+              <a class="tooltipImage" href="/listing?listingid=40253317
+" rel="//homepath-activedt.netdna-ssl.com/homepathlistingphoto.html?thumbnail=true&amp;pp=true&amp;type=c&amp;s=0440523371&amp;d=7447503793&amp;w=250&amp;h=166&amp;t=2013071304&amp;pse=6776169565" target="_top">
+               <img border="0" class="checkLoadImg" height="53" src="//homepath-activedt.netdna-ssl.com/homepathlistingphoto.html?thumbnail=true&amp;pp=true&amp;type=c&amp;s=0440523371&amp;d=7447503793&amp;w=250&amp;h=166&amp;t=2013071304&amp;pse=6776169565" width="80"/>
+              </a>
+             </td>
+             <td colspan="3">
+              <p>
+               <a class="address" href="/listing?listingid=40253317
+" target="_top">
+                5073 Wayne Rd
+                <br/>
+                Mantua, OH 44255
+               </a>
+              </p>
+             </td>
+             <td style="padding-right: 10px;">
+              <p class="housePrice">
+               $234,600
+              </p>
+             </td>
+             <td>
+              <p class="dgbed">
+               4 br
+              </p>
+             </td>
+             <td>
+              <p class="dgbath">
+               3 ba
+              </p>
+             </td>
+             <td>
+              <p class="active">
+               <span class="activelisting">
+                Just Listed
+               </span>
+              </p>
+             </td>
+             <td>
+              Single-Family
+             </td>
+             <td rowspan="2">
+              <p class="extraOptions">
+               <a href="/listing?listingid=40253317
+">
+                <img alt="First Look Program" border="0" class="firstLookSearch" height="18" src="//homepath-activedt.netdna-ssl.com/content/cobrands/homepath/firstLookProgram.gif" width="79"/>
+               </a>
+               <a href="/listing?listingid=40253317
+">
+                <span class="onlineOffer">
+                 ONLINE OFFER
+                </span>
+               </a>
+              </p>
+             </td>
+            </tr>
+            <tr class="mtlsTrb mtlsS even rowb " id="record_b_3">
+             <td class="extraInfo" colspan="3">
+              <p>
+               <span>
+                <a class="actions btnMessageSave" href="javascript:;" onclick="changeURL(40253317); return false;">
+                 <img height="15" src="//homepath-activedt.netdna-ssl.com/css/img/icon_bookmark.gif" width="8"/>
+                 Save
+                </a>
+               </span>
+               <a class="actions" href="javascript:;" onclick="setTimeout('onListingMapIconClick(3); scrollToTop();',200);">
+                <img src="//homepath-activedt.netdna-ssl.com/content/img/iconMap.gif"/>
+                Map
+               </a>
+              </p>
+             </td>
+             <td class="extraInfo" colspan="5">
+             </td>
+            </tr>
+            <tr class="odd rowt " id="record_4">
+             <td class="houseImg" rowspan="2">
+              <a class="tooltipImage" href="/listing?listingid=39043865
+" rel="//homepath-activedt.netdna-ssl.com/homepathlistingphoto.html?thumbnail=true&amp;pp=true&amp;type=c&amp;s=9339408356&amp;d=4554583302&amp;w=250&amp;h=166&amp;t=2013071904&amp;pse=6776284181" target="_top">
+               <img border="0" class="checkLoadImg" height="53" src="//homepath-activedt.netdna-ssl.com/homepathlistingphoto.html?thumbnail=true&amp;pp=true&amp;type=c&amp;s=9339408356&amp;d=4554583302&amp;w=250&amp;h=166&amp;t=2013071904&amp;pse=6776284181" width="80"/>
+              </a>
+             </td>
+             <td colspan="3">
+              <p>
+               <a class="address" href="/listing?listingid=39043865
+" target="_top">
+                9512 Wolfe Rd
+                <br/>
+                Windham, OH 44288
+               </a>
+              </p>
+             </td>
+             <td style="padding-right: 10px;">
+              <p class="housePrice">
+               $74,900
+              </p>
+             </td>
+             <td>
+              <p class="dgbed">
+               3 br
+              </p>
+             </td>
+             <td>
+              <p class="dgbath">
+               2 ba
+              </p>
+             </td>
+             <td>
+              <p class="active">
+               <span class="activelisting">
+                Back on Market
+               </span>
+              </p>
+             </td>
+             <td>
+              Single-Family
+             </td>
+             <td rowspan="2">
+              <p class="extraOptions">
+               <a href="/listing?listingid=39043865
+">
+                <span class="onlineOffer">
+                 ONLINE OFFER
+                </span>
+               </a>
+              </p>
+             </td>
+            </tr>
+            <tr class="mtlsTrb mtlsS odd rowb " id="record_b_4">
+             <td class="extraInfo" colspan="3">
+              <p>
+               <span>
+                <a class="actions btnMessageSave" href="javascript:;" onclick="changeURL(39043865); return false;">
+                 <img height="15" src="//homepath-activedt.netdna-ssl.com/css/img/icon_bookmark.gif" width="8"/>
+                 Save
+                </a>
+               </span>
+               <a class="actions" href="javascript:;" onclick="setTimeout('onListingMapIconClick(4); scrollToTop();',200);">
+                <img src="//homepath-activedt.netdna-ssl.com/content/img/iconMap.gif"/>
+                Map
+               </a>
+              </p>
+             </td>
+             <td class="extraInfo" colspan="5">
+             </td>
+            </tr>
+            <tr class="even rowt " id="record_5">
+             <td class="houseImg" rowspan="2">
+              <a class="tooltipImage" href="/listing?listingid=39227562
+" rel="//homepath-activedt.netdna-ssl.com/homepathlistingphoto.html?thumbnail=true&amp;pp=true&amp;type=c&amp;s=9339225726&amp;d=1551098224&amp;w=250&amp;h=166&amp;t=2013070906&amp;pse=6776543401" target="_top">
+               <img border="0" class="checkLoadImg" height="53" src="//homepath-activedt.netdna-ssl.com/homepathlistingphoto.html?thumbnail=true&amp;pp=true&amp;type=c&amp;s=9339225726&amp;d=1551098224&amp;w=250&amp;h=166&amp;t=2013070906&amp;pse=6776543401" width="80"/>
+              </a>
+             </td>
+             <td colspan="3">
+              <p>
+               <a class="address" href="/listing?listingid=39227562
+" target="_top">
+                3041 Alliance Rd
+                <br/>
+                Rootstown, OH 44272
+               </a>
+              </p>
+             </td>
+             <td style="padding-right: 10px;">
+              <p class="housePrice">
+               $63,900
+              </p>
+             </td>
+             <td>
+              <p class="dgbed">
+               3 br
+              </p>
+             </td>
+             <td>
+              <p class="dgbath">
+               1 ba
+              </p>
+             </td>
+             <td>
+              <p class="active">
+               <span class="activelisting">
+                Back on Market
+               </span>
+              </p>
+             </td>
+             <td>
+              Single-Family
+             </td>
+             <td rowspan="2">
+              <p class="extraOptions">
+               <a href="/listing?listingid=39227562
+">
+                <span class="onlineOffer">
+                 ONLINE OFFER
+                </span>
+               </a>
+              </p>
+             </td>
+            </tr>
+            <tr class="mtlsTrb mtlsS even rowb " id="record_b_5">
+             <td class="extraInfo" colspan="3">
+              <p>
+               <span>
+                <a class="actions btnMessageSave" href="javascript:;" onclick="changeURL(39227562); return false;">
+                 <img height="15" src="//homepath-activedt.netdna-ssl.com/css/img/icon_bookmark.gif" width="8"/>
+                 Save
+                </a>
+               </span>
+               <a class="actions" href="javascript:;" onclick="setTimeout('onListingMapIconClick(5); scrollToTop();',200);">
+                <img src="//homepath-activedt.netdna-ssl.com/content/img/iconMap.gif"/>
+                Map
+               </a>
+              </p>
+             </td>
+             <td class="extraInfo" colspan="5">
+             </td>
+            </tr>
+            <tr class="odd rowt " id="record_6">
+             <td class="houseImg" rowspan="2">
+              <a class="tooltipImage" href="/listing?listingid=39043999
+" rel="//homepath-activedt.netdna-ssl.com/homepathlistingphoto.html?thumbnail=true&amp;pp=true&amp;type=c&amp;s=9339409399&amp;d=3443718165&amp;w=250&amp;h=166&amp;t=2013061805&amp;pse=5775474971" target="_top">
+               <img border="0" class="checkLoadImg" height="53" src="//homepath-activedt.netdna-ssl.com/homepathlistingphoto.html?thumbnail=true&amp;pp=true&amp;type=c&amp;s=9339409399&amp;d=3443718165&amp;w=250&amp;h=166&amp;t=2013061805&amp;pse=5775474971" width="80"/>
+              </a>
+             </td>
+             <td colspan="3">
+              <p>
+               <a class="address" href="/listing?listingid=39043999
+" target="_top">
+                713 Fairview Dr
+                <br/>
+                Aurora, OH 44202
+               </a>
+              </p>
+             </td>
+             <td style="padding-right: 10px;">
+              <p class="housePrice">
+               $69,900
+              </p>
+             </td>
+             <td>
+              <p class="dgbed">
+               4 br
+              </p>
+             </td>
+             <td>
+              <p class="dgbath">
+               2 ba
+              </p>
+             </td>
+             <td>
+              <p class="active">
+               <span class="activelisting">
+                Price Reduced
+               </span>
+              </p>
+             </td>
+             <td>
+              Single-Family
+             </td>
+             <td rowspan="2">
+              <p class="extraOptions">
+               <a href="/listing?listingid=39043999
+">
+                <span class="onlineOffer">
+                 ONLINE OFFER
+                </span>
+               </a>
+              </p>
+             </td>
+            </tr>
+            <tr class="mtlsTrb mtlsS odd rowb " id="record_b_6">
+             <td class="extraInfo" colspan="3">
+              <p>
+               <span>
+                <a class="actions btnMessageSave" href="javascript:;" onclick="changeURL(39043999); return false;">
+                 <img height="15" src="//homepath-activedt.netdna-ssl.com/css/img/icon_bookmark.gif" width="8"/>
+                 Save
+                </a>
+               </span>
+               <a class="actions" href="javascript:;" onclick="setTimeout('onListingMapIconClick(6); scrollToTop();',200);">
+                <img src="//homepath-activedt.netdna-ssl.com/content/img/iconMap.gif"/>
+                Map
+               </a>
+              </p>
+             </td>
+             <td class="extraInfo" colspan="5">
+             </td>
+            </tr>
+            <tr class="even rowt " id="record_7">
+             <td class="houseImg" rowspan="2">
+              <a class="tooltipImage" href="/listing?listingid=39054500
+" rel="//homepath-activedt.netdna-ssl.com/homepathlistingphoto.html?thumbnail=true&amp;pp=true&amp;type=c&amp;s=9339505400&amp;d=9449161638&amp;w=250&amp;h=166&amp;t=2013042505&amp;pse=3773676960" target="_top">
+               <img border="0" class="checkLoadImg" height="53" src="//homepath-activedt.netdna-ssl.com/homepathlistingphoto.html?thumbnail=true&amp;pp=true&amp;type=c&amp;s=9339505400&amp;d=9449161638&amp;w=250&amp;h=166&amp;t=2013042505&amp;pse=3773676960" width="80"/>
+              </a>
+             </td>
+             <td colspan="3">
+              <p>
+               <a class="address" href="/listing?listingid=39054500
+" target="_top">
+                3735 Orchard St
+                <br/>
+                Mogadore, OH 44260
+               </a>
+              </p>
+             </td>
+             <td style="padding-right: 10px;">
+              <p class="housePrice">
+               $69,900
+              </p>
+             </td>
+             <td>
+              <p class="dgbed">
+               3 br
+              </p>
+             </td>
+             <td>
+              <p class="dgbath">
+               1 ba
+              </p>
+             </td>
+             <td>
+              <p class="active">
+               <span class="activelisting">
+                Active
+               </span>
+              </p>
+             </td>
+             <td>
+              Single-Family
+             </td>
+             <td rowspan="2">
+              <p class="extraOptions">
+               <a href="/listing?listingid=39054500
+">
+                <span class="onlineOffer">
+                 ONLINE OFFER
+                </span>
+               </a>
+              </p>
+             </td>
+            </tr>
+            <tr class="mtlsTrb mtlsS even rowb " id="record_b_7">
+             <td class="extraInfo" colspan="3">
+              <p>
+               <span>
+                <a class="actions btnMessageSave" href="javascript:;" onclick="changeURL(39054500); return false;">
+                 <img height="15" src="//homepath-activedt.netdna-ssl.com/css/img/icon_bookmark.gif" width="8"/>
+                 Save
+                </a>
+               </span>
+               <a class="actions" href="javascript:;" onclick="setTimeout('onListingMapIconClick(7); scrollToTop();',200);">
+                <img src="//homepath-activedt.netdna-ssl.com/content/img/iconMap.gif"/>
+                Map
+               </a>
+              </p>
+             </td>
+             <td class="extraInfo" colspan="5">
+             </td>
+            </tr>
+            <tr class="odd rowt " id="record_8">
+             <td class="houseImg" rowspan="2">
+              <a class="tooltipImage" href="/listing?listingid=40134512
+" rel="//homepath-activedt.netdna-ssl.com/homepathlistingphoto.html?thumbnail=true&amp;pp=true&amp;type=c&amp;s=0440315421&amp;d=1221643158&amp;w=250&amp;h=166&amp;t=2013042505&amp;pse=" target="_top">
+               <img border="0" class="checkLoadImg" height="53" src="//homepath-activedt.netdna-ssl.com/homepathlistingphoto.html?thumbnail=true&amp;pp=true&amp;type=c&amp;s=0440315421&amp;d=1221643158&amp;w=250&amp;h=166&amp;t=2013042505&amp;pse=" width="80"/>
+              </a>
+             </td>
+             <td colspan="3">
+              <p>
+               <a class="address" href="/listing?listingid=40134512
+" target="_top">
+                180 Kingston Dr
+                <br/>
+                Aurora, OH 44202
+               </a>
+              </p>
+             </td>
+             <td style="padding-right: 10px;">
+              <p class="housePrice">
+               $331,500
+              </p>
+             </td>
+             <td>
+              <p class="dgbed">
+               4 br
+              </p>
+             </td>
+             <td>
+              <p class="dgbath">
+               2.5 ba
+              </p>
+             </td>
+             <td>
+              <p class="active">
+               <span class="activelisting">
+                Active
+               </span>
+              </p>
+             </td>
+             <td>
+              Single-Family
+             </td>
+             <td rowspan="2">
+              <p class="extraOptions">
+               <a href="/listing?listingid=40134512
+">
+                <span class="onlineOffer">
+                 ONLINE OFFER
+                </span>
+               </a>
+              </p>
+             </td>
+            </tr>
+            <tr class="mtlsTrb mtlsS odd rowb " id="record_b_8">
+             <td class="extraInfo" colspan="3">
+              <p>
+               <span>
+                <a class="actions btnMessageSave" href="javascript:;" onclick="changeURL(40134512); return false;">
+                 <img height="15" src="//homepath-activedt.netdna-ssl.com/css/img/icon_bookmark.gif" width="8"/>
+                 Save
+                </a>
+               </span>
+               <a class="actions" href="javascript:;" onclick="setTimeout('onListingMapIconClick(8); scrollToTop();',200);">
+                <img src="//homepath-activedt.netdna-ssl.com/content/img/iconMap.gif"/>
+                Map
+               </a>
+              </p>
+             </td>
+             <td class="extraInfo" colspan="5">
+             </td>
+            </tr>
+            <tr class="even rowt " id="record_9">
+             <td class="houseImg" rowspan="2">
+              <a class="tooltipImage" href="/listing?listingid=38255110
+" rel="//homepath-activedt.netdna-ssl.com/homepathlistingphoto.html?thumbnail=true&amp;pp=true&amp;type=c&amp;s=8338521501&amp;d=3553580591&amp;w=250&amp;h=166&amp;t=2013062804&amp;pse=6776909257" target="_top">
+               <img border="0" class="checkLoadImg" height="53" src="//homepath-activedt.netdna-ssl.com/homepathlistingphoto.html?thumbnail=true&amp;pp=true&amp;type=c&amp;s=8338521501&amp;d=3553580591&amp;w=250&amp;h=166&amp;t=2013062804&amp;pse=6776909257" width="80"/>
+              </a>
+             </td>
+             <td colspan="3">
+              <p>
+               <a class="address" href="/listing?listingid=38255110
+" target="_top">
+                12246 Mantua Center Rd
+                <br/>
+                Mantua, OH 44255
+               </a>
+              </p>
+             </td>
+             <td style="padding-right: 10px;">
+              <p class="housePrice">
+               $64,900
+              </p>
+             </td>
+             <td>
+              <p class="dgbed">
+               3 br
+              </p>
+             </td>
+             <td>
+              <p class="dgbath">
+               1 ba
+              </p>
+             </td>
+             <td>
+              <p class="active">
+               <span class="activelisting">
+                Active
+               </span>
+              </p>
+             </td>
+             <td>
+              Single-Family
+             </td>
+             <td rowspan="2">
+              <p class="extraOptions">
+               <a href="/listing?listingid=38255110
+">
+                <span class="onlineOffer">
+                 ONLINE OFFER
+                </span>
+               </a>
+              </p>
+             </td>
+            </tr>
+            <tr class="mtlsTrb even rowb " id="record_b_9">
+             <td class="extraInfo" colspan="3">
+              <p>
+               <span>
+                <a class="actions btnMessageSave" href="javascript:;" onclick="changeURL(38255110); return false;">
+                 <img height="15" src="//homepath-activedt.netdna-ssl.com/css/img/icon_bookmark.gif" width="8"/>
+                 Save
+                </a>
+               </span>
+               <a class="actions" href="javascript:;" onclick="setTimeout('onListingMapIconClick(9); scrollToTop();',200);">
+                <img src="//homepath-activedt.netdna-ssl.com/content/img/iconMap.gif"/>
+                Map
+               </a>
+              </p>
+             </td>
+             <td class="extraInfo" colspan="5">
+             </td>
+            </tr>
+           </tbody>
+          </table>
+         </div>
+        </div>
+        <div class="resultsFooterBar" id="fragmentsSearchFooter" style="border-top: 1px solid #999999; width: 726px; margin-top: -4px;">
+         <div class="SearchResultCountBar">
+          Listing Results
+          <span class="pageNumber">
+           <strong>
+            Page
+            <span id="currentPageNumberText">
+             1
+            </span>
+            -
+            <span id="totalPageNumberText">
+             10
+            </span>
+           </strong>
+          </span>
+          of
+          <strong>
+           30
+          </strong>
+         </div>
+         <div id="paginationBotton">
+          <span class="disablePagePrev" id="pagePrevBottom">
+          </span>
+          <span id="currentPageNumberTextBottom">
+           1
+          </span>
+          <a href="javascript:;" onclick="gotoPage(2)">
+           2
+          </a>
+          <a href="javascript:;" onclick="gotoPage(3)">
+           3
+          </a>
+          <a alt="Next" href="javascript:;" id="pageNextBottom" onclick="pageNext(2);">
+           Next
+          </a>
+         </div>
+         <div class="clear">
+         </div>
+        </div>
+        <div id="gridfooterDownloadListings" style="margin-top: -7px;">
+         <a class="btnLoginDownloadListings" href="#" onclick="return false;">
+          <img border="0" src="//homepath-activedt.netdna-ssl.com/content/cobrands/homepath/downloadproperties_en.gif"/>
+         </a>
+        </div>
+       </div>
+      </div>
+     </div>
+     <script type="text/javascript">
+      if (window.location.hash){
+location.href = "/listing/" + window.location.hash.substr(1, window.location.hash.length);
+}
+var bootstrap = {};
+bootstrap.loggedOn = false;
+bootstrap.oneboxSearchText = "Address, County or City, State or Zip Code(s) or MLS#";
+bootstrap.urlWithoutListingId = "/listing/search?pg=1&o=sscs&loc=Portage County, OH&pi=0&ps=10";
+bootstrap.logInMessageDownlodListings = "Please login in or register before downloading the file.";
+bootstrap.appPath = "";
+bootstrap.cdnAppPath = "//homepath-activedt.netdna-ssl.com";
+bootstrap.countyName = "Portage";
+bootstrap.stateCode = "OH";
+bootstrap.nextLink = "Next";
+bootstrap.previousLink = "Prev";
+bootstrap.bingMapsKey = "Ald3kKmoCRNY-kvvZ2MbyPLWXY6PY0TpsJOWeoG_gPPw-oM8qlkNLPEJ3pNRqR4o";
+bootstrap.cobrand = "homepath2";
+bootstrap.saveThisSearch = false;
+var markermanager = null;
+var markers = [];
+var markersVE = [];
+updateMarkersVE = [];
+var siteLanguage = "en";
+var hidelistingTypeInfo = true;
+var isRegistered = true;
+var mainLayer = null;
+var updateLayer = null;
+var searchQuery = "Portage County, OH";
+var infoOffset = new Microsoft.Maps.Point(6,-75);
+var markersData = [{listingId:40235435,hasPhoto:1,listingTypeName:"FORECLOSURE",detailsPageLink:"",street:"11017 Asbury Rd",city:"Hiram",zipcode:"44234",state:"OH",price:"$104,000",beds:"3",baths:"2",lat:"41.2921447753906",lng:"-81.1610107421875",addressId:"56959419",photoCipher:"GNZEIWKHKBUUWYLSNBBW4NKLHBDUEMLVMZXVCSRNOQ3FA5DUMJMUKMDHNIZXO4TBORCES",listingIdSimpleEnc:"0440324553",addressIdSimpleEnc:"6556594991",photoIdSimpleEnc:"6776353435",auctionHouseName:""}, {listingId:40195857,hasPhoto:1,listingTypeName:"FORECLOSURE",detailsPageLink:"",street:"2849 Denny Rd",city:"Ravenna",zipcode:"44266",state:"OH",price:"$60,900",beds:"3",baths:"2",lat:"41.241623",lng:"-81.287942",addressId:"25929046",photoCipher:"MFLFMYLXNJTTA5JVIRYUSWK2GNHXOMTDLBLEKRSIPI2VGY3JJJWUKMDHNIZXO4TBORCES",listingIdSimpleEnc:"0440918575",addressIdSimpleEnc:"5225290964",photoIdSimpleEnc:"6776848939",auctionHouseName:""}, {listingId:39547489,hasPhoto:1,listingTypeName:"FORECLOSURE",detailsPageLink:"",street:"488 Buckingham Dr # 7",city:"Aurora",zipcode:"44202",state:"OH",price:"$199,900",beds:"3",baths:"2.5",lat:"41.3188330829144",lng:"-81.3506403565407",addressId:"56273905",photoCipher:"KE2GQ3DRGF4UI2DKOF5G6TLKGNNEWR2RKFVHCY3PPFVG6NTPGZBEKMDHNIZXO4TBORCES",listingIdSimpleEnc:"9339454798",addressIdSimpleEnc:"6556729350",photoIdSimpleEnc:"6776869292",auctionHouseName:""}, {listingId:40253317,hasPhoto:1,listingTypeName:"FORECLOSURE",detailsPageLink:"",street:"5073 Wayne Rd",city:"Mantua",zipcode:"44255",state:"OH",price:"$234,600",beds:"4",baths:"3",lat:"41.331444",lng:"-81.223052",addressId:"47057339",photoCipher:"KJKGSY3XMVQVSN3INFIHCQ3OGJBWC52WOA2FCSRNOQ3FA5DUMJMUKMDHNIZXO4TBORCES",listingIdSimpleEnc:"0440523371",addressIdSimpleEnc:"7447503793",photoIdSimpleEnc:"6776169565",auctionHouseName:""}, {listingId:39043865,hasPhoto:1,listingTypeName:"FORECLOSURE",detailsPageLink:"",street:"9512 Wolfe Rd",city:"Windham",zipcode:"44288",state:"OH",price:"$74,900",beds:"3",baths:"2",lat:"41.2471313476562",lng:"-81.047004699707",addressId:"54853320",photoCipher:"MFFXKV3XNRVC2MRRHA3USMCJO5KVATDHJBDWIU32KUZHEMDYGRYUKMDHNIZXO4TBORCES",listingIdSimpleEnc:"9339408356",addressIdSimpleEnc:"4554583302",photoIdSimpleEnc:"6776284181",auctionHouseName:""}, {listingId:39227562,hasPhoto:1,listingTypeName:"FORECLOSURE",detailsPageLink:"",street:"3041 Alliance Rd",city:"Rootstown",zipcode:"44272",state:"OH",price:"$63,900",beds:"3",baths:"1",lat:"41.074349",lng:"-81.098734",addressId:"51902842",photoCipher:"NJDHGMJNM5MXO42IGBMWW5RWNNKE66DUOFFFK3TCOBLXAZCFMN5EKMDHNIZXO4TBORCES",listingIdSimpleEnc:"9339225726",addressIdSimpleEnc:"1551098224",photoIdSimpleEnc:"6776543401",auctionHouseName:""}, {listingId:39043999,hasPhoto:1,listingTypeName:"FORECLOSURE",detailsPageLink:"",street:"713 Fairview Dr",city:"Aurora",zipcode:"44202",state:"OH",price:"$69,900",beds:"4",baths:"2",lat:"41.344855",lng:"-81.370652",addressId:"43171856",photoCipher:"OBLU42CLLB3DEWLCMEYVGQ2SO53TK4TJINWEKRSIPI2VGY3JJJWUKMDHNIZXO4TBORCES",listingIdSimpleEnc:"9339409399",addressIdSimpleEnc:"3443718165",photoIdSimpleEnc:"5775474971",auctionHouseName:""}, {listingId:39054500,hasPhoto:1,listingTypeName:"FORECLOSURE",detailsPageLink:"",street:"3735 Orchard St",city:"Mogadore",zipcode:"44260",state:"OH",price:"$69,900",beds:"3",baths:"1",lat:"41.044458",lng:"-81.399757",addressId:"49616183",photoCipher:"GAYGCU3YJNWFI52NNZWWQUCUN44FUTDELBLU43KMPJEDKX3ZJBCUKMDHNIZXO4TBORCES",listingIdSimpleEnc:"9339505400",addressIdSimpleEnc:"9449161638",photoIdSimpleEnc:"3773676960",auctionHouseName:""}, {listingId:40134512,hasPhoto:0,listingTypeName:"FORECLOSURE",detailsPageLink:"",street:"180 Kingston Dr",city:"Aurora",zipcode:"44202",state:"OH",price:"$331,500",beds:"4",baths:"2.5",lat:"41.298027",lng:"-81.338046",addressId:"21461385",photoCipher:"KBCDEZBQMY4S2TRRONCDG3SBNJJGK52PIV5HCY3PPFVG6NTPGZBE632JNQWVG3DOPFWGW",listingIdSimpleEnc:"0440315421",addressIdSimpleEnc:"1221643158",photoIdSimpleEnc:"",auctionHouseName:""}, {listingId:38255110,hasPhoto:1,listingTypeName:"FORECLOSURE",detailsPageLink:"",street:"12246 Mantua Center Rd",city:"Mantua",zipcode:"44255",state:"OH",price:"$64,900",beds:"3",baths:"1",lat:"41.3251724243164",lng:"-81.2435150146484",addressId:"53855019",photoCipher:"I5XDMTSYNZIECY3SKB2VA6KYI52FSM3LPFMVCSRNOQ3FA5DUMJMUKMDHNIZXO4TBORCES",listingIdSimpleEnc:"8338521501",addressIdSimpleEnc:"3553580591",photoIdSimpleEnc:"6776909257",auctionHouseName:""}];
+var TopLeftLatLong = new Microsoft.Maps.Location(41.344855, -81.399757);
+var BottomRightLatLong = new Microsoft.Maps.Location(41.044458, -81.047004699707);
+var BoundingRectangle = new Microsoft.Maps.LocationRect.fromCorners(TopLeftLatLong, BottomRightLatLong);
+var map = null;
+var index = 0;
+var results = null;
+(function(window,undefined){
+// Establish Variables
+var
+History = window.History, // Note: We are using a capital H instead of a lower h
+State = History.getState();
+//$log = $j('#log');
+// Log Initial State
+//History.log('initial:', State.data, State.title, State.url);
+})(window);
+$j(document).ready(function() {
+GetMap();
+$j('#location').live("focus", function() {
+if($j('#location').val() == bootstrap.oneboxSearchText){
+$j('#location').val("");
+}
+$j("#errorLocation").text("");
+$j("#updateLocationCon").show();
+});
+$j('#locationCancel').live("click", function() {
+$j("#updateLocationCon").hide();
+});
+$j("#expandmapbtn").click(function(){
+document.getElementById('propMap').style.height='400px';
+$j("#shrinkmapbtn").show();
+$j("#expandmapbtn").hide();
+$j("#refinesMap").attr('checked', true);
+});
+$j("#shrinkmapbtn").click(function(){
+document.getElementById('propMap').style.height='200px';
+$j("#expandmapbtn").show();
+$j("#shrinkmapbtn").hide();
+$j("#refinesMap").attr('checked', false);
+});
+$j("#refinesMap").change(function(){
+var searchWithinSelect = $j('[name=refinesMap]').attr('checked');
+if(searchWithinSelect){
+$j("#labelLocation").text("Showing listings within map");
+$j("#location").val("");
+}else{
+$j("#labelLocation").text("");
+}
+});
+$j('#hidemapbtn').live("click", function() {
+$j("#showmapbtn").show();
+$j("#hidemapbtn").hide();
+$j("#propMap").hide();
+});
+$j('#showmapbtn').live("click", function() {
+$j("#showmapbtn").hide();
+$j("#hidemapbtn").show();
+$j("#propMap").show();
+});
+var submitL = true;
+$j('#updateLocation').live("click", function() {
+if ($j("#location").val() == ""){
+$j("#errorLocation").text("Please enter an "+bootstrap.oneboxSearchText+".");
+return false;
+}
+if(submitL){
+$j('input[name="loc"]').val("");
+$j('input[name="st"]').val("");
+$j('input[name="cno"]').val("");
+$j('input[name="ci"]').val("");
+$j("form[name=SearchPro]").submit();
+return submitL = false;
+}
+});
+$j('[name=propage]').live("change", function() {
+$j("[name=ps]" ).val($j("[name=propage]").val());
+updateFormSearch();
+});
+$j('[name=bdi]').live("change", function() {
+updateFormSearch();
+});
+$j('[name=bhi]').live("change", function() {
+updateFormSearch();
+});
+livingAreaSlider();
+priceSlider();
+initLocationAutoComplete();
+$j("[name=ptany]").live("change", function() {
+$j("[name=pt]").removeAttr('checked');
+updateFormSearch();
+});
+$j("[name=pt]").live("change", function() {
+updateFormSearch();
+});
+$j("[name=srcstany]").live("change", function() {
+$j("[name=srcst]").removeAttr('checked');
+updateFormSearch();
+});
+$j("[name=srcst], [name=openhouse], [name=tc], [name=mc], [name=rfa], [name=rnfa], [name=auct], [name=incnt]").live("change", function() {
+updateFormSearch();
+});
+$j("[name=otherAny]").live("change", function() {
+$j("[name=openhouse], [name=mc], [name=tc], [name=auct], [name=incnt]").removeAttr('checked');
+updateFormSearch();
+});
+$j("#resultList tr.rowt").live({
+mouseenter:
+function()
+{
+$j(this).addClass('over');
+$j(this).next('tr').addClass('over');
+},
+mouseleave:
+function()
+{
+$j(this).removeClass('over');
+$j(this).next('tr').removeClass('over');
+}
+}
+);
+$j("#resultList tr.rowb").live({
+mouseenter:
+function()
+{
+$j(this).addClass('over');
+$j(this).prev('tr').addClass('over');
+},
+mouseleave:
+function()
+{
+$j(this).removeClass('over');
+$j(this).prev('tr').removeClass('over');
+}
+}
+);
+$j(".hdFilter").live("click", function() {
+$j(this).next(".contFilter").slideToggle("fast", function() {
+if($j(this).is(':visible')){
+$j(this).prev( ".hdFilter" ).find("img").attr("src","//homepath-activedt.netdna-ssl.com/content/img/arrowd.png");
+}else{
+$j(this).prev( ".hdFilter" ).find("img").attr("src","//homepath-activedt.netdna-ssl.com/content/img/arrowr.png");
+}
+});
+});
+function mouseoverActiontooltipImage(event){
+$j("body").append("<div id='tooltip' class='blur'><img src=\""+ this.rel + "\"></img></div>");
+$j("#tooltip").css("left",(event.pageX + 20) + "px");
+$j("#tooltip").css("top",(event.pageY - 10) + "px");
+}
+function mouseoutActiontooltipImage(event){
+$j("#tooltip").remove();
+}
+function mousemoveActiontooltipImage(event){
+$j("#tooltip").css("left",(event.pageX + 20) + "px");
+$j("#tooltip").css("top",(event.pageY - 10) + "px");
+}
+$j('.tooltipImage').live('mouseover', mouseoverActiontooltipImage);
+$j('.tooltipImage').live('mouseout', mouseoutActiontooltipImage);
+$j('.tooltipImage').live('mousemove', mousemoveActiontooltipImage);
+$j(".btnLoginDownloadListings").live("click", function() {
+$j("#referralUrl").val(bootstrap.urlWithoutListingId);
+$j("#logInMessage").text(bootstrap.logInMessageDownlodListings);
+tb_show('','#TB_inline?height=250&width=320&inlineId=mlrCo&modal=true', false);
+});
+$j("#loginandSaveThisSearch").live("click", function() {
+var data = History.getState("data");
+var url = data.hash;
+if(url.indexOf("&") != -1){
+url += "&SaveThisSearch=true";
+}else{
+url += "?SaveThisSearch=true";
+}
+if($j.browser.msie){
+$j("#referralUrlLogin").val("/listing/"+url);
+}else{
+$j("#referralUrlLogin").val(url);
+}
+$j("#logInMessage").text("Please login in or register before save this search.");
+tb_show('','#TB_inline?height=250&width=320&inlineId=mlrCo&modal=true', false);
+});
+$j("#saveThisSearch").live("click", function() {
+saveThisSearch();
+});
+if(bootstrap.saveThisSearch){
+saveThisSearch();
+}
+function saveThisSearch(){
+updateSearch(false, false, -1, "", "", false, false);
+setTimeout(function(){
+tb_show('','#TB_inline?height=420&width=360&inlineId=saveThisSearchDialog&modal=true', false);
+$j("#saveSearch").show();
+$j("#saveSearchSuccess").hide();
+$j("#saveSearchError").hide();
+$j("#saveSearchDelete").hide();
+$j("#TB_window").addClass("tbwindowSearch");
+$j("#saveSearchOptions").empty();
+var data = History.getState("data");
+var arr = ["fragments","ps","pg","o"];
+var saveSearchOptions = "";
+var savePropertyType;
+$j(data.data).each(function (i) {
+if(this.name == "loc"){
+saveSearchOptions += "<li style='width: 300px;'>" + this.value +"</li>";
+}
+if (this.name == "pi"){
+if(this.value != 0 || ( pa < 500000 && this.value == 0)){
+saveSearchOptions += "<li>" + toCurrency(this.value) + " to ";
+}
+}
+if (this.name == "pa"){
+if(pi > 0 && this.value == 0){
+saveSearchOptions += toCurrency(500000) + "</li>";
+}else{
+if(this.value != 0){
+saveSearchOptions += toCurrency(this.value) + "</li>";
+}
+}
+}else if (this.name == "bdi"){
+if(this.value != 0){
+saveSearchOptions += "<li>" +this.value+" Bedrooms</li>";
+}
+}else if (this.name == "bhi"){
+if(this.value != 0){
+saveSearchOptions += "<li>" +this.value+" Bathrooms</li>";
+}
+}
+// Financing
+if (this.name == "rfa" && this.value == "yes"){
+saveSearchOptions += "<li>HomePath Mortgage</li>";
+}
+if (this.name == "rnfa"){
+if(this.value == "yes"){
+saveSearchOptions += "<li>HomePath Renovation Mortgage</li>";
+}
+}
+// Living Area
+if (this.name == "ms" && this.value != ""){
+if(xs > 0 && ms > 0){
+saveSearchOptions += "<li>" + this.value ;
+}
+}
+if (this.name == "xs" && this.value != ""){
+saveSearchOptions +=" to " + this.value + " sq. ft.</li>";
+}
+// Property Status
+if(this.name == "srcst" && this.value == "active"){
+saveSearchOptions += "<li>Active</li>";
+}
+if(this.name == "srcst" && this.value == "just listed"){
+saveSearchOptions += "<li>Just Listed</li>";
+}
+if(this.name == "srcst" && this.value == "back on market"){
+saveSearchOptions += "<li>Back on Market</li>";
+}
+if(this.name == "srcst" && this.value == "price reduced"){
+saveSearchOptions += "<li>Price Reduced</li>";
+}
+if(this.name == "srcst" && this.value == "under contract"){
+saveSearchOptions += "<li>Under Contract</li>";
+}
+if(this.name == "srcst" && this.value == "coming soon"){
+saveSearchOptions += "<li>Coming Soon</li>";
+}
+// Property Type
+if (this.name == "pt"){
+switch (this.value){
+case "sf":
+savePropertyType="Single-Family";
+break;
+case "co":
+savePropertyType="Condo/Co-op";
+break;
+case "op":
+savePropertyType="Condo/Co-op";
+break;
+case "mf":
+savePropertyType="2-4 Units";
+break;
+case "mh":
+savePropertyType="Manufactured Housing";
+break;
+default:
+savePropertyType="";
+}
+saveSearchOptions += "<li>" + savePropertyType +" </li>";
+}
+// Other
+if(this.name == "openhouse" && this.value == "yes"){
+saveSearchOptions += "<li>Open House</li>";
+}
+if(this.name == "mc" && this.value == "first look"){
+saveSearchOptions += "<li>First Look Program</li>";
+}
+if(this.name == "tc" && this.value == "tenant occupied"){
+saveSearchOptions += "<li>Tenant Occupied</li>";
+}
+if(this.name == "auct" && this.value == "true"){
+saveSearchOptions += "<li>Auction</li>";
+}
+if(this.name == "incnt" && this.value == "true"){
+saveSearchOptions += "<li>Incentive</li>";
+}
+});
+$j("#saveSearchOptions").append(saveSearchOptions);
+var saveSearchHeight = $j("#saveSearch").height();
+var TB_WIDTH = 390,
+TB_HEIGHT = 21 + saveSearchHeight;
+$j("#TB_window").animate({
+marginLeft: '-' + parseInt((TB_WIDTH / 2), 10) + 'px',
+width: TB_WIDTH + 'px',
+height: TB_HEIGHT + 'px',
+marginTop: '-' + parseInt((TB_HEIGHT / 2), 10) + 'px'
+});
+},200);
+}
+$j(".saveThisSearchClose").live("click", function() {
+tb_remove();
+});
+$j("#btnSearchSave").live("click", function() {
+var data = History.getState("data");
+var url = data.hash;
+var idx = url.indexOf('?');
+if( idx >= 0 ){
+url = url.substr(idx+1);
+var period = $j('select[name="period"]').val();
+var frequency = 1;
+var jdata = { "name": "", "searchParams": url, "period": period, "frequency": 1};
+var jqXHR = $j.ajax(
+{ 'type' : 'POST',
+'url' :'/rest_api/search/alert',
+'contentType' : 'application/json',
+'data' : JSON.stringify( jdata ),
+'success': function(data) {
+if(data.error){
+$j('#savedSearchAlertErrorMessage').html(data.message);
+$j("#saveSearch").hide();
+$j("#saveSearchError").show();
+var TB_WIDTH = 390, TB_HEIGHT = 245;
+$j("#TB_window").animate({
+width: TB_WIDTH + 'px',
+height: TB_HEIGHT + 'px'
+});
+} else {
+$j.data(document.body, 'searchAlert', data.id);
+$j("#saveSearch").hide();
+$j("#saveSearchSuccess").show();
+$j("#saveThisSearch").hide();
+$j("#searchIsSaved").show();
+var TB_WIDTH = 390,
+TB_HEIGHT = 190;
+$j("#TB_window").animate({
+marginLeft: '-' + parseInt((TB_WIDTH / 2), 10) + 'px',
+width: TB_WIDTH + 'px',
+height: TB_HEIGHT + 'px',
+marginTop: '-' + parseInt((TB_HEIGHT / 2), 10) + 'px'
+});
+}
+},
+'error': function(ejqXHR,textStatus,errorThrown) {
+alert("done!"+ ejqXHR.getAllResponseHeaders());
+},
+'dataType':'json'
+});
+}
+});
+$j("#searchIsSaved").live("click", function() {
+tb_show('','#TB_inline?height=120&width=360&inlineId=saveThisSearchDialog&modal=true', false);
+$j("#TB_window").addClass("tbwindowSearch");
+$j("#saveSearch").hide();
+$j("#saveSearchSuccess").hide();
+$j("#saveSearchDelete").show();
+});
+$j("#deleteThisSavedSearch").live("click", function() {
+var baseUri = '/rest_api/search/alert';
+var alertId = $j.data(document.body, 'searchAlert');
+var jqXHR = $j.ajax(
+{ 'type' : 'DELETE',
+'url' :baseUri + '/' + alertId,
+'contentType' : 'application/json',
+//'data' : JSON.stringify( jdata ),
+'success': function(data) {
+tb_remove();
+$j("#saveThisSearch").show();
+$j("#searchIsSaved").hide();
+},
+'error': function(ejqXHR,textStatus,errorThrown) {
+alert("done!"+ ejqXHR.getAllResponseHeaders());
+},
+'dataType':'json'
+});
+return false;
+});
+});
+function livingAreaSlider(){
+$j( "#livingAreaAmountSliderRange" ).slider({
+range: true,
+min: 0,
+max: 3500,
+step: 500,
+values: [ ms, xs ],
+slide: function( event, ui ) {
+var minLAAmount = ui.values[ 0 ];
+var maxLAAmount = ui.values[ 1 ];
+$j( "#livingAreaAmount" ).html( "<span class='minAmount'>" + minLAAmount + "</span> to <span class='minAmount'>" + toLivingArea(maxLAAmount) +"</span>");
+},
+stop: function( event, ui ) {
+var minLAAmount = ui.values[ 0 ];
+var maxLAAmount = ui.values[ 1 ];
+$j( "[name=ms]" ).val(minLAAmount);
+if(maxLAAmount == 3500){
+maxLAAmount = "";
+}
+$j( "[name=xs]" ).val(maxLAAmount);
+updateFormSearch();
+}
+});
+$j( "#livingAreaAmount" ).html("<span class='minAmount'>" + $j( "#livingAreaAmountSliderRange" ).slider( "values", 0 ) + "</span> to <span class='maxAmount'>" + toLivingArea($j( "#livingAreaAmountSliderRange" ).slider( "values", 1 )) +"</span>");
+$j("#livingAreaAmountSliderRange .ui-state-default:eq(1)").addClass("max");
+}
+function toLivingArea(num){
+var plus;
+if(num == 3500){
+plus = "+";
+}else{
+plus = "";
+}
+num = num + plus;
+return (num);
+}
+function priceSlider(){
+$j( "#slider-range" ).slider({
+range: true,
+min: 0,
+max: 500000,
+step: 50000,
+values: [ pi, pa ],
+slide: function( event, ui ) {
+var minAmount = ui.values[ 0 ];
+var maxAmount = ui.values[ 1 ];
+$j( "#amount" ).html( "<span class='minAmount'>" + toCurrency(minAmount) + "</span> to <span class='minAmount'>" + toCurrency(maxAmount) + "</span>");
+},
+stop: function( event, ui ) {
+var minAmount = ui.values[ 0 ];
+var maxAmount = ui.values[ 1 ];
+$j( "[name=pi]" ).val(minAmount);
+if(maxAmount == 500000){
+maxAmount = "";
+}
+$j( "[name=pa]" ).val(maxAmount);
+updateFormSearch();
+}
+});
+$j( "#amount" ).html("<span class='minAmount'>" + toCurrency($j( "#slider-range" ).slider( "values", 0 )) + "</span> to <span class='maxAmount'>" + toCurrency($j( "#slider-range" ).slider( "values", 1 )) +"</span>");
+$j("#slider-range .ui-state-default:eq(1)").addClass("max");
+}
+function toCurrency(num) {
+var sign;
+var i;
+var plus;
+num = num.toString().replace(/\$|\,/g, '');
+if (isNaN(num)) {
+num = "0";
+}
+sign = (num == (num = Math.abs(num)));
+num = Math.floor(num * 100 + 0.50000000001);
+num = Math.floor(num / 100).toString();
+for (i = 0; i < Math.floor((num.length - (1 + i)) / 3); i++) {
+if(num == 500000){
+plus = "+";
+}else{
+plus = "";
+}
+num = num.substring(0, num.length - (4 * i + 3)) + 'K' + plus;
+}
+return (((sign) ? '' : '') + '$' + num);
+}
+function initLocationAutoComplete(){
+$j( "#location" ).autocomplete({
+source: function( request, response ) {
+$j.ajax({
+url: bootstrap.appPath+"/location/select",
+dataType: "json",
+data: {
+limit: 10,
+q: request.term
+},
+success: function( data ) {
+if(data != null){
+response( $j.map( data, function( item ) {
+return {
+label: item.label,
+value: item.label
+}
+}));
+}
+}
+});
+},
+minLength: 3,
+select: function( event, ui ) {
+},
+open: function() {
+$j( this ).removeClass( "ui-corner-all" ).addClass( "ui-corner-top" );
+},
+close: function() {
+$j( this ).removeClass( "ui-corner-top" ).addClass( "ui-corner-all" );
+}
+});
+}
+function getcolorIcons(listingTypeName){
+switch (listingTypeName)
+{
+case "foreclosure":
+x= bootstrap.appPath+"//homepath-activedt.netdna-ssl.com/content/img/map/icon_point_orange.gif";
+break;
+case "for sale by owner":
+x= bootstrap.appPath+"//homepath-activedt.netdna-ssl.com/content/img/map/icon_point_lt_blue.gif";
+break;
+case "fsbo":
+x= bootstrap.appPath+"//homepath-activedt.netdna-ssl.com/content/img/map/icon_point_lt_blue.gif";
+break;
+case "preforeclosure":
+x= bootstrap.appPath+"//homepath-activedt.netdna-ssl.com/content/img/map/icon_point_green.gif";
+break;
+case "bankruptcy":
+x= bootstrap.appPath+"//homepath-activedt.netdna-ssl.com/content/img/map/icon_point_blue.gif";
+break;
+case "tax_lien":
+x= bootstrap.appPath+"//homepath-activedt.netdna-ssl.com/content/img/map/icon_point_lt_green.gif";
+break;
+case "deal":
+x= bootstrap.appPath+"//homepath-activedt.netdna-ssl.com/content/img/map/icon_point_lt_purple.gif";
+break;
+case "auction":
+x= bootstrap.appPath+"//homepath-activedt.netdna-ssl.com/content/img/map/icon_point_pure_blue.gif";
+break;
+case "quicksale<span class='sm'>&#x2120;</span>":
+x= bootstrap.appPath+"//homepath-activedt.netdna-ssl.com/content/img/map/icon_point_pure_blue.gif";
+break;
+case "rent_to_own":
+x= bootstrap.appPath+"//homepath-activedt.netdna-ssl.com/content/img/map/icon_point_fdc_blue.gif";
+break;
+default:
+x= bootstrap.appPath+"//homepath-activedt.netdna-ssl.com/content/img/map/icon_point_yellow.gif";
+}
+if(customeIconMap){
+x=customeIconMap;
+}
+return x;
+}
+function GetMap()
+{
+var mapOpts = {
+credentials: bootstrap.bingMapsKey
+,disableKeyboardInput: true
+,showScalebar: false
+,enableClickableLogo: false
+,enableSearchLogo: false
+,useInertia: false
+,showMapTypeSelector: false
+,zoom: 18
+};
+map = new Microsoft.Maps.Map(document.getElementById('propMap'), mapOpts);
+try {
+drawMarkersVE();
+map.setView({bounds:BoundingRectangle});
+Microsoft.Maps.Events.addHandler(map,"click", eventHandlerMapVE_onclick);
+Microsoft.Maps.Events.addHandler(map,"viewchangeend", updateBoundingMap);
+//Microsoft.Maps.Events.addHandler(map,"onendzoom", updateBoundingMap);
+//Microsoft.Maps.Events.addHandler(map,"initmode", updateBoundingMap);
+}
+catch(ex)
+{
+//This block will catch VE JavaScript exceptions
+alert("The following exception has occurred: " + ex.name + ", " + ex.message);
+}
+}
+function drawMarkersVE() {
+var marker;
+mainLayer = new Microsoft.Maps.EntityCollection({visible:true});
+infoboxCollection = new Microsoft.Maps.EntityCollection({visible:true});
+var prevMarkerIndex = null;
+var firstMarkerIndex = null;
+for ( var c = 0; c < markersData.length; c++ ) {
+var md = markersData[c];
+if (md.lat != "") {
+if (firstMarkerIndex == null) {
+firstMarkerIndex = c;
+}
+md.prevMarkerIndex = prevMarkerIndex;
+if (prevMarkerIndex != null) {
+markersData[prevMarkerIndex].nextMarkerIndex = c;
+}
+var opt = {icon: getcolorIcons(md.listingTypeName), width:10, height:15, typeName: 'my_pushpin'};
+marker = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(parseFloat(md.lat), parseFloat(md.lng)), opt);
+marker.mdindex = c;
+md.markerVE = marker;
+mainLayer.push(marker);
+} else {
+mainLayer.push(new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(0,0)));
+}
+}
+map.entities.push(mainLayer);
+for ( var j = 0; j < markersData.length; j++ ) {
+var md = markersData[j];
+if ( md.lat != "" ) {
+marker = md.markerVE;
+var info = new Microsoft.Maps.Infobox(marker.getLocation(), { visible: false, offset: infoOffset, showCloseButton:false, htmlContent: createListingInfo(j, false), showPointer: false});
+infoboxCollection.push(info);
+} else {
+infoboxCollection.push(new Microsoft.Maps.Infobox(new Microsoft.Maps.Location(0,0)));
+}
+}
+map.entities.push(infoboxCollection);
+if(markersData.length == 0){
+map.setView({zoom:3});
+}
+}
+function eventHandlerMapVE_onclick(e){
+if(e.targetType == "pushpin") {
+onListingMapIconClick(e);
+} else {
+//showPopupWindow();
+return false;
+}
+}
+var markerLength = null;
+function createListingInfo(index, update) {
+if(!update){
+var md = markersData[index];
+var makersSize = markersData.length;
+var nextindex = index + 1;
+if(typeof(markersData[nextindex]) !== 'undefined' && markersData[nextindex].lat != ""){
+var c = 1;
+}else{
+var c = 1 + 1;
+}
+var previndex = index - 1;
+if(typeof(markersData[previndex]) !== 'undefined' && markersData[previndex].lat != ""){
+var h = 1;
+}else{
+var h = 2;
+}
+if (md.lat != "") {
+markerLength += 1;
+var prevMarkerIndex = index - h;
+var nextMarkerIndex = index + c;
+}
+}else{
+var md = updateMarkersData[index];
+var makersSize = updateMarkersData.length;
+var nextIndex = index + 1;
+if(typeof(updateMarkersData[nextIndex]) !== 'undefined' && updateMarkersData[nextIndex].skipNext == "1"){
+var b = 2;
+}else{
+var b = 1;
+}
+var prevIndex = index - 1;
+if(typeof(updateMarkersData[prevIndex]) !== 'undefined' && updateMarkersData[prevIndex].skipNext == "1"){
+var d = 2;
+}else{
+var d = 1;
+}
+if (md.lat != "") {
+markerLength += 1;
+var prevMarkerIndex = index - d;
+var nextMarkerIndex = index + b;
+}
+}
+var html = '<div class="bingmapinfobox"><div class="inner">';
+html += '<div><div style="font-weight:bold;" id="markerWindowlt"><div class="closeBtn" style="float:right"><a href="javascript:void(0)" onclick="closeInfoBox(' +index + ')"><img src="//homepath-activedt.netdna-ssl.com/content/img/iconx.gif" style="padding-top:1px;"></a></div>'
+if (!hidelistingTypeInfo){
+html += md.listingTypeName;
+}
+html += '</div></div>';
+html += '<table border="0"><tr><td>';
+if (!(md.price == "" || md.price == "$0" )) {
+html += '<span class="orange"><strong>' + md.price + '</strong></span><br>';
+}
+if (!((md.beds == "0") || (md.beds == ""))) {
+html += ''+md.beds+'&nbsp;';
+if(siteLanguage == 'es'){
+if (md.beds >= "2"){
+html += 'Dorm';
+}else{
+html += 'Dorm';
+}
+}else{
+if (md.beds >= "2"){
+html += 'Beds';
+}else{
+html += 'Bed';
+}
+}
+}
+if (!((md.beds == "0") || (md.beds == "")) && !((md.baths == "0") || (md.baths == ""))) {
+html += ',&nbsp;';
+}
+if (!((md.baths == "0") || (md.baths == ""))) {
+html += md.baths+'&nbsp;';
+if(siteLanguage == 'es'){
+if (md.baths >= "2"){
+html += 'Ba';
+}else{
+html += 'Ba';
+}
+}else{
+if (md.baths >= "2"){
+html += 'Baths';
+}else{
+html += 'Bath';
+}
+}
+}
+html += '</td>';
+html += '<td rowspan="2">';
+if(bootstrap.cobrand == "homepath" || bootstrap.cobrand == "homepath2"){
+html += '<img height="46" width="70" src="'+bootstrap.appPath+'//homepath-activedt.netdna-ssl.com/homepathlistingphoto.html?thumbnail=true&pp=true&type=c&s='+ md.listingIdSimpleEnc +'&d='+ md.addressIdSimpleEnc +'&w=250&h=166&pse=' + md.photoIdSimpleEnc +'"/>';
+}else if(bootstrap.cobrand == "homesteps"){
+html += '<img height="46" width="70" src="'+bootstrap.appPath+'//homepath-activedt.netdna-ssl.com/homestepslistingphoto.html?thumbnail=true&pp=true&type=c&s='+ md.listingIdSimpleEnc +'&d='+ md.addressIdSimpleEnc +'&w=250&h=166&pse=' + md.photoIdSimpleEnc +'"/>';
+}else{
+if(md.photoCipher != -1){
+html += '<img height="46" width="70" src="'+bootstrap.cdnAppPath+'//homepath-activedt.netdna-ssl.com/listingphoto/'+ md.photoCipher +'.jpg"/>';
+}else if (md.hasPhoto == 1) {
+html += '<img height="46" width="70" src="'+bootstrap.cdnAppPath+'/listingthumbnail.html?listingId='+ md.listingId +'"/>';
+}else{
+html += '<img height="46" width="70" src="'+bootstrap.cdnAppPath+'/publiclistingthumbnail.html?addressId='+ md.addressId +'&type=aerial&w=250&h=166"/>';
+}
+}
+html += '<a href="/listing?listingid=' + md.listingId + '" class="detailsLink"><img height="15" width="70" src="//homepath-activedt.netdna-ssl.com/css/img/btn-view-details.gif" class="markerBtnViewDetails"/></a>';
+html += '</td></tr>';
+html += '<tr><td style="min-width:130px; width:130px; white-space:nowrap;"><a target="_top" class="detailsLink" href="/listing?listingid=' + md.listingId + '">' + md.street + '</a>' + '<br>' + md.city + ', ' + md.state + ' ' + md.zipcode + '<br />';
+html += '<div class="navoninfobox">';
+var indexnext = index + 1;
+var indexprev = index - 1;
+if (indexprev != -1 ) {
+html += '<a href="#" onClick="onListingMapIconClick(' + prevMarkerIndex + ');return false;">'+bootstrap.previousLink+'</a>';
+} else {
+html += bootstrap.previousLink;
+}
+if (makersSize > indexnext) {
+html += ' | <a href="#" onClick="onListingMapIconClick(' + nextMarkerIndex + ');return false;">'+bootstrap.nextLink+'</a>';
+} else {
+html += ' | '+ bootstrap.nextLink;
+}
+html += '</div>'
+html += '<tr><td> </td>';
+html += '</tr></table></div></div>';
+return html;
+}
+function updateListingInfo(index, updateMarkersData) {
+var md = updateMarkersData[index];
+return createListingInfo(md, false);
+}
+function updateFormSearch(){
+if(location == "Add City, State or Zip Code"){
+location = "";
+}
+updateSearch(false, false,-1,"","", true);
+}
+function pageNext(gotoPage){
+updateSearch(true, false,gotoPage,"","", true);
+scrollToTop();
+}
+function pagePrev(gotoPage){
+updateSearch(false, true,gotoPage,"","", true);
+scrollToTop();
+}
+function gotoPage(pageNumber){
+updateSearch(false, false,pageNumber,"","", true);
+scrollToTop();
+}
+function scrollToTop(){
+// Scroll to top of search results
+var htmlTop = $j('html').scrollTop();
+var bodyTop = $j('body').scrollTop();
+if(htmlTop > $j('#contList').offset().top || bodyTop > $j('#contList').offset().top ){
+var newScrollTop = $j('#contList').offset().top - 20;
+$j('html,body').animate({scrollTop: newScrollTop}, 400, "swing");
+}
+}
+function updateBoundingMap(){
+var searchWithinSelect = $j('[name=refinesMap]').attr('checked');
+if(searchWithinSelect){
+preloging();
+view = map.getBounds();
+topleft = view.getNorthwest().latitude;
+topleft += ", " + view.getNorthwest().longitude;
+bottomright = view.getSoutheast().latitude;
+bottomright += ", " + view.getSoutheast().longitude;
+info = "TopLeftLatLong: " + topleft ;
+info += " BottomRightLatLong: " + bottomright;
+//$j("#location").val("");
+var query = $j("#location").val();
+var minprice = $j("#minprice").val();
+var maxprice = $j("#maxprice").val();
+var bedrooms = $j("#bedrooms").val();
+var bathrooms = $j("#bathrooms").val();
+var tlData = new Array();
+var i = 0;
+$j("input[name$='tl']").each(
+function() {
+if(this.checked){
+tlData[i] = $j(this).val();
+i++;
+}
+}
+);
+var pageNumber = -1;
+var numberPage = "1";
+var data = $j('form[name$="SearchPro"]').serializeArray();
+$j.getJSON(bootstrap.appPath+"/listingSearchJson", data, updateListingSearchResults);
+if(typeof(console) !== 'undefined' && console != null){
+//console.debug(info);
+}
+}
+}
+function preloging(){
+var logingDiv = "<div id='loadingDiv'> <span id='logingText'><img width='20' height='20' border='0' src='//homepath-activedt.netdna-ssl.com/content/img/preloader.gif'> Updating results....</span></div>";
+var heightDiv = $j("#contMain").height();
+heightDiv = heightDiv - 180;
+$j("#contMain").prepend(logingDiv);
+$j("#loadingDiv").css('height',heightDiv+'px');
+}
+function updateSearch(goNextPageNumber, goPreviousPageNumber,pageNumber, sort, order, onPreloging, sendData){
+if( typeof onPreloging == 'undefined'){
+onPreloging = true;
+}
+if( typeof sendData == 'undefined'){
+sendData = true;
+}
+var searchWithinSelect = $j('[name=refinesMap]').attr('checked');
+if(onPreloging){
+preloging();
+}
+if(searchWithinSelect){
+$j("#location").attr('checked', false);
+}
+var query = $j("#location").val();
+var minprice = $j('input[name="pi"]').val();
+var maxprice = $j('input[name="pa"]').val();
+var bedrooms = $j('input[name="bdi"]:checked').val();
+var bathrooms = $j('input[name="bhi"]:checked').val();
+var properpage = $j('input[name="ps"]').val();
+var sort = $j('input[name="o"]').val();
+var order = $j('input[name="ob"]').val();
+var minLivingArea = $j('input[name="ms"]').val();
+var maxLivingArea = $j('input[name="xs"]').val();
+var openhouse = $j('input[name="openhouse"]:checked').val();
+var mc = $j('input[name="mc"]:checked').val();
+var tc = $j('input[name="tc"]:checked').val();
+var rfa = $j('input[name="rfa"]:checked').val();
+var rnfa = $j('input[name="rnfa"]:checked').val();
+var st = $j('input[name="st"]').val();
+var cno = $j('input[name="cno"]').val();
+var ci = $j('input[name="ci"]').val();
+var auct = $j('input[name="auct"]:checked').val();
+var incnt = $j('input[name="incnt"]:checked').val();
+var loc = $j('input[name="loc"]').val();
+if(typeof loc == 'undefined' || loc == '' && query != 'undefined'){
+loc = query;
+}
+var tlData = new Array;
+var i = 0;
+$j("input[name$='tl']").each(
+function() {
+if(this.checked){
+tlData[i] = $j(this).val();
+i++;
+}
+}
+);
+var ptData = new Array();
+var ipt = 0;
+$j('input[name$="pt"]').each(function() {
+if(this.checked){
+ptData[ipt] = $j(this).val();
+ipt++;
+}
+});
+var srcstData = new Array();
+var isrcst = 0;
+$j('input[name$="srcst"]').each(function() {
+if(this.checked){
+srcstData[isrcst] = $j(this).val();
+isrcst++;
+}
+});
+var numberPage = "1";
+if(pageNumber > 0){
+numberPage = pageNumber;
+} else if(goNextPageNumber == true){
+numberPage = $j("#nextPageNumber").val();
+}else if(goPreviousPageNumber == true){
+numberPage = $j("#previousPageNumber").val();
+}
+view = map.getBounds();
+topleft = view.getNorthwest();
+bottomright = view.getSoutheast();
+info = "TopLeftLatLong: " + topleft ;
+info += " BottomRightLatLong: " + bottomright;
+$j('input[name$="pg"]').val(numberPage);
+if(searchWithinSelect){
+$j('input[name$="boundingTopLeft"]').val(topleft);
+$j('input[name$="boundingBottomRight"]').val(bottomright);
+var data = $j('form[name$="SearchPro"]').serializeArray();
+if(sendData){
+$j.getJSON(bootstrap.appPath+"/listing/search/ui/event", data, updateListingSearchResults);
+}
+}else{
+var data = $j('form[name$="SearchPro"]').serializeArray();
+if(sendData){
+$j.getJSON(bootstrap.appPath+"/listing/search/ui/event",data, updateListingSearchResults);
+}
+var url = "";
+if(typeof loc != 'undefined' && loc != '' ){
+url += "?loc="+loc;
+}else if (typeof query != 'undefined' && query != '') {
+url += "?q="+encodeURIComponent(query);
+} else if (typeof st != 'undefined' && st != ''){
+url += "?st="+st;
+}
+if(typeof cno != 'undefined' && cno != ''){
+url += "&cno="+cno;
+}
+if (typeof numberPage != 'undefined' && numberPage != '') {
+url += "&pg="+numberPage;
+}
+if(typeof minprice != 'undefined' && minprice != ''){
+url += "&pi="+minprice;
+}
+if(typeof maxprice != 'undefined' && maxprice != ''){
+url += "&pa="+maxprice;
+}
+if(typeof bedrooms != 'undefined' && bedrooms != ''){
+url += "&bdi="+bedrooms;
+}
+if(typeof bathrooms != 'undefined' && bathrooms != ''){
+url += "&bhi="+bathrooms;
+}
+if(typeof minLivingArea != 'undefined' && minLivingArea != ''){
+url += "&ms="+minLivingArea;
+}
+if(typeof maxLivingArea != 'undefined' && maxLivingArea != ''){
+url += "&xs="+maxLivingArea;
+}
+if(typeof tlData != 'undefined' && tlData != ''){
+$j(tlData).each(function(i, domEle){
+url += "&tl="+domEle;
+});
+}
+if(typeof ptData != 'undefined' && ptData != ''){
+$j(ptData).each(function(i, domEle){
+url += "&pt="+domEle;
+});
+}
+if(typeof srcstData != 'undefined' && srcstData != ''){
+$j(srcstData).each(function(i, domEle){
+url += "&srcst="+domEle;
+});
+}
+if(typeof sort != 'undefined' && sort != ''){
+url += "&o="+sort;
+}
+if(typeof order != 'undefined' && order != ''){
+url += "&ob="+order;
+}
+if(typeof properpage != 'undefined' && properpage != ''){
+url += "&ps="+properpage;
+}
+if(typeof openhouse != 'undefined' && openhouse != ''){
+url += "&openhouse="+openhouse;
+}
+if(typeof mc != 'undefined' && mc != ''){
+url += "&mc="+mc;
+}
+if(typeof tc != 'undefined' && tc != ''){
+url += "&tc="+tc;
+}
+if(typeof rfa != 'undefined' && rfa != ''){
+url += "&rfa="+rfa;
+}
+if(typeof rnfa != 'undefined' && rnfa != ''){
+url += "&rnfa="+rnfa;
+}
+if(typeof auct != 'undefined' && auct != ''){
+url += "&auct="+auct;
+}
+if(typeof incnt != 'undefined' && incnt != ''){
+url += "&incnt="+incnt;
+}
+History.pushState(data, document.title, url);
+//History.log('initial:', data, document.title, url);
+}
+}
+var updateMarkersData = null;
+function updateListingSearchResults(results){
+$j("#loadingDiv").remove();
+updateMarkersData = results.results;
+var stateName = results.stateName;
+if(searchQuery != null){
+var mainCity = results.city;
+}
+var mainState = results.state;
+var mainTotal = results.totalCount;
+var currentPageNumber = results.currentPageNumber;
+var nextPageNumber = results.nextPageNumber;
+var previousPageNumber = results.previousPageNumber;
+var numberOfPages = results.numberOfPages;
+var query=results.query;
+$j("#currentPageNumber").val(currentPageNumber);
+$j("#nextPageNumber").val(nextPageNumber);
+$j("#previousPageNumber").val(previousPageNumber);
+var fragmentsresults = results.fragments['results'];
+var header = results.fragments['header'];
+var footer = results.fragments['footer'];
+var filters = results.fragments['filters'];
+$j("#fragmentsSearchResults").html(fragmentsresults);
+$j("#refineSearchCont").html(filters);
+$j("#fragmentsSearchHeader").html(header);
+$j("#fragmentsSearchFooter").html(footer);
+if(bootstrap.loggedOn && mainTotal > 0 ){
+checkAccountListingNotes(results.listingId);
+initDownloadListings();
+}
+livingAreaSlider();
+priceSlider();
+initLocationAutoComplete();
+var mainCityString;
+if(typeof(mainCity) !== 'undefined' && mainCity != null){
+mainCityString = mainCity+", "+mainState;
+}else if(searchQuery != null){
+mainCityString=query;
+}else{
+mainCityString= bootstrap.countyName +", "+ bootstrap.stateCode;
+}
+updatingMarkersVE(view, updateMarkersData, mainTotal);
+}
+var updateNoGeolocate = null;
+function updatingMarkersVE(view, updateMarkersData, mainTotal){
+map.entities.clear();
+if(mainTotal == 0){
+return false;
+}
+var marker;
+mainLayer = new Microsoft.Maps.EntityCollection({visible:true});
+infoboxCollection = new Microsoft.Maps.EntityCollection({visible:true});
+var prevMarkerIndex = null;
+var firstMarkerIndex = null;
+var maxLat = null;
+var maxLot = null;
+var latitude = null;
+var longitude = null;
+var geocodesFound = false;
+for ( var c = 0; c < updateMarkersData.length; c++ ) {
+var md = updateMarkersData[c];
+if(md.lat == "") {
+$j.extend(updateMarkersData[c],{"skipNext":"1"});
+}
+if (md.lat != "") {
+if (firstMarkerIndex == null) {
+firstMarkerIndex = c;
+}
+latitude = md.lat;
+longitude = md.lng;
+if(geocodesFound == false){
+maxLat = latitude;
+maxLot = longitude;
+minLat = latitude;
+minLot = longitude;
+geocodesFound = true
+}
+if(latitude >= maxLat){
+maxLat = md.lat;
+}
+if(longitude >= maxLot){
+maxLot = md.lng;
+}
+if(latitude <= minLat){
+minLat = md.lat;
+}
+if(longitude <= minLot){
+minLot = md.lng;
+}
+var opt = {icon: getcolorIcons(md.listingTypeName), width:10, height:15, typeName: 'my_pushpin'};
+marker = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(parseFloat(md.lat), parseFloat(md.lng)), opt);
+marker.mdindex = c;
+md.markerVE = marker;
+mainLayer.push(marker);
+} else {
+mainLayer.push(new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(0,0)));
+}
+}
+map.entities.push(mainLayer);
+for ( var j = 0; j < updateMarkersData.length; j++ ) {
+var md = updateMarkersData[j];
+if ( md.lat != "" ) {
+marker = md.markerVE;
+var info = new Microsoft.Maps.Infobox(marker.getLocation(), { visible: false, offset: infoOffset, showCloseButton:false, htmlContent: createListingInfo(j, true), showPointer: false});
+infoboxCollection.push(info);
+} else {
+infoboxCollection.push(new Microsoft.Maps.Infobox(new Microsoft.Maps.Location(0,0)));
+}
+}
+map.entities.push(infoboxCollection);
+var TopLeftLatLong = new Microsoft.Maps.Location(maxLat, minLot);
+var BottomRightLatLong = new Microsoft.Maps.Location(minLat, maxLot);
+var BoundingRectangle = new Microsoft.Maps.LocationRect.fromCorners(TopLeftLatLong, BottomRightLatLong);
+map.setView({bounds:BoundingRectangle});
+//map.setView({center:new Microsoft.Maps.Location(maxLat, maxLot)});
+}
+function onListingMapIconClick(e) {
+if(e.target){
+clickedIconIndex = e.target.mdindex;
+} else {
+clickedIconIndex = e;
+}
+var index = clickedIconIndex;
+var md = markersData[index];
+clearInfoBoxes();
+var info = infoboxCollection.get(index);
+var centeroffset = {x:-100,y:-10};
+info.setOptions({visible:true});
+highightListingTableRow( index );
+}
+function clearInfoBoxes(){
+if (map != null){
+for(var i = 0; i < infoboxCollection.getLength(); i++){
+infoboxCollection.get(i).setOptions({visible:false});
+}
+}
+}
+function closeInfoBox(index){
+var infobox = infoboxCollection.get(index);
+infobox.setOptions({visible:false});
+}
+var keepMapOnTop = true;
+var markedIndex = -1;
+function highightListingTableRow( index ){
+if (markedIndex != -1) {
+var resetPrev = markedIndex;
+$j("#record_"+ resetPrev).removeClass("maphover");
+$j("#record_b_"+ resetPrev).removeClass("maphover");
+$j("#record_c_" + resetPrev).removeClass("maphover");
+}
+markedIndex = index;
+$j("#record_" + index).addClass("maphover");
+$j("#record_b_" + index).addClass("maphover");
+$j("#record_c_" + index).addClass("maphover");
+if ( !keepMapOnTop ){
+moveMapToSelectedListing();
+}
+}
+function orderBy(o){
+if(location == "Add City, State or Zip Code"){
+location = "";
+}
+if($j("#" + o + " img").length > 0) {
+var title = $j("#" + o + " img").attr("title");
+if(title == "Down"){
+var ob="desc";
+}else{
+var ob="asc";
+}
+}else{
+var ob="asc";
+}
+$j('input[name="o"]').val(o);
+$j('input[name="ob"]').val(ob);
+updateSearch(false, false,-1, o, ob, true);
+}
+     </script>
+    </div>
+    <!-- Start Footer -->
+    <div id="hp_footer_links">
+     <table border="0" cellpadding="0" cellspacing="0" width="100%">
+     </table>
+     <div id="hp_footer_links2">
+      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+       <tbody>
+        <tr>
+         <td valign="top" width="33%">
+          <p>
+           <a href="/" style="font-weight: bold; font-size: 14px;">
+            Find a Home
+           </a>
+          </p>
+          <a href="/">
+           Search Now
+          </a>
+          <br/>
+          <p style="margin-top: 5px;">
+           <a href="/hp/login.html" style="font-weight: bold; font-size: 14px;">
+            <b>
+             My Account
+            </b>
+           </a>
+          </p>
+          <a href="/hp/registration.html">
+           Register
+          </a>
+          <br/>
+          <a href="/hp/registration.html">
+           Saved Listings
+          </a>
+          <br/>
+          <p style="margin-top: 5px;">
+           <a href="/contact_us.html" style="font-weight: bold; font-size: 14px;">
+            <b>
+             Contact Us
+            </b>
+           </a>
+          </p>
+         </td>
+         <td valign="top" width="33%">
+          <p>
+           <a href="/financing.html" style="font-weight: bold; font-size: 14px;">
+            Financing Options
+           </a>
+          </p>
+          <a href="/financing.html">
+           Overview
+          </a>
+          <br/>
+          <a href="/financing-lenders.html">
+           HomePath Mortgage Lenders
+          </a>
+          <br/>
+          <a href="/financing-renovation-lenders.html">
+           HomePath Renovation Mortgage Lenders
+          </a>
+          <br/>
+          <p style="margin-top: 5px;">
+           <a href="/incentives.html" style="font-weight: bold; font-size: 14px;">
+            Special Offers &amp; Incentives
+           </a>
+          </p>
+          <a href="/incentives.html#firstLook">
+           First Look Program
+          </a>
+          <br/>
+          <a href="/incentives.html#financingPrograms">
+           Financing Assistance Programs
+          </a>
+          <br/>
+          <p style="margin-top: 5px;">
+           <a href="/resources.html" style="font-weight: bold; font-size: 14px;">
+            Helpful Resources
+           </a>
+          </p>
+          <a href="/resources.html#buyersGuide">
+           HomePath Buyer's Guide
+          </a>
+          <br/>
+          <a href="/resources.html#calculators">
+           HomePath Calculators
+          </a>
+          <br/>
+          <a href="/resources.html#youtube">
+           YouTube Channel
+          </a>
+          <br/>
+          <a href="/resources.html#podcasts">
+           Podcasts
+          </a>
+          <br/>
+          <a href="/hp_faqs.html">
+           Frequently Asked Questions
+          </a>
+          <br/>
+         </td>
+         <td valign="top" width="33%">
+          <p>
+           <a href="/realestate.html" style="font-weight: bold; font-size: 14px;">
+            For Real Estate Professionals
+           </a>
+          </p>
+          <a href="/realestate.html#howto">
+           Make an Offer — It's Easy!
+          </a>
+          <br/>
+          <a href="/realestate-email-signup.html">
+           Sign Up for News Alerts
+          </a>
+          <br/>
+          <a href="/realestate.html#listingAgent">
+           Become a HomePath Listing Agent or Vendor
+          </a>
+          <br/>
+          <a href="/realestate.html#marketing">
+           Marketing Materials for HomePath Properties
+          </a>
+          <br/>
+          <a href="/realestate.html#connected">
+           Stay Connected
+          </a>
+          <br/>
+          <p style="margin-top: 5px;">
+           <a href="/investors.html" style="font-weight: bold; font-size: 14px;">
+            For Investors
+           </a>
+          </p>
+          <a href="/investors.html#auction">
+           Auction Sales
+          </a>
+          <br/>
+          <a href="/investors.html#pool">
+           Pool Sales
+          </a>
+          <br/>
+          <a href="/structuredsales.html">
+           Structured Sales
+          </a>
+          <p style="margin-top:10px;">
+           <a class="fraud-info-trigger" href="#fraudInfoPopup" style="padding:0px;">
+            <img src="//homepath-activedt.netdna-ssl.com/css/cobrands/homepath2/btn_report_fraud.gif"/>
+           </a>
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div id="hp_footerwrap">
+     <div id="hp_footer">
+      <script src="//homepath-activedt.netdna-ssl.com/lib/boxover-2_1/boxover.js" type="text/javascript">
+      </script>
+      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+       <tbody>
+        <tr>
+         <td id="footerpadding" valign="top">
+          <span style="position: relative; margin-right: 5px; bottom: -2px; margin-top: 0px;">
+           <a href="http://www.fanniemae.com" target="_parent">
+            <img alt="FannieMae" src="//homepath-activedt.netdna-ssl.com/css/cobrands/homepath2/footer_logo_noR-081611.gif"/>
+           </a>
+          </span>
+          <span style="margin-right: 50px; color: #fff; font-size: 12px;">
+           ©1998-2013 Fannie Mae
+          </span>
+         </td>
+         <td>
+          <div style="float: right; margin-right: 20px; padding-top: 15px;">
+           <a href="https://twitter.com/FannieHomePath" target="_blank">
+            <img border="0" height="22" src="//homepath-activedt.netdna-ssl.com/css/cobrands/homepath2/icons/twitter.png" width="22"/>
+           </a>
+           <a href="https://www.facebook.com/homepathbyfanniemae?ref=ts&amp;fref=ts" style="margin-left:5px;" target="_blank">
+            <img alt="Like us on Facebook" border="0" height="22" src="//homepath-activedt.netdna-ssl.com/css/cobrands/homepath2/icons/facebook.png" width="22"/>
+           </a>
+           <a href="http://pinterest.com/homepath/" style="margin-left:5px;" target="_blank">
+            <img alt="Pintrest" height="22" src="//homepath-activedt.netdna-ssl.com/css/cobrands/homepath2/icons/pintrest.png" width="22"/>
+           </a>
+           <a href="http://www.youtube.com/user/homepathbyfanniemae" style="margin-left:5px;" target="_blank">
+            <img alt="YouTube" height="23" src="//homepath-activedt.netdna-ssl.com/css/cobrands/homepath2/icons/youtube.png" width="23"/>
+           </a>
+          </div>
+         </td>
+        </tr>
+        <tr>
+         <td height="30" id="footerpadding" valign="bottom">
+          <ul class="hp_footer_links">
+           <li>
+            <a href="http://www.fanniemae.com/portal/privacy-statement.html" target="_blank">
+             Privacy
+            </a>
+            |
+           </li>
+           <li>
+            <a href="http://www.fanniemae.com/portal/legal-disclosure.html" target="_blank">
+             Legal
+            </a>
+            |
+           </li>
+           <li>
+            <a href="/contact_us.html" target="_parent">
+             Contact
+            </a>
+           </li>
+           <span style="margin-left: 20px;" title="cssbody=[hp_tipbdy] cssheader=[hp_tiphdr] header=[Equal Housing Opportunity] body=[IT IS ILLEGAL TO DISCRIMINATE AGAINST any person because of race, color, religion, sex, handicap, familial status, (having one or more children), or national origin &lt;img src='//homepath-activedt.netdna-ssl.com/css/cobrands/homepath2/listiofequalhousinfopportunity.gif' width='393' height='123' alt='FannieMae'/&gt; Anyone who feels he or she has been discriminated against should send a complaint to: U.S. Department of Housing and Urban Development, Assistant Secretary for Fair Housing and Equal Opportunity, Washington, D.C. 20410] delay=[0] fadespeed=[0.4] fade=[on] offsety=[-260] offsetx=[-420]">
+            <img src="//homepath-activedt.netdna-ssl.com/css/cobrands/homepath2/equal_housing-081611.gif" style="vertical-align: bottom;"/>
+           </span>
+           <br/>
+          </ul>
+         </td>
+         <td align="right" id="footerpadding" valign="bottom">
+          <ul class="hp_footer_links">
+           Search powered by
+           <a href="http://www.foreclosure.com" style="color: #adcde8;" target="_blank">
+            foreclosure.com
+           </a>
+          </ul>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div id="mlrCo" style="display:none;">
+     <div id="mlrMainContent">
+      <p id="logInMessage" style="margin-bottom: 15px; ">
+       Please log in or register before saving this listing.
+      </p>
+      <form action="https://www.homepath.com/hp/login.html" id="login" method="post" name="login">
+       <table border="0" class="formGridRamp formRamploging" width="100%">
+        <tbody>
+         <tr>
+          <td>
+           <label style="color:#666; display:inline-block; _padding-top:5px; *padding-top:5px; width:80px; padding-bottom:10px; *padding-bottom:5px; _padding-bottom:5px; text-align:right;">
+            Email:
+           </label>
+           <input autocomplete="off" id="key" name="key" size="16" style="height:15px; vertical-align: middle; _margin-bottom:10px; *margin-bottom:10px;" type="text" value=""/>
+           <br/>
+           <label style="color:#666; display:inline-block; padding-bottom:10px; _padding-bottom:5px; *padding-bottom:5px; width:80px; text-align:right;">
+            Password:
+           </label>
+           <input autocomplete="off" id="password" name="password" size="16" style="height:15px; vertical-align: middle; _margin-bottom:10px; *margin-bottom:10px;" type="password" value=""/>
+           <div style="padding-left: 87px; padding-top: 6px;">
+            <input src="//homepath-activedt.netdna-ssl.com/css/cobrands/homepath/btnGo.gif" style="vertical-align: middle; padding-right: 10px;" type="image"/>
+            <a href="/hp/registration.html" id="jsMemberLoging" target="_parent">
+             Not Registered?
+            </a>
+           </div>
+           <p style="color:#666;">
+            Forgot your password?
+            <br/>
+            <a href="/lostaccess.html?returnUrl=%2Flisting%2Fsearch%3Fpg%3D1%26o%3Dsscs%26loc%3DPortage%20County%2C%20OH%26pi%3D0%26ps%3D10">
+             Click here
+            </a>
+            and we'll email it to you.
+           </p>
+           <p style="color:#666;">
+            To change your password please
+            <a href="/changepassword.html?returnUrl=%2Flisting%2Fsearch%3Fpg%3D1%26o%3Dsscs%26loc%3DPortage%20County%2C%20OH%26pi%3D0%26ps%3D10">
+             click here
+            </a>
+           </p>
+          </td>
+         </tr>
+        </tbody>
+       </table>
+       <input id="referralUrlLogin" name="referralUrl" type="hidden" value=""/>
+       <input name="serviceProviderName" type="hidden" value="homepath"/>
+      </form>
+      <p style="margin-top: 15px;">
+       <a href="#" id="tbClose" onclick="return false;">
+        Close
+       </a>
+      </p>
+     </div>
+    </div>
+    <div id="extUrlDisclaimer" style="display:none;">
+     <div>
+      <div id="cancelContent">
+       <a class="extUrlDisclaimerClose" href="#" onclick="return false;">
+        <img border="0" height="12" src="//homepath-activedt.netdna-ssl.com/content/img/iconx.gif" width="12"/>
+       </a>
+      </div>
+      <div style="clear:both;">
+      </div>
+      <h1 id="extUrlDisclaimer">
+       You are now leaving homepath.com.
+      </h1>
+      <p id="extUrlDisclaimer">
+       Homepath.com is not responsible for the contents or reliability of any linked websites, or the information, products or services contained therein, nor does this link constitute an endorsement by homepath.com of the site or the information or products presented on the site.
+      </p>
+      <p id="extUrlDisclaimer">
+       <input name="extUrlDisclaimerCheckbox" type="checkbox" value="dontDisplay"/>
+       Do not show disclaimer anymore
+      </p>
+      <p>
+       <button class="extUrlDisclaimerContinue" type="button">
+        Continue
+       </button>
+       <button class="extUrlDisclaimerClose" type="button">
+        Close
+       </button>
+      </p>
+     </div>
+    </div>
+    <div id="dlCo" style="display:none;">
+     <div id="dlMainContent">
+      <div id="termsOfUseCon">
+       <h2>
+        Important Reminder
+       </h2>
+       <p>
+        HomePath and this downloading function are only for individual, non-commercial use and for individuals and entities transacting business with Fannie Mae.
+       </p>
+       <p>
+        You may not use any robot, spider or other automated device, process, or means to access HomePath contents.
+       </p>
+       <p>
+        You may not republish, offer for sale, or otherwise make publicly available HomePath contents, or use HomePath contents for marketing purposes, without Fannie Mae's prior specific written approval.
+       </p>
+       <a href="#" id="btnAgree" onclick="return false;">
+        <img border="0" src="//homepath-activedt.netdna-ssl.com/content/cobrands/homepath/btnAgree_en.gif"/>
+       </a>
+       <a href="#" id="btnDoNotAgree" onclick="return false;">
+        <img border="0" src="//homepath-activedt.netdna-ssl.com/content/cobrands/homepath/btnDoNotAgree_en.gif"/>
+       </a>
+      </div>
+      <div id="captchaCon" style="display:none;">
+       <div id="cancelCaptchaContent">
+        <a href="#" id="linkCaptchaCancel" onclick="return false;">
+         <img border="0" height="12" src="//homepath-activedt.netdna-ssl.com/content/img/iconx.gif" width="12"/>
+        </a>
+       </div>
+       <ul id="errorCaptcha" style="border: 1px solid rgb(255, 153, 0); margin: 16px 0pt; padding: 2px 0px 0px 14px; background-color: rgb(255, 255, 204); width: 275px; list-style-type: none; list-style-image: none; list-style-position: outside; display:none;">
+        <img src="//homepath-activedt.netdna-ssl.com/images/xhelix/error_exclam.gif" style="float: left;"/>
+        <br/>
+        <br/>
+        <li>
+         <font color="red">
+          No valid entry. Please try again or refresh image.
+         </font>
+        </li>
+       </ul>
+       <div>
+        <form>
+         <div id="captcha_widget" style="display:none">
+          <div id="captcha_image">
+          </div>
+          <div id="captcha_error">
+           Incorrect please try again
+          </div>
+          <div class="captcha_box">
+           <span id="captcha_message">
+            Please enter the characters above in the box below and click the submit button or
+           </span>
+           <span>
+            <a href="#" id="captcha_refresh">
+             refresh image
+            </a>
+           </span>
+          </div>
+          <input autocomplete="off" id="captcha_response_field" name="captcha_response" type="text"/>
+          <input id="captcha_challenge_field" name="captcha_challenge" type="hidden"/>
+         </div>
+         <a href="#" id="btnSubmitCaptcha" onclick="return false;">
+          <img border="0" src="//homepath-activedt.netdna-ssl.com/content/cobrands/homepath/submit_btn_en.gif"/>
+         </a>
+        </form>
+       </div>
+      </div>
+      <div id="generatingFileCon" style="display:none;">
+       <h2>
+        Generating file
+       </h2>
+       <div id="cancelContent">
+        <a href="#" id="linkCancel" onclick="return false;">
+         <img border="0" height="12" src="//homepath-activedt.netdna-ssl.com/content/img/iconx.gif" width="12"/>
+        </a>
+       </div>
+       <div style="clear:both;">
+       </div>
+       <p>
+        Please wait a minute as we create your custom report. Once it's complete, you can download or save it to your computer. This report is in a .csv format, so you'll need Microsoft® Excel® (or something similar) to open and view it.
+       </p>
+       <a href="" id="linkDownloadNow" onclick="return false;">
+        <img border="0" src="//homepath-activedt.netdna-ssl.com/content/cobrands/homepath/downloadnow_en.gif"/>
+       </a>
+      </div>
+     </div>
+    </div>
+    <div id="dlClearAllCo" style="display:none;">
+     <div id="clearAllConfirmCon">
+      <p>
+       <strong>
+        This option will clear all your selection.
+       </strong>
+       <br/>
+      </p>
+      <div style="margin-top: 15px;">
+       <a href="" id="btnDeselectAllConfirm" onclick="return false;">
+        <img border="0" src="//homepath-activedt.netdna-ssl.com/content/cobrands/homepath/btnConfirm_en.gif"/>
+       </a>
+       <a href="" id="btnmlrNotThanks" onclick="return false;">
+        <img border="0" src="//homepath-activedt.netdna-ssl.com/content/cobrands/homepath/btnCancel_en.gif"/>
+       </a>
+      </div>
+     </div>
+    </div>
+    <div class="hide" id="counteroDialog">
+     <div>
+      <div class="headSave">
+       <span>
+        Online Offers
+       </span>
+       <a class="saveThisSearchClose" id="counteroClose" style="font-size: 12px; float: right;">
+        Close
+        <img border="0" height="12" src="//homepath-activedt.netdna-ssl.com/content/cobrands/homepath/iconx.gif" width="12"/>
+       </a>
+      </div>
+      <div class="contentSave">
+       After March 5, 2013, all counter offers must be submitted on the Online Offers system on the HomePath.com site.
+This applies to both counter offers submitted by Fannie Mae listing agents and counters submitted on behalf of the buyer by buyer's agents.
+       <br/>
+       <br/>
+       Please refer to
+       <a href="/offerQuestion.html">
+        http://www.homepath.com/offerQuestion.html
+       </a>
+       for instructions on how to submit the counter through the Online Offers system. You can also call 1-866-218- 4446 for assistance.
+      </div>
+     </div>
+    </div>
+    <div style="display:none;">
+     <div id="fraudInfoPopup" style="width:580px;">
+      <h2 style="margin: 0 0 5px;">
+       Report Mortgage Fraud
+      </h2>
+      <div>
+       <p style="font-size:14px;line-height:18px;">
+        Report possible fraud directly to Fannie Mae at
+        <a href="mailto:MortgageFraud_Tips@FannieMae.com">
+         MortgageFraud_Tips@FannieMae.com
+        </a>
+        . You may also call our Fraud Tips Hotline at 1-800-7FANNIE (1-800-732-6643) to report possible fraud or if you have other concerns relating to a Fannie Mae-owned property.
+       </p>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <script src="//homepath-activedt.netdna-ssl.com/lib/boxover-2_1/boxover.js" type="text/javascript">
+  </script>
+  <script>
+   $j(function(){
+$j('a.calculator-link').track({
+category : 'Calculator',
+action : 'click',
+label : function(element) { return element.attr('alt');},
+skip_internal : false
+});
+});
+  </script>
+ </body>
+</html>
